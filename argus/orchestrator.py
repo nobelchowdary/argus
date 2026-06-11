@@ -13,8 +13,8 @@ from argus.reporter import SARReporter
 from argus.skeptic import Skeptic
 
 MAX_ITERATIONS = int(os.getenv("MAX_ITERATIONS", "4"))
-INVESTIGATOR_MODEL = os.getenv("INVESTIGATOR_MODEL", "gemini-2.5-flash")
-SKEPTIC_MODEL = os.getenv("SKEPTIC_MODEL", "gemini-2.5-flash")
+INVESTIGATOR_MODEL = os.getenv("INVESTIGATOR_MODEL", "gemini-2.0-flash")
+SKEPTIC_MODEL = os.getenv("SKEPTIC_MODEL", "gemini-2.0-flash")
 
 
 class Orchestrator:

@@ -29,10 +29,15 @@ class Investigator:
         self.model_name = model_name
         self.mcp_client = mcp_client
         self.aml_tools = AMLTools(mcp_client) if mcp_client else None
-        # Use Vertex AI with ADC
+        # Use Google AI Studio with API key (higher rate limits than Vertex AI)
         import os
-        project = os.getenv("GOOGLE_CLOUD_PROJECT", "project-9898c288-2930-4d44-98a")
-        self.client = genai.Client(vertexai=True, project=project, location="us-central1")
+        api_key = api_key or os.getenv("GOOGLE_API_KEY", "")
+        if api_key:
+            self.client = genai.Client(api_key=api_key)
+        else:
+            # Fallback to Vertex AI with ADC
+            project = os.getenv("GOOGLE_CLOUD_PROJECT", "project-9898c288-2930-4d44-98a")
+            self.client = genai.Client(vertexai=True, project=project, location="us-central1")
 
     async def investigate(
         self,
