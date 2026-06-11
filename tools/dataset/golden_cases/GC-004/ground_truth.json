@@ -1,0 +1,26 @@
+{
+  "case_id": "GC-004",
+  "typology": "false-positive",
+  "expected_findings": [
+    {
+      "truth_id": "GC004-F1",
+      "title": "Transaction consistent with established commercial relationship",
+      "required_evidence_indices": [
+        "argus-transactions",
+        "argus-prior-alerts"
+      ],
+      "required_field_anchors": [
+        "disposition",
+        "transaction_id"
+      ],
+      "must_be_found": true
+    }
+  ],
+  "known_negatives": [
+    "No beneficial ownership overlap between Northern Industrial and Shenzhen MegaTech.",
+    "No adverse media on either party.",
+    "No sanctions match for either party.",
+    "Regular trade pattern established over 24+ months."
+  ],
+  "should_be_cleared": true
+}

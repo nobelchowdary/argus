@@ -1,0 +1,12 @@
+.venv
+__pycache__
+*.pyc
+.git
+web
+node_modules
+logs
+.pytest_cache
+tests
+.env
+data/cases
+data/traces

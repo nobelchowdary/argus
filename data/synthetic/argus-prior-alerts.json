@@ -1,0 +1,1602 @@
+[
+  {
+    "alert_id": "1c3fe883-fc07-51b6-b96f-1d4e994c2297",
+    "transaction_id": "fc55e09b-9e8b-5c06-a7e3-896a0c87887a",
+    "disposition": "cleared",
+    "reasons": "Regular trade pattern between Northern Industrial Corp and Shenzhen MegaTech. Consistent with established commercial relationship for electronic component procurement. Pattern observed over 24+ months.",
+    "timestamp": "2025-06-15T10:00:00Z",
+    "analyst_id": "analyst-042"
+  },
+  {
+    "alert_id": "09133b7c-aa81-50df-a593-350cb67bcc37",
+    "transaction_id": "aafabb02-189b-54f8-844e-26f15183a71c",
+    "disposition": "escalated",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-04-25T08:00:00Z",
+    "analyst_id": "analyst-011"
+  },
+  {
+    "alert_id": "446ceca9-0270-59d1-bda5-a114b54777ae",
+    "transaction_id": "5233446d-8c08-55c1-9065-c9ca32f54c4e",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-10-10T09:00:00Z",
+    "analyst_id": "analyst-031"
+  },
+  {
+    "alert_id": "2989275a-2e79-5cea-b6c6-38e544ef6aa9",
+    "transaction_id": "9b9960cc-ce3e-5751-8212-86fd8b446f03",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-05-22T08:00:00Z",
+    "analyst_id": "analyst-024"
+  },
+  {
+    "alert_id": "d5c03eb6-8693-5318-af85-8b440b757a05",
+    "transaction_id": "b13268e4-a4aa-531e-9f39-94963ea1144d",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-09-09T09:00:00Z",
+    "analyst_id": "analyst-004"
+  },
+  {
+    "alert_id": "67f11650-c8cb-54e3-a5a4-999e2c03b76a",
+    "transaction_id": "5354ced1-e503-553c-a4cd-fd8e3fe924f0",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-06-26T13:00:00Z",
+    "analyst_id": "analyst-001"
+  },
+  {
+    "alert_id": "02675370-6ece-5d86-8af6-546e7ca443c4",
+    "transaction_id": "2698e77f-afcc-5e10-a6c6-11bdb817b627",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-06-06T16:00:00Z",
+    "analyst_id": "analyst-019"
+  },
+  {
+    "alert_id": "05a06e78-1b8b-5dc9-b85e-73a0df1b21fc",
+    "transaction_id": "941c9670-fabb-58d8-b53c-5889f22b5bce",
+    "disposition": "escalated",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-01-08T15:00:00Z",
+    "analyst_id": "analyst-033"
+  },
+  {
+    "alert_id": "408511ce-f2c2-508a-b827-209ca3c6f757",
+    "transaction_id": "31c5f0a0-0bda-5b7e-a10b-93adffc44235",
+    "disposition": "escalated",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-10-16T08:00:00Z",
+    "analyst_id": "analyst-047"
+  },
+  {
+    "alert_id": "26c650ba-77e7-5e18-912e-c565c7fd45bc",
+    "transaction_id": "4dfda06a-f777-5eb3-b719-f2b024eb5a57",
+    "disposition": "sar-filed",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-01-21T15:00:00Z",
+    "analyst_id": "analyst-026"
+  },
+  {
+    "alert_id": "de567754-26c8-563b-8766-e2ea9850b056",
+    "transaction_id": "299ce008-3037-5ac2-81f4-05a4d443da6f",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-06-17T11:00:00Z",
+    "analyst_id": "analyst-021"
+  },
+  {
+    "alert_id": "4016c571-5100-51fe-be3f-a7c3f5aeced0",
+    "transaction_id": "0b566056-d1c0-5a7f-afa0-d0fa8097eab2",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-08-06T15:00:00Z",
+    "analyst_id": "analyst-011"
+  },
+  {
+    "alert_id": "7a8b1576-710b-53c5-a2cd-bd91de545c2d",
+    "transaction_id": "e9d3ffe5-761a-59ca-8303-e2e6c4172e31",
+    "disposition": "sar-filed",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-04-24T10:00:00Z",
+    "analyst_id": "analyst-036"
+  },
+  {
+    "alert_id": "8fc2d4b4-3f7c-5a4b-a62c-81f5efa697bb",
+    "transaction_id": "5932a12a-a9a5-5463-89cb-0900805e2594",
+    "disposition": "sar-filed",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-02-28T16:00:00Z",
+    "analyst_id": "analyst-016"
+  },
+  {
+    "alert_id": "2cc84194-0deb-5496-9831-15bca490e160",
+    "transaction_id": "2eb64439-9f85-5580-95ee-290dab0dbc10",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-02-03T10:00:00Z",
+    "analyst_id": "analyst-005"
+  },
+  {
+    "alert_id": "bc499a2e-cbf7-5db7-89f9-9311c64c6be8",
+    "transaction_id": "ab5c1594-f71b-5c15-a914-d1cc7b0fbe9d",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-07-07T14:00:00Z",
+    "analyst_id": "analyst-035"
+  },
+  {
+    "alert_id": "3e923456-20b1-5d65-b294-e324bee7712e",
+    "transaction_id": "037ce8b9-705b-51c9-8eea-ea2ae08168b3",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-10-02T13:00:00Z",
+    "analyst_id": "analyst-002"
+  },
+  {
+    "alert_id": "aa08202b-ec1b-55d4-b6e9-f970516b1cd4",
+    "transaction_id": "5eb6bddc-2485-5181-93a8-842b7d51681e",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-07-11T09:00:00Z",
+    "analyst_id": "analyst-005"
+  },
+  {
+    "alert_id": "a5b6fb57-7b58-5852-858b-16ac3d1c1234",
+    "transaction_id": "9fea8282-0222-50c6-a989-2d5f58a7dd08",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-02-24T09:00:00Z",
+    "analyst_id": "analyst-030"
+  },
+  {
+    "alert_id": "5310e57e-57d8-51de-ab9f-029347eb0a8f",
+    "transaction_id": "6fdeb48d-b733-5990-a493-4fefd56ced63",
+    "disposition": "escalated",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-09-12T15:00:00Z",
+    "analyst_id": "analyst-037"
+  },
+  {
+    "alert_id": "728092de-5ea5-5840-ab40-b52083e28194",
+    "transaction_id": "3349ffbc-32ed-572a-8d62-f8afafe62611",
+    "disposition": "sar-filed",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-07-07T09:00:00Z",
+    "analyst_id": "analyst-011"
+  },
+  {
+    "alert_id": "9aa18889-e520-560b-a942-03217827eb05",
+    "transaction_id": "3d444712-cf81-5586-87ac-fa38e0834cfc",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-12-22T17:00:00Z",
+    "analyst_id": "analyst-002"
+  },
+  {
+    "alert_id": "eeb9ce87-ed3d-5788-b439-a64295a96e54",
+    "transaction_id": "29799cf6-07d7-5a38-823e-6202a4b33251",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-11-03T11:00:00Z",
+    "analyst_id": "analyst-035"
+  },
+  {
+    "alert_id": "b8c7e409-a1c7-5477-bc98-342780d5df85",
+    "transaction_id": "aed790e4-d760-5b51-853c-02742e658a5c",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-01-04T09:00:00Z",
+    "analyst_id": "analyst-049"
+  },
+  {
+    "alert_id": "496d9e99-99c4-5967-b9f2-4e5fac96f85a",
+    "transaction_id": "a519fd00-b4d5-536f-ac0b-d9586ff07dd4",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-08-26T14:00:00Z",
+    "analyst_id": "analyst-030"
+  },
+  {
+    "alert_id": "21bcb7d2-7b4e-5fdc-9302-38c9e0a0a421",
+    "transaction_id": "ea8bf641-058a-5a72-ba7d-f30c1049cfa0",
+    "disposition": "escalated",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-10-28T13:00:00Z",
+    "analyst_id": "analyst-009"
+  },
+  {
+    "alert_id": "206973da-9aa7-5e47-b8bc-b350303d839d",
+    "transaction_id": "cd1a0463-5e85-51f2-bf9c-adfce74c4dfb",
+    "disposition": "sar-filed",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-12-01T09:00:00Z",
+    "analyst_id": "analyst-031"
+  },
+  {
+    "alert_id": "da2353a1-46dd-5d86-a6a0-6df79c0cd5a7",
+    "transaction_id": "e0ce2fd5-6261-5f9a-bff4-5e0601b913f5",
+    "disposition": "sar-filed",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-02-15T14:00:00Z",
+    "analyst_id": "analyst-020"
+  },
+  {
+    "alert_id": "fe90a389-522d-5404-8a50-c37df83d29f8",
+    "transaction_id": "5215a639-005c-5fda-98d3-395a88673988",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-08-25T08:00:00Z",
+    "analyst_id": "analyst-009"
+  },
+  {
+    "alert_id": "a0e80ee5-6124-54de-8cd1-4a53044c40ff",
+    "transaction_id": "1fbd8f1f-4a48-5a2e-a026-e9ab7c2b12c4",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-01-09T13:00:00Z",
+    "analyst_id": "analyst-015"
+  },
+  {
+    "alert_id": "ae71b7a2-c528-5a5f-bcb3-8289d2831804",
+    "transaction_id": "4112efc1-5bc4-5277-87df-dc6e0210f9de",
+    "disposition": "escalated",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-03-15T15:00:00Z",
+    "analyst_id": "analyst-043"
+  },
+  {
+    "alert_id": "afd229d6-7a83-5546-8368-30c6f9aa1944",
+    "transaction_id": "0d9aa2b4-ba8a-5c39-9033-b3d9df04ecdc",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-12-05T08:00:00Z",
+    "analyst_id": "analyst-040"
+  },
+  {
+    "alert_id": "a797e49b-472f-55ba-bdff-f47bb0d052cc",
+    "transaction_id": "e0fa6e6e-5a87-5c64-a660-c227a263997d",
+    "disposition": "sar-filed",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-09-09T16:00:00Z",
+    "analyst_id": "analyst-037"
+  },
+  {
+    "alert_id": "885ee76b-8dbb-5c4e-9651-c6f871882bf8",
+    "transaction_id": "df560da8-881d-5024-8a87-9d9ea6bc3c58",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-06-23T16:00:00Z",
+    "analyst_id": "analyst-032"
+  },
+  {
+    "alert_id": "9842bc8e-820e-57be-b0eb-27b2aea49da6",
+    "transaction_id": "73898da3-1574-5123-a604-a791aebc930c",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-10-20T11:00:00Z",
+    "analyst_id": "analyst-014"
+  },
+  {
+    "alert_id": "5a242682-19ca-52b1-b1aa-720b55ef6617",
+    "transaction_id": "d5e204e0-f741-5fba-a405-76c3822cd946",
+    "disposition": "escalated",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-03-23T12:00:00Z",
+    "analyst_id": "analyst-002"
+  },
+  {
+    "alert_id": "d0e9130e-5712-5c32-a789-7ab4de56b4c8",
+    "transaction_id": "2cadd6e7-4266-53f6-818f-ca0a4955fc5f",
+    "disposition": "sar-filed",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-07-22T14:00:00Z",
+    "analyst_id": "analyst-013"
+  },
+  {
+    "alert_id": "14aabadd-61ae-5491-8030-60cf5fb0b450",
+    "transaction_id": "375f06c1-0de9-5096-8f09-40dbd4a0dfa4",
+    "disposition": "sar-filed",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-07-10T16:00:00Z",
+    "analyst_id": "analyst-019"
+  },
+  {
+    "alert_id": "1ad69e15-733e-5967-9a57-fed6b971c641",
+    "transaction_id": "33e771a1-bffe-5f24-b786-c096ce2331b9",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-04-19T16:00:00Z",
+    "analyst_id": "analyst-015"
+  },
+  {
+    "alert_id": "ccd5a1af-4d7f-548d-b7b9-3685c45055d4",
+    "transaction_id": "6cc95e49-a0cc-5d5f-b350-c16d42aa5509",
+    "disposition": "escalated",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-03-23T11:00:00Z",
+    "analyst_id": "analyst-039"
+  },
+  {
+    "alert_id": "3c6d5ea5-31d1-5bef-8f45-aa92f00afb80",
+    "transaction_id": "3be840e7-74f9-55fa-94dc-20e57cd89f58",
+    "disposition": "sar-filed",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-07-22T15:00:00Z",
+    "analyst_id": "analyst-026"
+  },
+  {
+    "alert_id": "5d6b0940-3419-5339-94d5-408b442e60e1",
+    "transaction_id": "829f6c7d-d842-5357-82ef-7065592b7132",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-04-11T11:00:00Z",
+    "analyst_id": "analyst-016"
+  },
+  {
+    "alert_id": "6a98ab7c-4369-51a9-ba21-3c62d02dea76",
+    "transaction_id": "de7e12a6-8c83-50c4-a5ab-62fb2991bf5f",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-11-06T08:00:00Z",
+    "analyst_id": "analyst-007"
+  },
+  {
+    "alert_id": "3e7e446e-f164-515d-8bac-e5f945ebd148",
+    "transaction_id": "53bb153d-1ef7-51fa-b00b-9b56c2e38fc4",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-04-09T08:00:00Z",
+    "analyst_id": "analyst-008"
+  },
+  {
+    "alert_id": "7868a79d-21a7-542e-96d7-8abc04037c2c",
+    "transaction_id": "36ce25e5-781d-5874-9183-d48b6a5139db",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-06-13T11:00:00Z",
+    "analyst_id": "analyst-017"
+  },
+  {
+    "alert_id": "63874ce5-3660-5ae9-866c-3158e84b253b",
+    "transaction_id": "3ed923dc-7873-55cb-ad56-395c009f532c",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-04-13T10:00:00Z",
+    "analyst_id": "analyst-034"
+  },
+  {
+    "alert_id": "88c6e24a-6de7-553e-bc9b-bef4e3721039",
+    "transaction_id": "29d35699-8511-5f75-baee-5520a152e0cc",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-04-07T13:00:00Z",
+    "analyst_id": "analyst-030"
+  },
+  {
+    "alert_id": "dc13a05a-df3f-537f-8fed-a2aca6360d34",
+    "transaction_id": "5ff85741-160f-5995-a1aa-159b384c1b3d",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-05-12T13:00:00Z",
+    "analyst_id": "analyst-046"
+  },
+  {
+    "alert_id": "4574cc32-6bfe-5560-8cad-8bf5dbf9e872",
+    "transaction_id": "d2abedef-0286-570b-8058-2465a1dc0584",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-05-28T12:00:00Z",
+    "analyst_id": "analyst-010"
+  },
+  {
+    "alert_id": "377aca0e-a463-5b1d-bbd8-b27a96f007f6",
+    "transaction_id": "ad12ff61-c70d-5d52-b296-14d5ff62122d",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-08-11T12:00:00Z",
+    "analyst_id": "analyst-037"
+  },
+  {
+    "alert_id": "09fb35f5-4aef-53dc-96a6-44b0d65222be",
+    "transaction_id": "032a9eac-d13f-5719-9853-9a77167a99ce",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-06-16T12:00:00Z",
+    "analyst_id": "analyst-011"
+  },
+  {
+    "alert_id": "cac3d190-15d5-560b-9748-6bfe859fa722",
+    "transaction_id": "b66adc33-21cc-5b91-93dc-0d581e99aa87",
+    "disposition": "sar-filed",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-12-10T10:00:00Z",
+    "analyst_id": "analyst-041"
+  },
+  {
+    "alert_id": "de45a91c-b013-54a6-b55c-6a9af8c2135b",
+    "transaction_id": "ed448231-02ab-579c-8ad8-3753059e6d8b",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-09-04T13:00:00Z",
+    "analyst_id": "analyst-005"
+  },
+  {
+    "alert_id": "4c764ea8-ed09-5281-a5f3-95d6077eee41",
+    "transaction_id": "d3114d6e-6842-5dac-a055-4611532ced3b",
+    "disposition": "sar-filed",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-02-14T12:00:00Z",
+    "analyst_id": "analyst-049"
+  },
+  {
+    "alert_id": "39295223-88c2-5e69-8897-7e7229e0d017",
+    "transaction_id": "b9337ea4-6492-5afd-b64b-843778176c19",
+    "disposition": "sar-filed",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-05-22T14:00:00Z",
+    "analyst_id": "analyst-019"
+  },
+  {
+    "alert_id": "228e44b6-ac6f-51eb-acf2-54278d9f2e52",
+    "transaction_id": "6de2bc36-4d1a-5cc4-8296-730d71c8986e",
+    "disposition": "sar-filed",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-09-15T10:00:00Z",
+    "analyst_id": "analyst-017"
+  },
+  {
+    "alert_id": "c1d2d176-3688-5a6e-b264-5d20bbecccc1",
+    "transaction_id": "3b8ba968-f64d-5bad-bcab-736641c9b3ed",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-04-21T17:00:00Z",
+    "analyst_id": "analyst-040"
+  },
+  {
+    "alert_id": "f43b140d-3e2c-53c4-b86d-55410363132e",
+    "transaction_id": "688a0feb-cd32-570e-a11b-34cd9504c285",
+    "disposition": "escalated",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-11-19T09:00:00Z",
+    "analyst_id": "analyst-024"
+  },
+  {
+    "alert_id": "5b0e77cc-9bf6-566b-ba6c-180cdea9dacc",
+    "transaction_id": "cf664a2f-e8ec-5de0-8f99-1569e8a8461a",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-08-11T09:00:00Z",
+    "analyst_id": "analyst-017"
+  },
+  {
+    "alert_id": "eafde903-c883-51ce-a9a8-31bf41951543",
+    "transaction_id": "ef034d67-5ff7-52b0-b5c6-7331a9903066",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-04-28T12:00:00Z",
+    "analyst_id": "analyst-031"
+  },
+  {
+    "alert_id": "ea198c2c-fd11-5dac-92b0-87b507361052",
+    "transaction_id": "0b266462-dce5-5477-ba8d-7f42dfacdcdc",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-01-11T15:00:00Z",
+    "analyst_id": "analyst-036"
+  },
+  {
+    "alert_id": "b2adf68d-297e-58d7-bd36-2d2bf14ace28",
+    "transaction_id": "58507128-a49d-5d18-872a-2b9faf5f286d",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-12-07T09:00:00Z",
+    "analyst_id": "analyst-002"
+  },
+  {
+    "alert_id": "433d50f0-f16d-53a6-997b-6ccad3ae5509",
+    "transaction_id": "e6ea7567-267c-57fb-aa7b-6ab23ed200a3",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-05-13T12:00:00Z",
+    "analyst_id": "analyst-016"
+  },
+  {
+    "alert_id": "9da08bac-6098-5b76-a97f-a34754c62873",
+    "transaction_id": "c5a2e071-a00e-5cfe-a1cf-9a848a65a2a9",
+    "disposition": "sar-filed",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-03-10T11:00:00Z",
+    "analyst_id": "analyst-048"
+  },
+  {
+    "alert_id": "623b03df-9da9-5595-9627-22eb01f4bf06",
+    "transaction_id": "b8845fcc-0016-50ce-a832-b22c5d809e98",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-11-14T08:00:00Z",
+    "analyst_id": "analyst-028"
+  },
+  {
+    "alert_id": "e355c53b-4b51-5eb3-a6c2-d46ac1172c9c",
+    "transaction_id": "0684497d-d353-5150-b4c5-08bdac0bd9f5",
+    "disposition": "sar-filed",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-02-24T08:00:00Z",
+    "analyst_id": "analyst-025"
+  },
+  {
+    "alert_id": "460a9f78-3682-5f43-adba-48a57d29d341",
+    "transaction_id": "eae481ce-16c0-5833-95f4-a7b0f9b7b3e1",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-12-15T12:00:00Z",
+    "analyst_id": "analyst-039"
+  },
+  {
+    "alert_id": "265fd645-1e3d-5701-bc0f-f7d6b5060b5e",
+    "transaction_id": "98c1e7bd-35ae-5369-ad93-d6b2d8f5b775",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-09-16T17:00:00Z",
+    "analyst_id": "analyst-045"
+  },
+  {
+    "alert_id": "6796bac2-17f4-519e-8277-7477d976f408",
+    "transaction_id": "e5d2e00e-007a-50f7-89d5-702bb22ad305",
+    "disposition": "escalated",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-01-14T09:00:00Z",
+    "analyst_id": "analyst-050"
+  },
+  {
+    "alert_id": "7f2e3b1e-a40a-5a4c-8b08-2a346c7bded0",
+    "transaction_id": "a0a31a85-03a4-5bed-bc03-70917e6c2e5f",
+    "disposition": "escalated",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-06-19T08:00:00Z",
+    "analyst_id": "analyst-007"
+  },
+  {
+    "alert_id": "c9f7e405-ce3a-5b37-900d-3c7de186ac6a",
+    "transaction_id": "3caa0a04-e598-592e-bae5-cb3961658be6",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-01-05T11:00:00Z",
+    "analyst_id": "analyst-006"
+  },
+  {
+    "alert_id": "21066786-5c71-55ba-8795-0bac2a461948",
+    "transaction_id": "f97c9c44-bc65-50ce-a213-102080786c03",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-05-25T08:00:00Z",
+    "analyst_id": "analyst-012"
+  },
+  {
+    "alert_id": "ff2683f2-c784-5f7e-9f0c-d8622ec79807",
+    "transaction_id": "956ba689-8e2d-5738-bf53-fbe35a61fb73",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-10-18T14:00:00Z",
+    "analyst_id": "analyst-033"
+  },
+  {
+    "alert_id": "b931030a-fbbc-56e1-8410-a6cbe8568a22",
+    "transaction_id": "79448033-6a72-546f-951e-424ae0014a73",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-03-02T16:00:00Z",
+    "analyst_id": "analyst-026"
+  },
+  {
+    "alert_id": "2e6079da-b2d6-54e7-86d7-9395cae2cc2c",
+    "transaction_id": "53ce68bc-353e-51b2-96f7-701d5c014217",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-09-10T10:00:00Z",
+    "analyst_id": "analyst-024"
+  },
+  {
+    "alert_id": "5d0ccb07-6b48-58d8-b8f0-24f68937a0d1",
+    "transaction_id": "6ae46060-9769-5c4c-93b3-a56ab911c0c0",
+    "disposition": "escalated",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-07-25T14:00:00Z",
+    "analyst_id": "analyst-040"
+  },
+  {
+    "alert_id": "83e13c1f-d652-5245-80d9-73a40a760284",
+    "transaction_id": "904a0551-65e6-541b-9d48-5267dd172dcc",
+    "disposition": "escalated",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-05-06T08:00:00Z",
+    "analyst_id": "analyst-004"
+  },
+  {
+    "alert_id": "dd62387a-da7e-5d03-8bf1-f972656c2145",
+    "transaction_id": "4cfa9e3d-4cbf-5401-8995-67147103104f",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-05-27T12:00:00Z",
+    "analyst_id": "analyst-009"
+  },
+  {
+    "alert_id": "7874f15c-0cf8-56da-90dc-260378340bbc",
+    "transaction_id": "d70c8c90-8356-5cb9-b566-1d25f432ec38",
+    "disposition": "escalated",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-11-16T11:00:00Z",
+    "analyst_id": "analyst-032"
+  },
+  {
+    "alert_id": "c1fbe7db-9669-50af-97b7-896086d4f287",
+    "transaction_id": "fd9b3335-9c0c-547f-8876-667f05d9abdf",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-07-03T13:00:00Z",
+    "analyst_id": "analyst-038"
+  },
+  {
+    "alert_id": "86a03953-448f-55eb-8f3f-4372a6250f8c",
+    "transaction_id": "58fecea0-4691-55e2-8d9c-9a78b404e094",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-12-27T13:00:00Z",
+    "analyst_id": "analyst-048"
+  },
+  {
+    "alert_id": "1f3f840a-3526-549b-8783-0b16a225fd69",
+    "transaction_id": "e3168d74-a383-5617-954e-457de0f1353b",
+    "disposition": "sar-filed",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-08-11T15:00:00Z",
+    "analyst_id": "analyst-045"
+  },
+  {
+    "alert_id": "0109a414-f46f-548d-be99-279abc64e241",
+    "transaction_id": "a4ad39ae-06f0-56e5-9116-f9524a8a02fa",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-12-25T17:00:00Z",
+    "analyst_id": "analyst-033"
+  },
+  {
+    "alert_id": "61711011-0665-504a-9f7f-5c65b895aa5b",
+    "transaction_id": "f733f46f-4c3a-58ea-96ad-a1b66490e90a",
+    "disposition": "sar-filed",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-01-11T13:00:00Z",
+    "analyst_id": "analyst-032"
+  },
+  {
+    "alert_id": "3f46e52f-bb21-5b21-88a6-71cd50fef68a",
+    "transaction_id": "828f7af9-b72b-5eb6-a139-3d83ff29f9eb",
+    "disposition": "sar-filed",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-11-27T17:00:00Z",
+    "analyst_id": "analyst-042"
+  },
+  {
+    "alert_id": "899bd54f-71a1-5324-b690-1763df42fdde",
+    "transaction_id": "483eb371-44b1-50eb-9204-2610becb605e",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-08-14T08:00:00Z",
+    "analyst_id": "analyst-031"
+  },
+  {
+    "alert_id": "591cfe84-8e98-5d9b-a5df-ebbe9bd80faf",
+    "transaction_id": "55f11084-2248-5fca-8046-48e21c86df83",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-06-19T11:00:00Z",
+    "analyst_id": "analyst-039"
+  },
+  {
+    "alert_id": "be0fd3fc-cd9e-5e2c-9c13-bb461959ea10",
+    "transaction_id": "299ce008-3037-5ac2-81f4-05a4d443da6f",
+    "disposition": "sar-filed",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-06-01T12:00:00Z",
+    "analyst_id": "analyst-015"
+  },
+  {
+    "alert_id": "6a9234b3-7b18-5168-8003-c02e266a840f",
+    "transaction_id": "ea7f9e87-5273-5842-a240-2d2f8712c0a3",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-06-26T14:00:00Z",
+    "analyst_id": "analyst-048"
+  },
+  {
+    "alert_id": "7c439369-74bd-58bc-b4fe-b3d24442ac0b",
+    "transaction_id": "226bf36d-ceeb-56b7-885f-1067903ea146",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-06-25T16:00:00Z",
+    "analyst_id": "analyst-041"
+  },
+  {
+    "alert_id": "0c7e7e29-ab27-55f1-98ab-56d955d4775f",
+    "transaction_id": "79fe9e25-fcf2-54ef-a9cd-36ad99a54b7b",
+    "disposition": "sar-filed",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-07-23T08:00:00Z",
+    "analyst_id": "analyst-040"
+  },
+  {
+    "alert_id": "ec078bd7-4c9d-5d41-beb3-33d491db625d",
+    "transaction_id": "7eeeaaf1-1afe-5e3a-80df-94e6ebf16faa",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-05-22T15:00:00Z",
+    "analyst_id": "analyst-026"
+  },
+  {
+    "alert_id": "019e26b1-0e92-5445-ac46-53285d21eac0",
+    "transaction_id": "77fb4e48-826a-5d3c-bfbc-3b40bf4376d3",
+    "disposition": "escalated",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-02-26T10:00:00Z",
+    "analyst_id": "analyst-006"
+  },
+  {
+    "alert_id": "0ca3e28d-f56c-5e28-bc2a-0c6aec6e424e",
+    "transaction_id": "54e16570-2f96-517a-83ef-6385a3bae2fd",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-05-05T14:00:00Z",
+    "analyst_id": "analyst-011"
+  },
+  {
+    "alert_id": "ea39fa38-287e-5d35-b17a-f12a689fff1a",
+    "transaction_id": "db6147ea-95fc-5e43-a039-9017ddc811c3",
+    "disposition": "escalated",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-11-10T09:00:00Z",
+    "analyst_id": "analyst-034"
+  },
+  {
+    "alert_id": "58e83d1c-819b-59f5-bd16-17e30d1d6ffe",
+    "transaction_id": "7d7ec7b1-e0df-5cf1-8987-2d3dccfddc97",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-06-19T12:00:00Z",
+    "analyst_id": "analyst-004"
+  },
+  {
+    "alert_id": "a730c60e-768e-55fa-8685-c1ef6c3aac96",
+    "transaction_id": "05bcfa6a-de42-57a2-8066-e6f7b2757128",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-11-08T13:00:00Z",
+    "analyst_id": "analyst-026"
+  },
+  {
+    "alert_id": "2df35d32-6711-5854-8ad2-86dcc2a5e9ea",
+    "transaction_id": "e3e11834-191b-59ca-92e6-dd9ebf489e22",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-03-26T12:00:00Z",
+    "analyst_id": "analyst-042"
+  },
+  {
+    "alert_id": "a2243539-6c72-5c6f-b9c9-54afd4abfab2",
+    "transaction_id": "5ba64008-c0df-5a8c-ad69-53cce63bd696",
+    "disposition": "escalated",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-12-19T13:00:00Z",
+    "analyst_id": "analyst-003"
+  },
+  {
+    "alert_id": "a9d31cb7-d18e-572a-8532-6f8b6c918160",
+    "transaction_id": "73b76f31-13a4-5e4e-9d36-f6ebac5ea03c",
+    "disposition": "escalated",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-06-15T11:00:00Z",
+    "analyst_id": "analyst-032"
+  },
+  {
+    "alert_id": "7207e3d0-8391-5ca1-9df5-a964c15fa65a",
+    "transaction_id": "3d2b93fa-dc87-5572-9bb7-eff94abdb09a",
+    "disposition": "sar-filed",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-12-24T10:00:00Z",
+    "analyst_id": "analyst-022"
+  },
+  {
+    "alert_id": "ee791bf1-f5dd-5ec8-91b3-bc9caa221665",
+    "transaction_id": "4ba66203-e1fb-51fb-937b-f0502eec04db",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-06-27T16:00:00Z",
+    "analyst_id": "analyst-019"
+  },
+  {
+    "alert_id": "bdbc3476-21f1-576d-82d6-9f236ecf543d",
+    "transaction_id": "dc5f9da4-45f5-5b15-9d4b-2d67299f8e58",
+    "disposition": "escalated",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-11-02T09:00:00Z",
+    "analyst_id": "analyst-043"
+  },
+  {
+    "alert_id": "ffe2d80b-d568-5cd1-b0a2-783cf5b7e9fe",
+    "transaction_id": "b4f07047-e436-593a-adfc-7bd9a69ed00f",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-03-28T15:00:00Z",
+    "analyst_id": "analyst-038"
+  },
+  {
+    "alert_id": "1f96bee0-ed13-55a3-aeee-f2f09a04d2e5",
+    "transaction_id": "914aabb4-a820-5a2c-a358-22f90d96abc2",
+    "disposition": "sar-filed",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-10-22T14:00:00Z",
+    "analyst_id": "analyst-021"
+  },
+  {
+    "alert_id": "dcb20ff4-3f17-5cd4-81b3-49d992841b53",
+    "transaction_id": "c39aed8e-c58c-58ec-918c-03a0248cdd15",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-07-16T12:00:00Z",
+    "analyst_id": "analyst-044"
+  },
+  {
+    "alert_id": "9c4cf452-54bc-5488-b8a2-287219be7af7",
+    "transaction_id": "bbc118fb-d6e4-5fdc-8eb3-d480474fd6d9",
+    "disposition": "sar-filed",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-01-05T08:00:00Z",
+    "analyst_id": "analyst-015"
+  },
+  {
+    "alert_id": "72ab0f71-bfc7-5e55-8bf4-21452229ba5d",
+    "transaction_id": "49f60d23-da10-5915-b3dc-15701e429052",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-01-15T08:00:00Z",
+    "analyst_id": "analyst-004"
+  },
+  {
+    "alert_id": "b9fa022b-4b91-53e2-9762-75c4951e9c36",
+    "transaction_id": "5db86d5c-477c-58a6-813f-e0795569379e",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-06-19T09:00:00Z",
+    "analyst_id": "analyst-009"
+  },
+  {
+    "alert_id": "96750a5b-9e27-51c8-8626-38a65177e705",
+    "transaction_id": "9208a6e4-70c1-553c-b870-d22a8362fbe3",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-10-24T13:00:00Z",
+    "analyst_id": "analyst-031"
+  },
+  {
+    "alert_id": "08567985-70ac-5b16-b99a-02386767c4d8",
+    "transaction_id": "72680e53-800d-5d47-b867-526cc8cf9358",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-06-03T11:00:00Z",
+    "analyst_id": "analyst-044"
+  },
+  {
+    "alert_id": "4cec9315-86d5-5c95-8d2d-50b8390db7f7",
+    "transaction_id": "976f9ebd-a5e9-57bf-a478-dbf114c1fbe9",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-06-06T17:00:00Z",
+    "analyst_id": "analyst-019"
+  },
+  {
+    "alert_id": "999bb516-e993-509d-887e-03f8fc367778",
+    "transaction_id": "309923d7-2833-5daa-a675-ea23f8722703",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-03-24T14:00:00Z",
+    "analyst_id": "analyst-048"
+  },
+  {
+    "alert_id": "d1793196-89aa-5a1b-81cd-c00c9834d763",
+    "transaction_id": "ae6da68c-3511-5989-8ca2-b418e49abfe6",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-01-17T13:00:00Z",
+    "analyst_id": "analyst-010"
+  },
+  {
+    "alert_id": "af685675-60e5-56bc-a990-50be95b5251b",
+    "transaction_id": "3951be62-789e-5724-a7fa-06952ef001e5",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-04-09T14:00:00Z",
+    "analyst_id": "analyst-005"
+  },
+  {
+    "alert_id": "b46a3da9-8a55-5c2a-942f-471a5485ad3a",
+    "transaction_id": "63fa3f15-ffdc-5d53-b831-282b33a61c2d",
+    "disposition": "sar-filed",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-08-17T15:00:00Z",
+    "analyst_id": "analyst-013"
+  },
+  {
+    "alert_id": "d6f1ba76-cc45-5944-a195-a98b19a83ca7",
+    "transaction_id": "af884422-58bf-5e58-ab21-cc31ca16a209",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-03-21T14:00:00Z",
+    "analyst_id": "analyst-023"
+  },
+  {
+    "alert_id": "ee8a7b23-9736-5007-bb5a-b365f9cd02e8",
+    "transaction_id": "bc5f5e5c-7f78-5123-a4c0-a2afc80145f4",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-12-17T08:00:00Z",
+    "analyst_id": "analyst-019"
+  },
+  {
+    "alert_id": "6165af35-29c2-56ed-a4c0-a1dc56f89c60",
+    "transaction_id": "98c1e7bd-35ae-5369-ad93-d6b2d8f5b775",
+    "disposition": "sar-filed",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-08-03T14:00:00Z",
+    "analyst_id": "analyst-004"
+  },
+  {
+    "alert_id": "93c9ab4a-e1a1-539c-ade3-9e42e86748da",
+    "transaction_id": "7a503477-62f8-5e4e-a3c6-6149a1a412c1",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-01-17T13:00:00Z",
+    "analyst_id": "analyst-019"
+  },
+  {
+    "alert_id": "06754b53-d0d9-5ddb-9ec1-1ae998431a2e",
+    "transaction_id": "e033c6c1-9996-5b2b-a035-a1d14155c4b3",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-11-10T11:00:00Z",
+    "analyst_id": "analyst-027"
+  },
+  {
+    "alert_id": "ae42d570-a5a6-5d6a-bfb2-c103392379fc",
+    "transaction_id": "ef0bd4ee-feea-57e4-bde9-0861b2ed87f4",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-11-01T17:00:00Z",
+    "analyst_id": "analyst-013"
+  },
+  {
+    "alert_id": "788d8ceb-801b-592f-a333-cb634c385037",
+    "transaction_id": "d92a1080-0451-5e04-a1a5-de1a6105d062",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-09-18T08:00:00Z",
+    "analyst_id": "analyst-047"
+  },
+  {
+    "alert_id": "0fa0e1d2-29df-5129-888c-3b9840663eeb",
+    "transaction_id": "6740db8b-7c31-5262-820b-0748474cdd3d",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-10-08T14:00:00Z",
+    "analyst_id": "analyst-032"
+  },
+  {
+    "alert_id": "83d8e13d-bdc0-5862-878f-eb6b17f024b9",
+    "transaction_id": "ac92917e-3486-5542-857a-cb77b9709c33",
+    "disposition": "escalated",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-08-15T11:00:00Z",
+    "analyst_id": "analyst-027"
+  },
+  {
+    "alert_id": "d5296a7d-7f66-574d-9865-4b7c98041c17",
+    "transaction_id": "a9be2d04-5920-5df0-bf57-cfe592cfb847",
+    "disposition": "escalated",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-05-12T13:00:00Z",
+    "analyst_id": "analyst-020"
+  },
+  {
+    "alert_id": "268668d4-4d3f-5b4f-8735-4b6ddf7b0499",
+    "transaction_id": "88f04a76-5391-531f-8616-783e51af91f0",
+    "disposition": "sar-filed",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-04-09T16:00:00Z",
+    "analyst_id": "analyst-008"
+  },
+  {
+    "alert_id": "248b7bcc-a4b9-515b-9296-a932b9990715",
+    "transaction_id": "88f04a76-5391-531f-8616-783e51af91f0",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-06-25T09:00:00Z",
+    "analyst_id": "analyst-007"
+  },
+  {
+    "alert_id": "06dc8cdd-85a2-5581-a77e-2cacfb19abeb",
+    "transaction_id": "bbd255ec-cf91-5241-a3e3-aef4a29ee5e5",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-10-07T17:00:00Z",
+    "analyst_id": "analyst-021"
+  },
+  {
+    "alert_id": "e70537bd-905c-5132-a07e-be9ca82561fe",
+    "transaction_id": "311f43c6-1f38-56ee-af52-68b8ee3398c6",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-01-18T17:00:00Z",
+    "analyst_id": "analyst-047"
+  },
+  {
+    "alert_id": "5d4a73c4-956e-5dfb-8e14-665310de66b2",
+    "transaction_id": "2c65bd14-29e8-5e20-aa96-2843241fa53c",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-04-21T09:00:00Z",
+    "analyst_id": "analyst-014"
+  },
+  {
+    "alert_id": "3aaa6b4a-a681-5a64-ab9b-2c803274066d",
+    "transaction_id": "41b25c9a-1f3b-52e4-8619-e365822ce8ad",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-11-17T13:00:00Z",
+    "analyst_id": "analyst-022"
+  },
+  {
+    "alert_id": "699ef07f-ccd5-594c-b502-c92e94441df9",
+    "transaction_id": "075e9d7b-0bd1-54e9-9747-be603c13dce8",
+    "disposition": "escalated",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-03-13T12:00:00Z",
+    "analyst_id": "analyst-002"
+  },
+  {
+    "alert_id": "51a24d0e-63f3-593e-81d2-55eceb3b9a52",
+    "transaction_id": "9b7c426b-e6b9-5d36-9c7b-3e9c8d188ab8",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-01-13T15:00:00Z",
+    "analyst_id": "analyst-019"
+  },
+  {
+    "alert_id": "6b5c8c70-cf58-53f9-bc6d-47691816293c",
+    "transaction_id": "64caf98f-be87-5979-80a0-19e3a9e24cda",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-12-27T12:00:00Z",
+    "analyst_id": "analyst-020"
+  },
+  {
+    "alert_id": "1be54d67-0616-5134-a187-9f9a39ffa46c",
+    "transaction_id": "86a75361-4e86-56cc-8edf-2f03eef6ab22",
+    "disposition": "escalated",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-03-04T14:00:00Z",
+    "analyst_id": "analyst-019"
+  },
+  {
+    "alert_id": "88fcec9c-230f-57c2-bb2b-a0a955607ca9",
+    "transaction_id": "eb5ed39b-d505-5c11-a3b0-d566f7d1938e",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-11-05T15:00:00Z",
+    "analyst_id": "analyst-045"
+  },
+  {
+    "alert_id": "c6c46ef0-4a1e-5d18-9578-4bf54ea60a2c",
+    "transaction_id": "d37c2fc5-4e9f-597b-b392-e3eb3b5ac640",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-01-06T17:00:00Z",
+    "analyst_id": "analyst-019"
+  },
+  {
+    "alert_id": "4b5a0cfc-f6ec-536d-9943-080b78aa2280",
+    "transaction_id": "ea92d190-907b-538a-85f1-921efe3d7a00",
+    "disposition": "escalated",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-06-27T15:00:00Z",
+    "analyst_id": "analyst-011"
+  },
+  {
+    "alert_id": "ac46683b-6e37-5365-94fc-368fee05b80a",
+    "transaction_id": "4d135750-e94c-52db-b078-12392d37548b",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-03-08T13:00:00Z",
+    "analyst_id": "analyst-033"
+  },
+  {
+    "alert_id": "94deeef4-424e-5d9e-a5d3-8d3faa8e6910",
+    "transaction_id": "7e995477-b6d7-5275-924d-5ff0fd593b91",
+    "disposition": "escalated",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-02-06T13:00:00Z",
+    "analyst_id": "analyst-035"
+  },
+  {
+    "alert_id": "cac33a1e-db14-58e7-843e-c3d1e9676459",
+    "transaction_id": "a7f08935-6180-552f-9b59-84a1e2b37ce9",
+    "disposition": "sar-filed",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-09-25T16:00:00Z",
+    "analyst_id": "analyst-039"
+  },
+  {
+    "alert_id": "08f2303e-c828-5b83-8e53-539388656814",
+    "transaction_id": "f3538d19-d22b-5759-a893-46bd5b7a3efd",
+    "disposition": "sar-filed",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-05-27T17:00:00Z",
+    "analyst_id": "analyst-023"
+  },
+  {
+    "alert_id": "9eee34a0-3268-589f-b893-cbae088b9741",
+    "transaction_id": "287ad2cf-f9f1-59e3-b9c5-41f995a47c17",
+    "disposition": "escalated",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-10-19T09:00:00Z",
+    "analyst_id": "analyst-048"
+  },
+  {
+    "alert_id": "53775c5e-fd7a-55ac-aafc-cf59aae4dcd6",
+    "transaction_id": "f1a99c79-e37f-57b5-8061-55b546f68e3c",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-07-22T12:00:00Z",
+    "analyst_id": "analyst-020"
+  },
+  {
+    "alert_id": "d7f00b73-eef4-525d-bc74-f266d6bd2eca",
+    "transaction_id": "a2f1278c-8772-5202-aca9-3798581f7347",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-03-08T17:00:00Z",
+    "analyst_id": "analyst-001"
+  },
+  {
+    "alert_id": "a8afe063-29b0-5abf-ae7b-f4a43d2fbc14",
+    "transaction_id": "f4f0d7b5-06f0-5b0b-badd-e6aea4944898",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-06-06T12:00:00Z",
+    "analyst_id": "analyst-010"
+  },
+  {
+    "alert_id": "3916fbea-710f-5eeb-bf49-49427b9f4617",
+    "transaction_id": "fd5b0da3-d299-5771-91b9-3147726116fd",
+    "disposition": "escalated",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-09-12T13:00:00Z",
+    "analyst_id": "analyst-017"
+  },
+  {
+    "alert_id": "971e3ac0-6328-5975-adaa-d4c6f4ec2109",
+    "transaction_id": "54e96c22-e044-548b-b60d-b4542d4bd207",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-09-19T15:00:00Z",
+    "analyst_id": "analyst-049"
+  },
+  {
+    "alert_id": "58eb0f2d-203d-50cb-9552-fe43e3cc294c",
+    "transaction_id": "0463c264-164e-5e71-be9c-b0346ccb712e",
+    "disposition": "sar-filed",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-01-04T12:00:00Z",
+    "analyst_id": "analyst-025"
+  },
+  {
+    "alert_id": "f05a7b3b-76bc-582b-a6cb-bb5da22a29f4",
+    "transaction_id": "e3d72c5d-6d63-57f4-b67c-d2d3c9a13fce",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-11-25T11:00:00Z",
+    "analyst_id": "analyst-028"
+  },
+  {
+    "alert_id": "1e4d7f00-d34e-5894-bec3-d77047b19b4d",
+    "transaction_id": "047bde06-6a8a-5c87-a00e-7d5f21c460f4",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-01-24T10:00:00Z",
+    "analyst_id": "analyst-033"
+  },
+  {
+    "alert_id": "d1ba8bb5-80da-5a27-8f10-aedcdeb9f134",
+    "transaction_id": "ae7cc32c-5920-57f8-8f09-63fd1ef2a744",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-11-03T15:00:00Z",
+    "analyst_id": "analyst-031"
+  },
+  {
+    "alert_id": "35f00297-ed94-558c-b43f-39248ec2d956",
+    "transaction_id": "4b8fd354-db0a-5f69-b9ba-57b47abbb634",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-05-23T14:00:00Z",
+    "analyst_id": "analyst-003"
+  },
+  {
+    "alert_id": "22c42d64-b54d-5a5c-9774-9b19904e8904",
+    "transaction_id": "80e4d456-212e-59a8-909e-0f7025e31386",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-02-08T12:00:00Z",
+    "analyst_id": "analyst-001"
+  },
+  {
+    "alert_id": "c68ab19f-e89b-5658-b2c3-e57bd7836f47",
+    "transaction_id": "7dae945c-9d28-5df3-8fc0-f9fa2e085cf5",
+    "disposition": "sar-filed",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-03-26T09:00:00Z",
+    "analyst_id": "analyst-025"
+  },
+  {
+    "alert_id": "25a0cda3-5caf-50b2-9301-3c30a1b0306a",
+    "transaction_id": "04be1634-c2ec-5756-ac8d-58e832841b9a",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-06-27T10:00:00Z",
+    "analyst_id": "analyst-032"
+  },
+  {
+    "alert_id": "0d6dcaf7-49e3-5a02-a627-6efe0959d407",
+    "transaction_id": "c2d4f005-c872-5f46-929c-9575959ade4f",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-12-17T11:00:00Z",
+    "analyst_id": "analyst-009"
+  },
+  {
+    "alert_id": "80c9af7b-378b-5599-be1d-193dbf1236cf",
+    "transaction_id": "6cbee2ed-43ee-55f5-8e3f-96f2e4d88e24",
+    "disposition": "escalated",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-11-17T13:00:00Z",
+    "analyst_id": "analyst-006"
+  },
+  {
+    "alert_id": "e61b77d7-932b-5474-80fd-ddcf348b142e",
+    "transaction_id": "7b94ae69-b8db-52a7-8f0c-c3ac1537fb03",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-07-17T16:00:00Z",
+    "analyst_id": "analyst-005"
+  },
+  {
+    "alert_id": "757ea9c5-37f7-5ed6-b1ee-4c3c82f4e89b",
+    "transaction_id": "2d8f964c-c85c-50f8-842b-fa1f97a102e5",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-02-23T13:00:00Z",
+    "analyst_id": "analyst-024"
+  },
+  {
+    "alert_id": "139b245b-40c9-557f-b09f-01b5487b47ed",
+    "transaction_id": "dab7e90d-75fe-5f96-88fd-38f00a09a7cd",
+    "disposition": "escalated",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-07-14T16:00:00Z",
+    "analyst_id": "analyst-038"
+  },
+  {
+    "alert_id": "f7b13ad7-72f7-51b1-b49f-eff8a727e5b4",
+    "transaction_id": "92370e09-80c5-5b6b-a520-338bef4a61bc",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-04-14T11:00:00Z",
+    "analyst_id": "analyst-025"
+  },
+  {
+    "alert_id": "c619a6c7-2d55-53bf-aec4-76810f2282f5",
+    "transaction_id": "e5d61c66-b887-51d1-a873-2b55ac0d28d8",
+    "disposition": "escalated",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-06-19T13:00:00Z",
+    "analyst_id": "analyst-021"
+  },
+  {
+    "alert_id": "9257725b-8aea-56ad-a391-220c9917f578",
+    "transaction_id": "0066d2db-d48b-5236-a5c3-f3e598531225",
+    "disposition": "escalated",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-02-08T11:00:00Z",
+    "analyst_id": "analyst-038"
+  },
+  {
+    "alert_id": "970a781c-4cd6-58a7-a16a-f8be95fb85ff",
+    "transaction_id": "77a4c6c5-58af-5e00-ab9e-598632b2c6d8",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-03-05T12:00:00Z",
+    "analyst_id": "analyst-024"
+  },
+  {
+    "alert_id": "d0cade36-576d-57c0-85d0-80cb82b084d3",
+    "transaction_id": "8d2dee68-fa5e-5e6d-a2f7-88f3fd6de118",
+    "disposition": "sar-filed",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-06-13T17:00:00Z",
+    "analyst_id": "analyst-026"
+  },
+  {
+    "alert_id": "f06b4c3b-dc04-51d1-978e-993c25a6a189",
+    "transaction_id": "69667990-ea37-5ab6-ae4f-2f51b861688b",
+    "disposition": "sar-filed",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-02-05T14:00:00Z",
+    "analyst_id": "analyst-037"
+  },
+  {
+    "alert_id": "31a84725-5b15-5b6f-8f08-6fb8d51c6dbe",
+    "transaction_id": "453145fc-a0a1-58e6-b056-870cc07f1823",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-12-13T17:00:00Z",
+    "analyst_id": "analyst-032"
+  },
+  {
+    "alert_id": "0363dd9f-e3e2-51fb-aff0-61976767377a",
+    "transaction_id": "ace5baaf-c9c7-50f8-afc1-930ba27c92f1",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-08-19T16:00:00Z",
+    "analyst_id": "analyst-041"
+  },
+  {
+    "alert_id": "bf4871b7-106f-5573-ae7e-adc108e14af3",
+    "transaction_id": "d9b8a03d-1c1b-5392-9eed-e091147e1eb3",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-02-19T14:00:00Z",
+    "analyst_id": "analyst-015"
+  },
+  {
+    "alert_id": "fbdb02f9-8524-5fe2-a506-8cdc4d7c6190",
+    "transaction_id": "56a34079-ce8d-5150-8334-2d4da2cd9105",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-08-21T08:00:00Z",
+    "analyst_id": "analyst-017"
+  },
+  {
+    "alert_id": "941571e3-1591-5ace-ad0b-04ab0d9bfb94",
+    "transaction_id": "6901750b-bba3-5683-89ef-32a542acbd7d",
+    "disposition": "escalated",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-03-06T13:00:00Z",
+    "analyst_id": "analyst-037"
+  },
+  {
+    "alert_id": "5ff253a1-1a72-57e6-854f-4869242558f4",
+    "transaction_id": "ceb7d467-319d-5313-bcea-3d4a79d15cf3",
+    "disposition": "escalated",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-03-08T08:00:00Z",
+    "analyst_id": "analyst-008"
+  },
+  {
+    "alert_id": "17b6cd46-4a5d-5907-b233-fb76a952037c",
+    "transaction_id": "6150e74b-41c9-5e11-b5bf-fd4f905ea08e",
+    "disposition": "escalated",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-07-19T08:00:00Z",
+    "analyst_id": "analyst-008"
+  },
+  {
+    "alert_id": "331e2dff-3e32-59b2-ba80-9741a88c22fd",
+    "transaction_id": "3cb58389-c2d9-537c-8c75-7d1ea78b0102",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-02-25T17:00:00Z",
+    "analyst_id": "analyst-006"
+  },
+  {
+    "alert_id": "86db3f66-26cb-52de-8df4-14d1833d9d2f",
+    "transaction_id": "b97123bb-8cf0-530e-9b33-49773baa51cd",
+    "disposition": "sar-filed",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-04-15T08:00:00Z",
+    "analyst_id": "analyst-034"
+  },
+  {
+    "alert_id": "1a3d51d6-b849-5102-8b47-fafb9784bad3",
+    "transaction_id": "39e06ce8-e0c5-533e-b771-e57d24cc901e",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-07-01T14:00:00Z",
+    "analyst_id": "analyst-010"
+  },
+  {
+    "alert_id": "3df41cab-6401-5820-a39c-cd4e2d73001e",
+    "transaction_id": "3fc2c2d6-a8b0-5fdc-9b0a-178a29d42e0c",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-07-07T13:00:00Z",
+    "analyst_id": "analyst-027"
+  },
+  {
+    "alert_id": "4afa461c-3bc7-506b-b9a5-5c45998c1fba",
+    "transaction_id": "a4290844-c470-524c-b7e6-d0e2b713656f",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-08-15T13:00:00Z",
+    "analyst_id": "analyst-026"
+  },
+  {
+    "alert_id": "be90c62b-9af3-5479-a1d1-576aa9ec1b34",
+    "transaction_id": "7991c8ee-8519-5d9a-99ac-4b880f7e8aac",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-09-10T09:00:00Z",
+    "analyst_id": "analyst-001"
+  },
+  {
+    "alert_id": "3ff46316-0b94-5225-9068-eee6ff05794d",
+    "transaction_id": "160c6fac-7b55-524c-a105-9f8f65ebce18",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-04-28T10:00:00Z",
+    "analyst_id": "analyst-031"
+  },
+  {
+    "alert_id": "af44847a-8f51-5315-ab10-c26d791fa174",
+    "transaction_id": "af8d2979-5e73-55cb-8dd1-5987167f6c9c",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-03-10T16:00:00Z",
+    "analyst_id": "analyst-012"
+  },
+  {
+    "alert_id": "d703ed10-d590-5127-a8ed-2d11bcfcf18e",
+    "transaction_id": "8b5c2409-93fb-5909-b7ff-e615fde98c41",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-04-24T13:00:00Z",
+    "analyst_id": "analyst-009"
+  },
+  {
+    "alert_id": "4b3df41e-bbab-5b49-9759-f356ae5e8245",
+    "transaction_id": "bf9093bb-ac18-5925-9115-5714d2a03bac",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-02-04T16:00:00Z",
+    "analyst_id": "analyst-033"
+  },
+  {
+    "alert_id": "df62ba71-b0b9-5ad7-8f6e-c380de0f6171",
+    "transaction_id": "e8a3c984-adec-532b-a0ba-dace678468af",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-09-01T14:00:00Z",
+    "analyst_id": "analyst-044"
+  },
+  {
+    "alert_id": "ef9c5255-9d7e-5ac3-9cf7-c7da5e735d62",
+    "transaction_id": "de381fb3-a8f0-594d-a012-2928d233845d",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-11-14T10:00:00Z",
+    "analyst_id": "analyst-043"
+  },
+  {
+    "alert_id": "46486202-431c-57ee-a653-ebd230da82b4",
+    "transaction_id": "4d60adfd-8779-5821-975f-da57314a9607",
+    "disposition": "sar-filed",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-04-21T09:00:00Z",
+    "analyst_id": "analyst-046"
+  },
+  {
+    "alert_id": "f4e0dd63-6ec1-5c9c-8437-d87326e8547b",
+    "transaction_id": "7d9b2dea-8033-520a-8b92-ffbd7ddfdfb4",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-09-25T09:00:00Z",
+    "analyst_id": "analyst-030"
+  },
+  {
+    "alert_id": "d28aa1e2-5823-5b99-ab0b-f1b4fdd71355",
+    "transaction_id": "a74be1b6-0f21-5e95-ac2d-745dd13987fe",
+    "disposition": "sar-filed",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-04-21T14:00:00Z",
+    "analyst_id": "analyst-028"
+  },
+  {
+    "alert_id": "24e55812-e882-5742-864c-b74faf90ac5d",
+    "transaction_id": "1e1408a0-c736-5384-8331-4c8030d0c063",
+    "disposition": "escalated",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-07-21T17:00:00Z",
+    "analyst_id": "analyst-020"
+  },
+  {
+    "alert_id": "cb84deab-8686-5bd1-a164-9f061813ebdf",
+    "transaction_id": "132fc56a-c46c-55c6-be38-ba6807935c9e",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-02-21T11:00:00Z",
+    "analyst_id": "analyst-011"
+  },
+  {
+    "alert_id": "e3683b4d-79a7-5607-a9a1-474d129316ad",
+    "transaction_id": "dbdc07c0-cfa5-5184-8da0-a08b89e128b3",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-09-09T13:00:00Z",
+    "analyst_id": "analyst-001"
+  },
+  {
+    "alert_id": "a7e960ae-28aa-58bc-9d1a-88c16f9a5f76",
+    "transaction_id": "52df303e-b1f9-55bc-bf12-50f56616f2f5",
+    "disposition": "cleared",
+    "reasons": "Structuring below CTR threshold",
+    "timestamp": "2025-10-02T10:00:00Z",
+    "analyst_id": "analyst-043"
+  },
+  {
+    "alert_id": "b0c0417e-6223-5a2e-bf25-85ecd74a7e88",
+    "transaction_id": "4ac45418-d063-5ab8-8958-a26d6572c043",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-04-16T13:00:00Z",
+    "analyst_id": "analyst-014"
+  },
+  {
+    "alert_id": "5181e508-e409-5dff-b60b-dd72bdb2574c",
+    "transaction_id": "3db6cfe9-fdb9-562e-b129-e9b139d6ffc7",
+    "disposition": "cleared",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-11-07T10:00:00Z",
+    "analyst_id": "analyst-046"
+  },
+  {
+    "alert_id": "197ce4a9-d85e-5788-9f9d-4302324e987f",
+    "transaction_id": "e5d61c66-b887-51d1-a873-2b55ac0d28d8",
+    "disposition": "cleared",
+    "reasons": "Elevated risk but insufficient evidence for SAR",
+    "timestamp": "2025-12-15T13:00:00Z",
+    "analyst_id": "analyst-027"
+  },
+  {
+    "alert_id": "2be66a19-c809-5aaa-83d2-6ff5f60d76bd",
+    "transaction_id": "e3d72c5d-6d63-57f4-b67c-d2d3c9a13fce",
+    "disposition": "cleared",
+    "reasons": "False positive - regular payroll",
+    "timestamp": "2025-11-11T08:00:00Z",
+    "analyst_id": "analyst-047"
+  },
+  {
+    "alert_id": "08892d57-000b-56b1-b58e-15a3ef725636",
+    "transaction_id": "6fbeab53-60b1-5169-b36b-3afe5a546bea",
+    "disposition": "cleared",
+    "reasons": "Suspicious layering pattern identified",
+    "timestamp": "2025-07-17T15:00:00Z",
+    "analyst_id": "analyst-036"
+  },
+  {
+    "alert_id": "1153c2f2-d66d-5422-a9c0-409fea5d002c",
+    "transaction_id": "bf036a35-dfe8-5bd7-a49f-242c7e7f7b5f",
+    "disposition": "escalated",
+    "reasons": "Normal business activity within expected parameters",
+    "timestamp": "2025-03-23T14:00:00Z",
+    "analyst_id": "analyst-022"
+  }
+]

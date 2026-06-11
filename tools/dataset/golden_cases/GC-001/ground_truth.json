@@ -1,0 +1,46 @@
+{
+  "case_id": "GC-001",
+  "typology": "shell-company-roundtrip",
+  "expected_findings": [
+    {
+      "truth_id": "GC001-F1",
+      "title": "Originator and beneficiary share controlling beneficial owner",
+      "required_evidence_indices": [
+        "argus-entities"
+      ],
+      "required_field_anchors": [
+        "beneficial_owners.entity_id"
+      ],
+      "must_be_found": true
+    },
+    {
+      "truth_id": "GC001-F2",
+      "title": "Transaction chain forms circular flow through shell companies",
+      "required_evidence_indices": [
+        "argus-transactions"
+      ],
+      "required_field_anchors": [
+        "originator.entity_id",
+        "beneficiary.entity_id"
+      ],
+      "must_be_found": true
+    },
+    {
+      "truth_id": "GC001-F3",
+      "title": "Registered agent linked to nominee director schemes",
+      "required_evidence_indices": [
+        "argus-adverse-media"
+      ],
+      "required_field_anchors": [
+        "body",
+        "mentioned_entities"
+      ],
+      "must_be_found": true
+    }
+  ],
+  "known_negatives": [
+    "No OFAC/EU/UN sanctions hit on any party in the chain. Any claim of sanctions evasion is a hallucination.",
+    "No structuring behavior (all transactions above CTR threshold)."
+  ],
+  "should_be_cleared": false
+}

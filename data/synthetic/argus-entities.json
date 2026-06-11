@@ -1,0 +1,7336 @@
+[
+  {
+    "entity_id": "47283490-283c-55e1-8757-a9285b9269bc",
+    "kind": "person",
+    "names": [
+      "Marcus J. Reid"
+    ],
+    "aliases": [
+      "M. Reid",
+      "Marcus Reid"
+    ],
+    "dob": "1972-03-14",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.45,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "92b831fc-d26e-508e-87bc-276314720957",
+    "kind": "company",
+    "names": [
+      "Acme Logistics LLC"
+    ],
+    "aliases": [
+      "Acme Logistics"
+    ],
+    "incorp_date": "2019-06-12",
+    "country": "US",
+    "state": "Delaware",
+    "beneficial_owners": [
+      {
+        "entity_id": "47283490-283c-55e1-8757-a9285b9269bc",
+        "name": "Marcus J. Reid",
+        "ownership_pct": 78.0
+      }
+    ],
+    "risk_score": 0.65,
+    "kyc_status": "verified",
+    "registered_agent": "Apex Corporate Services Inc"
+  },
+  {
+    "entity_id": "f9f2ab1b-0d4b-5f12-a86a-6a20f8e3dc86",
+    "kind": "company",
+    "names": [
+      "Verde Holdings Ltd"
+    ],
+    "aliases": [
+      "Verde Holdings",
+      "Verde Ltd"
+    ],
+    "incorp_date": "2021-11-03",
+    "country": "VG",
+    "beneficial_owners": [
+      {
+        "entity_id": "47283490-283c-55e1-8757-a9285b9269bc",
+        "name": "Marcus J. Reid",
+        "ownership_pct": 92.0
+      }
+    ],
+    "risk_score": 0.78,
+    "kyc_status": "enhanced_due_diligence",
+    "registered_agent": "Caribbean Trust Services"
+  },
+  {
+    "entity_id": "a38b0fb8-9e9e-5327-a755-9a0ed320ddff",
+    "kind": "company",
+    "names": [
+      "Cascade International Corp"
+    ],
+    "aliases": [
+      "Cascade Intl"
+    ],
+    "incorp_date": "2020-08-22",
+    "country": "PA",
+    "beneficial_owners": [
+      {
+        "entity_id": "f9f2ab1b-0d4b-5f12-a86a-6a20f8e3dc86",
+        "name": "Verde Holdings Ltd",
+        "ownership_pct": 100.0
+      }
+    ],
+    "risk_score": 0.72,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "51cbf80d-22c1-5932-a911-e58647cb2bb8",
+    "kind": "company",
+    "names": [
+      "Meridian Consulting Group SA"
+    ],
+    "aliases": [
+      "Meridian Consulting",
+      "MCG"
+    ],
+    "incorp_date": "2022-01-15",
+    "country": "CH",
+    "beneficial_owners": [
+      {
+        "entity_id": "a38b0fb8-9e9e-5327-a755-9a0ed320ddff",
+        "name": "Cascade International Corp",
+        "ownership_pct": 65.0
+      },
+      {
+        "entity_id": "47283490-283c-55e1-8757-a9285b9269bc",
+        "name": "Marcus J. Reid",
+        "ownership_pct": 35.0
+      }
+    ],
+    "risk_score": 0.68,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "11c928e3-a700-5393-a02c-1d9dd3cc0d13",
+    "kind": "company",
+    "names": [
+      "Pacific Trade Solutions Ltd"
+    ],
+    "aliases": [
+      "PTS Ltd",
+      "Pacific Trade"
+    ],
+    "incorp_date": "2021-04-08",
+    "country": "HK",
+    "beneficial_owners": [
+      {
+        "entity_id": "51cbf80d-22c1-5932-a911-e58647cb2bb8",
+        "name": "Meridian Consulting Group SA",
+        "ownership_pct": 100.0
+      }
+    ],
+    "risk_score": 0.61,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "da04b876-7a55-5ad7-ab84-635cc654834f",
+    "kind": "company",
+    "names": [
+      "Northern Industrial Corp"
+    ],
+    "aliases": [
+      "Northern Industrial",
+      "NIC"
+    ],
+    "incorp_date": "2008-03-20",
+    "country": "CA",
+    "state": "Ontario",
+    "beneficial_owners": [
+      {
+        "entity_id": "0f6604c1-0ded-5139-8bb4-6908758f54e0",
+        "name": "Sarah Chen",
+        "ownership_pct": 51.0
+      },
+      {
+        "entity_id": "c29fb55a-98b0-596d-ab5a-c32122d527b1",
+        "name": "David Chen",
+        "ownership_pct": 49.0
+      }
+    ],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "bd47e530-3008-5e0b-8b65-c54637e4c3d1",
+    "kind": "company",
+    "names": [
+      "Shenzhen MegaTech Electronics Co Ltd"
+    ],
+    "aliases": [
+      "MegaTech",
+      "Shenzhen MegaTech"
+    ],
+    "incorp_date": "2005-09-10",
+    "country": "CN",
+    "beneficial_owners": [
+      {
+        "entity_id": "dc3f268e-f577-5c86-9e0c-579a3a5194ce",
+        "name": "Wei Zhang",
+        "ownership_pct": 100.0
+      }
+    ],
+    "risk_score": 0.2,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0f6604c1-0ded-5139-8bb4-6908758f54e0",
+    "kind": "person",
+    "names": [
+      "Sarah Chen"
+    ],
+    "aliases": [],
+    "dob": "1975-08-22",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.05,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7998c321-ed57-5b70-b2e7-63b79ce780f0",
+    "kind": "company",
+    "names": [
+      "Sigma Prime Corp"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2007-03-24",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "9a16483d-fc03-5ae3-bb5e-a34f99cdf13d",
+    "kind": "company",
+    "names": [
+      "Nova Global LLC"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2002-04-08",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.28,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "cb826424-656d-5c37-82cc-4adfd8bad44e",
+    "kind": "company",
+    "names": [
+      "Nova Summit FZE"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2018-05-26",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "6623461e-163a-538a-8ce7-7881fdc6aec4",
+    "kind": "person",
+    "names": [
+      "Carlos Williams"
+    ],
+    "aliases": [],
+    "dob": "1973-06-04",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "25aac577-b89c-5dee-8aac-344d24df5b4a",
+    "kind": "company",
+    "names": [
+      "Omega Core SA"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2001-12-15",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.29,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1c38ec0f-0748-5d58-aa8a-3f7909748547",
+    "kind": "company",
+    "names": [
+      "Prime Omega GmbH"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2018-04-23",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "ef452c17-dc92-52fc-ab95-f1c5f70de3f1",
+    "kind": "company",
+    "names": [
+      "Pacific Omega Corp"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2003-07-09",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c35af640-d6cd-5baa-ad59-45b103fa7172",
+    "kind": "company",
+    "names": [
+      "Core Summit SA"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2022-11-21",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "4a86fbc3-f443-54e2-a9a5-f9c7725a3ec8",
+    "kind": "company",
+    "names": [
+      "Sigma Summit Inc"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2014-07-09",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.5,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "8a21962e-26ea-585b-80dd-2ad0103f5ed4",
+    "kind": "company",
+    "names": [
+      "Omega Delta LLC"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2007-01-26",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "83c747cd-5ee9-572c-8d45-3e3c96b3827f",
+    "kind": "company",
+    "names": [
+      "Vertex Sigma GmbH"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2006-11-16",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "93b7c69d-d19b-5fec-afe5-c68ec3c3de2e",
+    "kind": "person",
+    "names": [
+      "Carlos Williams"
+    ],
+    "aliases": [],
+    "dob": "1975-12-18",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c53d146e-8032-5f6d-a7c7-607dc50c7a68",
+    "kind": "person",
+    "names": [
+      "Raj Kim"
+    ],
+    "aliases": [],
+    "dob": "1974-03-17",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.17,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "aed74594-df77-5dd7-b56b-f73a271b229c",
+    "kind": "company",
+    "names": [
+      "Atlantic Alpha Inc"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2021-07-20",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5feb5572-0107-5cea-a811-2ecfa13c07fd",
+    "kind": "person",
+    "names": [
+      "Carlos Smith"
+    ],
+    "aliases": [],
+    "dob": "1967-11-18",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "8d91e8d8-b651-5025-92f9-72324c1eb599",
+    "kind": "company",
+    "names": [
+      "Prime Nova Inc"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2014-01-24",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "016d0687-033a-5504-b560-f51b01fdda2b",
+    "kind": "company",
+    "names": [
+      "Pacific Omega SA"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2020-09-20",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.14,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "d4db614d-dc52-51f1-a024-ec541705e413",
+    "kind": "company",
+    "names": [
+      "Delta Zenith LLC"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2019-06-16",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.06,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "97772cba-a864-5b8e-bd57-93cc7baf5be5",
+    "kind": "company",
+    "names": [
+      "Global Summit Ltd"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2002-12-16",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "6ef8a36a-8c57-5c1a-9259-0226c551b459",
+    "kind": "company",
+    "names": [
+      "Alpha Apex Inc"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2008-09-28",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.32,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "28305ae3-f893-5081-870e-d74316aa70e3",
+    "kind": "company",
+    "names": [
+      "Nova Alpha GmbH"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2014-09-15",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "408289cb-b42a-5a69-a9f7-1a7dd50f0670",
+    "kind": "company",
+    "names": [
+      "Global Vertex Corp"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2018-04-01",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "7d59f4db-61b0-5f7a-a124-936a50316026",
+    "kind": "company",
+    "names": [
+      "Pacific Global GmbH"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2002-09-08",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4cf9e982-fa35-5862-a36e-ea6c1a1e43b1",
+    "kind": "company",
+    "names": [
+      "Atlantic Sigma FZE"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2007-08-26",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "582f5536-c9fd-54d5-b454-7e88d16aa417",
+    "kind": "company",
+    "names": [
+      "Core Nova Pty Ltd"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2014-12-02",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "eeaaa40a-d467-5548-b085-4f85e8cb5c5c",
+    "kind": "company",
+    "names": [
+      "Nova Sigma GmbH"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2003-04-07",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.14,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "df2fa901-3efe-58a0-aec1-e38047973bd1",
+    "kind": "company",
+    "names": [
+      "Atlantic Prime FZE"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2007-02-15",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.41,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "9715aaaf-3d15-530f-bfcd-ebb2b601eda7",
+    "kind": "company",
+    "names": [
+      "Alpha Zenith LLC"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2002-04-06",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "bbcce527-7848-50cc-bb07-9f3335129195",
+    "kind": "company",
+    "names": [
+      "Global Atlantic Pty Ltd"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2000-07-09",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.47,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "a973726d-67f9-54fe-8596-11353a928d75",
+    "kind": "company",
+    "names": [
+      "Sigma Sigma FZE"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2004-04-10",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "090ab3a7-037b-5df6-b2c0-9c89ceb1b1c3",
+    "kind": "company",
+    "names": [
+      "Global Global FZE"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2016-09-06",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "4332a382-e686-52e6-8885-e425cf0ab9ef",
+    "kind": "company",
+    "names": [
+      "Pacific Vertex Ltd"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2021-04-13",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "ca6ce545-7706-55d7-bc15-7b2d4aa2d9bf",
+    "kind": "company",
+    "names": [
+      "Vertex Global Ltd"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2013-11-19",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.3,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0aa808fc-3e0e-50f5-a1bb-d6fa9fd86fe6",
+    "kind": "company",
+    "names": [
+      "Alpha Sigma GmbH"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2007-05-13",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "5519b614-d6c4-51af-bca2-62d737c6f584",
+    "kind": "company",
+    "names": [
+      "Core Delta Ltd"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2000-08-20",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.5,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "21a7d967-5cc4-5afd-bbdf-18b81ad6191d",
+    "kind": "company",
+    "names": [
+      "Summit Zenith SA"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2004-06-03",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.45,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "d6b279ae-d609-5136-8ad5-81f94cb370b4",
+    "kind": "company",
+    "names": [
+      "Apex Omega SA"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2019-11-17",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.05,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "b81ba4c2-4e66-5a85-9aad-58a12441d884",
+    "kind": "company",
+    "names": [
+      "Atlantic Prime Ltd"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2003-12-18",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "a45312be-db05-5437-899d-93816671eff9",
+    "kind": "company",
+    "names": [
+      "Summit Alpha SA"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2016-08-09",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "973bee6f-cde5-5a7c-bb3b-81fb124b115e",
+    "kind": "company",
+    "names": [
+      "Omega Prime LLC"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2000-06-25",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "bd82ca3d-6975-511c-abaf-d52b80022d4b",
+    "kind": "company",
+    "names": [
+      "Zenith Sigma Pty Ltd"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2017-01-04",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "3683d507-3b3d-59cf-af28-4f8f3898b37d",
+    "kind": "company",
+    "names": [
+      "Global Omega GmbH"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2018-09-05",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b193fb4e-071e-5765-84fc-e7b5672a7ff3",
+    "kind": "company",
+    "names": [
+      "Delta Omega LLC"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2011-04-22",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "53c4dbb2-e21d-5874-8b4c-0730ae6c0bcc",
+    "kind": "company",
+    "names": [
+      "Omega Nova Inc"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2007-03-26",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.41,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c0507e74-c33c-54a9-9ab3-c51c0f2dd83d",
+    "kind": "company",
+    "names": [
+      "Sigma Core Pty Ltd"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2021-12-26",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "d9a8313d-cc3c-56af-b026-9a7a99667d25",
+    "kind": "company",
+    "names": [
+      "Omega Global FZE"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2007-04-27",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c7ebab7b-2bc2-5e7a-abe8-1621b9096d6b",
+    "kind": "company",
+    "names": [
+      "Summit Global Corp"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2012-06-09",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c0ab921e-e55f-5b79-90bf-f11f32be8a64",
+    "kind": "company",
+    "names": [
+      "Nova Alpha GmbH"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2000-02-09",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "54cb6263-5fde-5f28-8af7-de8ba0f7f351",
+    "kind": "company",
+    "names": [
+      "Vertex Nova GmbH"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2023-06-14",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.32,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "af22aaa7-3ae8-585c-9da9-33d0a98dbcf5",
+    "kind": "company",
+    "names": [
+      "Vertex Summit SA"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2001-12-14",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.05,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "45a64ff2-b0fa-5af6-914c-486ebf38013b",
+    "kind": "company",
+    "names": [
+      "Nova Pacific GmbH"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2019-06-22",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.43,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "e2ae3a28-8350-55d4-a5e8-42b74156101e",
+    "kind": "company",
+    "names": [
+      "Prime Alpha Pty Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2010-07-23",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1056fce7-3454-5f03-a8ad-c9e5438ee865",
+    "kind": "company",
+    "names": [
+      "Alpha Nova Inc"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2019-10-10",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "2bf6a331-92fa-5776-b8cc-db12364f4a47",
+    "kind": "company",
+    "names": [
+      "Summit Nova GmbH"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2014-08-15",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "a9540960-d393-5e3e-b1ef-956173cbdb39",
+    "kind": "person",
+    "names": [
+      "Jane Lee"
+    ],
+    "aliases": [],
+    "dob": "1992-11-21",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.2,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "84cfd2f3-c5f8-513e-819f-9c0cb4544768",
+    "kind": "company",
+    "names": [
+      "Alpha Prime Corp"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2006-03-01",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5e88c969-618f-55c5-849e-299f2ed973cd",
+    "kind": "company",
+    "names": [
+      "Nova Alpha Corp"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2022-12-13",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "3a2cffcb-5024-5003-97b6-3b72f2659e67",
+    "kind": "company",
+    "names": [
+      "Delta Omega Ltd"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2024-07-08",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "d0c5793f-1717-5f69-9994-bee1cc9d9570",
+    "kind": "person",
+    "names": [
+      "Li Johnson"
+    ],
+    "aliases": [],
+    "dob": "1989-03-26",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.17,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "49fd4cf8-ee8b-58ca-91bf-e3da4fd3fe91",
+    "kind": "company",
+    "names": [
+      "Vertex Omega Pty Ltd"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2017-08-06",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.38,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c0c4d9ae-2846-544d-909d-7f6d3c0e52e8",
+    "kind": "person",
+    "names": [
+      "Li Lee"
+    ],
+    "aliases": [],
+    "dob": "1993-08-21",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0868a2a8-e359-5d86-8110-e6ca6629d370",
+    "kind": "person",
+    "names": [
+      "Carlos Brown"
+    ],
+    "aliases": [],
+    "dob": "1977-06-11",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "096d6d54-e8ce-543c-b2eb-18de01c1685d",
+    "kind": "company",
+    "names": [
+      "Atlantic Summit Pty Ltd"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2022-03-23",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ce1e9082-28ea-5c4b-9770-184097cf0f74",
+    "kind": "person",
+    "names": [
+      "Maria Kumar"
+    ],
+    "aliases": [],
+    "dob": "1963-04-27",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f24fc117-49b6-5e0f-9069-1c57204e1acf",
+    "kind": "company",
+    "names": [
+      "Nova Apex LLC"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2011-05-25",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "cf35eb46-4bbe-5408-ba24-257ea5b156cd",
+    "kind": "company",
+    "names": [
+      "Summit Prime Pty Ltd"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2015-01-13",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.2,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "29ab03f5-387a-5d54-a3d4-f28a3a9d505f",
+    "kind": "person",
+    "names": [
+      "Maria Williams"
+    ],
+    "aliases": [],
+    "dob": "1994-01-13",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.2,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "cfcf40fa-9606-576f-a4de-7a4e6026fa36",
+    "kind": "company",
+    "names": [
+      "Alpha Nova Inc"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2014-03-02",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.17,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b819bd5f-b731-5fb6-be23-4aabbc7a0c04",
+    "kind": "company",
+    "names": [
+      "Core Core Pty Ltd"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2008-07-09",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.43,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "3eb4bb93-f65e-5dd1-815a-4b57d1fe0c51",
+    "kind": "company",
+    "names": [
+      "Global Core Corp"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2020-02-25",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.48,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "da1534d1-ca22-5cdd-9a2e-b817ef1a8711",
+    "kind": "company",
+    "names": [
+      "Summit Omega LLC"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2019-03-08",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "1b529ce0-f121-5ba9-ad30-6bb7e21d72e7",
+    "kind": "company",
+    "names": [
+      "Summit Apex SA"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2024-06-06",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.32,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "9b440ffd-5c12-52d1-96d7-6396961a94cf",
+    "kind": "company",
+    "names": [
+      "Prime Pacific LLC"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2009-10-22",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7700eadd-3eeb-500d-9c6e-43df6867ac0d",
+    "kind": "person",
+    "names": [
+      "Jane Brown"
+    ],
+    "aliases": [],
+    "dob": "1966-12-25",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5822eca4-3a50-53cb-bf8f-73b38dbd3736",
+    "kind": "company",
+    "names": [
+      "Delta Global GmbH"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2017-07-22",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "2a0054fc-281f-5c53-b175-d0616ede3fcc",
+    "kind": "company",
+    "names": [
+      "Omega Nova FZE"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2003-07-12",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "eb3ed892-938e-566e-8c52-bae08d2d41a1",
+    "kind": "company",
+    "names": [
+      "Atlantic Sigma SA"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2019-09-25",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "84064682-2e56-578e-8f44-7e2a480b5675",
+    "kind": "company",
+    "names": [
+      "Omega Summit Ltd"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2008-08-08",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.39,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "773cc72c-7e25-5dc3-a7c5-45efde5084e9",
+    "kind": "person",
+    "names": [
+      "John Garcia"
+    ],
+    "aliases": [],
+    "dob": "1980-03-16",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1506fe1e-8c22-5b70-be82-57d6cfbd5808",
+    "kind": "company",
+    "names": [
+      "Prime Vertex SA"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2017-01-17",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.48,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ab1c00d0-fa2e-5037-aacd-43ea885c0c59",
+    "kind": "company",
+    "names": [
+      "Apex Zenith Corp"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2022-08-21",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.37,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0affc2b7-76b9-5191-b7d2-34dc4a62be6b",
+    "kind": "company",
+    "names": [
+      "Prime Summit Pty Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2022-04-10",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "bf981e3a-ce42-583a-a66f-a957c03f6f2e",
+    "kind": "person",
+    "names": [
+      "Anna Kumar"
+    ],
+    "aliases": [],
+    "dob": "1995-06-12",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "2b4d5c10-2fa3-5154-8297-50e61fcddf55",
+    "kind": "company",
+    "names": [
+      "Prime Summit Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2023-04-11",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "5babde2a-9cc0-55be-9b39-4f81225b4c27",
+    "kind": "company",
+    "names": [
+      "Summit Sigma FZE"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2008-12-19",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.49,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "ef38b5b8-e08f-56e1-837c-8da29b1533d5",
+    "kind": "company",
+    "names": [
+      "Omega Summit SA"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2007-06-06",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "28485517-00e2-550a-9501-f1a34c727c32",
+    "kind": "company",
+    "names": [
+      "Global Global SA"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2022-03-21",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ca563b10-08b1-50f2-9eaf-fc772fbf8c3f",
+    "kind": "company",
+    "names": [
+      "Vertex Prime FZE"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2015-08-11",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "44fcfe3a-8673-5d60-867e-f52e48c140f9",
+    "kind": "company",
+    "names": [
+      "Pacific Omega Ltd"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2012-08-03",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.31,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "8587b079-8f88-5aab-9230-1d44a0364651",
+    "kind": "company",
+    "names": [
+      "Atlantic Delta SA"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2002-04-04",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.3,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "49e68d14-8d32-51a3-8507-a84dd6193d9e",
+    "kind": "company",
+    "names": [
+      "Nova Apex FZE"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2009-10-14",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "10ea3cd5-196b-5617-81ed-173a80bc8559",
+    "kind": "company",
+    "names": [
+      "Sigma Pacific Corp"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2020-04-09",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "9180c9ee-75d9-5aba-90c4-f9bdab2a229a",
+    "kind": "company",
+    "names": [
+      "Zenith Pacific Inc"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2000-07-15",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.36,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ed9da817-c125-5b93-8ee7-4959c8228aec",
+    "kind": "company",
+    "names": [
+      "Summit Prime SA"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2022-08-03",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.36,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "dafa3bbb-4bb3-5bbd-9914-5d350ecf766c",
+    "kind": "company",
+    "names": [
+      "Pacific Zenith Corp"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2020-03-09",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "2d5fbd75-6805-5c1a-8bea-5302f29389f0",
+    "kind": "company",
+    "names": [
+      "Delta Prime SA"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2014-02-15",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.36,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "8ae6a374-ca4e-5832-9c61-28745b5db1cd",
+    "kind": "person",
+    "names": [
+      "Maria Garcia"
+    ],
+    "aliases": [],
+    "dob": "1965-10-02",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "3b56c5be-14b7-5ed5-bf4c-1012080d19bd",
+    "kind": "company",
+    "names": [
+      "Prime Global Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2007-11-27",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "90ccb258-c735-50e1-94c6-3b00196fbb6a",
+    "kind": "company",
+    "names": [
+      "Vertex Global Inc"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2015-09-21",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f462064d-b5aa-5969-a50f-ed8c2c402f10",
+    "kind": "company",
+    "names": [
+      "Nova Alpha FZE"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2002-08-12",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "30d53ebc-03f3-5f91-963d-5c452ce8a154",
+    "kind": "company",
+    "names": [
+      "Core Nova FZE"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2009-11-13",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "bf9d680e-78de-502c-a018-ff1519aeb7d7",
+    "kind": "company",
+    "names": [
+      "Pacific Core SA"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2010-02-25",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "229160e7-91c3-5f19-a54f-ad43ab6a25a7",
+    "kind": "company",
+    "names": [
+      "Apex Nova LLC"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2006-09-12",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.33,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f39809e8-ed7a-556f-b808-2cd2e7ac65a5",
+    "kind": "person",
+    "names": [
+      "Li Lee"
+    ],
+    "aliases": [],
+    "dob": "1995-03-10",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "6c57b50f-6bea-5588-af48-ea1b4d879231",
+    "kind": "person",
+    "names": [
+      "John Brown"
+    ],
+    "aliases": [],
+    "dob": "1970-05-18",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.05,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "98a80fd4-0c9f-58a3-8945-25f4a5c18ba7",
+    "kind": "person",
+    "names": [
+      "Li Johnson"
+    ],
+    "aliases": [],
+    "dob": "1989-02-21",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.26,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5d2aecde-e3d1-5b7c-a364-00515c91edcb",
+    "kind": "person",
+    "names": [
+      "Carlos Kumar"
+    ],
+    "aliases": [],
+    "dob": "1990-08-08",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "fa3b58aa-5a8c-57a9-b24d-73a57ab7a9aa",
+    "kind": "company",
+    "names": [
+      "Summit Vertex Inc"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2002-05-25",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.41,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "69fa8416-a687-5114-b159-ca670d2ddabc",
+    "kind": "company",
+    "names": [
+      "Prime Omega LLC"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2009-12-10",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.43,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "75ac757c-4888-5d30-a063-8f9f1e741c6c",
+    "kind": "person",
+    "names": [
+      "Maria Garcia"
+    ],
+    "aliases": [],
+    "dob": "1982-06-18",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "410d0311-d390-5b8e-b315-d5a57c4ecf55",
+    "kind": "person",
+    "names": [
+      "Anna Brown"
+    ],
+    "aliases": [],
+    "dob": "1975-10-13",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f0c1c972-72ed-52ce-a188-3b7afef749d9",
+    "kind": "person",
+    "names": [
+      "Anna Garcia"
+    ],
+    "aliases": [],
+    "dob": "1984-07-22",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0f1a254e-7f92-5d79-9cc1-e0650716cf37",
+    "kind": "company",
+    "names": [
+      "Global Atlantic GmbH"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2003-08-04",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.29,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "a4640311-94a0-5436-8266-20b1f07f0f3d",
+    "kind": "company",
+    "names": [
+      "Nova Omega Inc"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2002-08-26",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.49,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5bfe9d40-4bf9-5eb8-862d-0676d3f5f6cf",
+    "kind": "person",
+    "names": [
+      "Anna Kumar"
+    ],
+    "aliases": [],
+    "dob": "1980-11-23",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "eba53691-1aa2-55da-b1d7-eb186bd1f6b5",
+    "kind": "person",
+    "names": [
+      "John Johnson"
+    ],
+    "aliases": [],
+    "dob": "1975-11-22",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.28,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0edf38c9-d55e-5851-aa1e-f84e88677027",
+    "kind": "company",
+    "names": [
+      "Nova Pacific Ltd"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2014-03-23",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ec028b04-378c-5060-bbd8-81738ad7edae",
+    "kind": "company",
+    "names": [
+      "Delta Global SA"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2011-06-14",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "688312f4-d910-54b4-b76c-91ff87ce772f",
+    "kind": "person",
+    "names": [
+      "Ahmed Williams"
+    ],
+    "aliases": [],
+    "dob": "1971-02-20",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "067326a6-3c2e-54d2-b9d7-c794c34f849d",
+    "kind": "company",
+    "names": [
+      "Vertex Atlantic Corp"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2014-11-09",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.26,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "090a97b4-26e9-5dc5-bcd8-29603f6e73df",
+    "kind": "company",
+    "names": [
+      "Prime Alpha Inc"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2002-08-12",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.49,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c7b1d108-9f8b-5848-8833-db4d36148f3c",
+    "kind": "person",
+    "names": [
+      "Maria Lee"
+    ],
+    "aliases": [],
+    "dob": "1972-07-28",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.17,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "e95a1137-778c-536c-9cd2-03de3494b0dd",
+    "kind": "company",
+    "names": [
+      "Vertex Core SA"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2022-05-01",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.49,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "3f7d1d0b-768e-5705-8d74-ba2b78ad156d",
+    "kind": "person",
+    "names": [
+      "John Smith"
+    ],
+    "aliases": [],
+    "dob": "1991-05-25",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "51a0f605-0e15-5d10-80f4-ce94b9309461",
+    "kind": "company",
+    "names": [
+      "Alpha Summit SA"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2021-12-25",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1579cf75-e30f-50fa-a9cd-d88d70057b0d",
+    "kind": "company",
+    "names": [
+      "Prime Delta FZE"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2001-10-12",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.38,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "8bc2d331-d11c-5127-a260-6647d96ce34e",
+    "kind": "company",
+    "names": [
+      "Sigma Nova Inc"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2006-03-26",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.29,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1fec7bce-a3e4-5142-a421-0d52efb28cdf",
+    "kind": "company",
+    "names": [
+      "Prime Omega FZE"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2009-12-28",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.2,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ae6a71ad-84c4-50da-8364-c80c699d03a9",
+    "kind": "person",
+    "names": [
+      "Ahmed Brown"
+    ],
+    "aliases": [],
+    "dob": "1985-09-12",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "12f530a8-fa5a-5a64-8c52-e275ac0becdb",
+    "kind": "person",
+    "names": [
+      "Carlos Johnson"
+    ],
+    "aliases": [],
+    "dob": "1989-06-22",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "dc5d8e90-39ca-53b2-9aa4-5c5d6a5a9c3f",
+    "kind": "company",
+    "names": [
+      "Nova Omega GmbH"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2003-11-08",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.26,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "2f7b1ee7-da20-5708-9208-a8b9754207f1",
+    "kind": "company",
+    "names": [
+      "Summit Alpha Ltd"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2020-08-23",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5dab2935-d0fe-5891-ac4b-6aa006b51c20",
+    "kind": "company",
+    "names": [
+      "Global Global SA"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2015-02-04",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "b508cc02-cbcd-57ff-bd6f-c9c14548fab1",
+    "kind": "company",
+    "names": [
+      "Apex Core Pty Ltd"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2018-12-24",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1bf42a97-8b78-54a0-a996-f2ae9113a269",
+    "kind": "company",
+    "names": [
+      "Vertex Nova SA"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2001-12-12",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "038bc13b-a46d-55e1-8a2b-cb21527d7ac3",
+    "kind": "company",
+    "names": [
+      "Pacific Alpha GmbH"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2017-11-12",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "d38c58cf-723a-5bd7-952c-87062cd578ae",
+    "kind": "company",
+    "names": [
+      "Omega Omega FZE"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2002-11-07",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "4c7515ca-94f9-5f34-a777-3340832466a5",
+    "kind": "company",
+    "names": [
+      "Delta Core Corp"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2004-10-07",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "6b1a5b7f-3a92-5bfd-9a1b-52f7716b8e61",
+    "kind": "company",
+    "names": [
+      "Summit Omega Corp"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2010-03-26",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7cd38ddc-9d54-52cf-b55c-39a6b1c8d1e9",
+    "kind": "company",
+    "names": [
+      "Atlantic Zenith SA"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2005-02-22",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "d13e6e3b-6f52-523f-b27f-d802e4f289d3",
+    "kind": "company",
+    "names": [
+      "Delta Delta Corp"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2018-06-01",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "782abfe9-8d6a-5318-89ee-0bd110edfc06",
+    "kind": "company",
+    "names": [
+      "Zenith Pacific Ltd"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2015-08-25",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.21,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "8251bb3f-5fee-569d-9d8c-88647b734989",
+    "kind": "company",
+    "names": [
+      "Zenith Summit LLC"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2023-11-17",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "96942da5-6f14-5a85-b8bb-a0049743140d",
+    "kind": "company",
+    "names": [
+      "Apex Omega Pty Ltd"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2013-11-04",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "3483c4eb-b64b-56cd-8b11-e1e798338502",
+    "kind": "company",
+    "names": [
+      "Core Vertex Inc"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2002-03-09",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.33,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "6d05b2d9-fe09-5bd6-81ec-8b3512b5eee3",
+    "kind": "company",
+    "names": [
+      "Vertex Zenith SA"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2014-09-20",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "43d6dee4-798c-59b0-964a-828071536b84",
+    "kind": "company",
+    "names": [
+      "Sigma Omega Corp"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2013-08-08",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "21c8497e-c424-5517-9918-c328c5441bde",
+    "kind": "person",
+    "names": [
+      "Jane Kim"
+    ],
+    "aliases": [],
+    "dob": "1987-06-22",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5ef5e4c9-8d19-5691-928c-dee64340442c",
+    "kind": "company",
+    "names": [
+      "Pacific Pacific Ltd"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2002-07-04",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.39,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "9591cf85-a529-5bb2-87bc-26af0e407d82",
+    "kind": "company",
+    "names": [
+      "Global Vertex GmbH"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2021-02-14",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.21,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "395f87ae-760d-55d1-a789-7fc90e31c775",
+    "kind": "person",
+    "names": [
+      "Carlos Lee"
+    ],
+    "aliases": [],
+    "dob": "1982-02-19",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "19856feb-2abc-57f5-a9c3-5ca38dd1481f",
+    "kind": "company",
+    "names": [
+      "Summit Omega Ltd"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2011-09-12",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "a7ef0adb-e027-5912-9cf4-702aff2af8be",
+    "kind": "company",
+    "names": [
+      "Omega Zenith LLC"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2019-11-27",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.36,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1f604dba-5c97-56cd-8335-8c8f8540c561",
+    "kind": "company",
+    "names": [
+      "Sigma Delta SA"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2010-06-01",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0ca80481-fc10-51c3-9c97-1d2e91c18ebe",
+    "kind": "person",
+    "names": [
+      "Ahmed Smith"
+    ],
+    "aliases": [],
+    "dob": "1965-12-17",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "82565b24-c527-51a6-851f-cb312f57b23d",
+    "kind": "person",
+    "names": [
+      "Anna Williams"
+    ],
+    "aliases": [],
+    "dob": "1983-05-24",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5f6768cf-725f-58a5-85eb-a2a3285d6ed9",
+    "kind": "company",
+    "names": [
+      "Atlantic Atlantic LLC"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2021-02-09",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f2fc4e5f-c001-59c4-ab5a-36c0cfb996b7",
+    "kind": "person",
+    "names": [
+      "Maria Kumar"
+    ],
+    "aliases": [],
+    "dob": "1977-04-25",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "bbb42f29-e6a7-5ab8-9c7f-de7dbad40603",
+    "kind": "company",
+    "names": [
+      "Pacific Prime FZE"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2016-11-10",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1997c114-4680-5c5f-a70d-1cf27b2b8ea4",
+    "kind": "company",
+    "names": [
+      "Summit Prime Corp"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2024-03-25",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7568dcac-1dae-5b58-ba01-17091a7ebef8",
+    "kind": "company",
+    "names": [
+      "Apex Sigma Pty Ltd"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2005-03-13",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.29,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "77ac7db0-6739-5092-ae30-84a31cd56a6f",
+    "kind": "company",
+    "names": [
+      "Nova Omega LLC"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2013-01-15",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "56634d06-6807-5281-b2c4-8449f600ce84",
+    "kind": "person",
+    "names": [
+      "Raj Kumar"
+    ],
+    "aliases": [],
+    "dob": "1978-02-13",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.06,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0d29e7a1-d21a-54a5-96b9-26a04e559494",
+    "kind": "company",
+    "names": [
+      "Delta Vertex FZE"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2022-06-03",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "bd69b635-33bf-544e-9c4e-1b8af05ba77e",
+    "kind": "company",
+    "names": [
+      "Vertex Nova Ltd"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2012-05-24",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.2,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "3ea4a85a-aacf-5075-af17-8fab8e5438dc",
+    "kind": "company",
+    "names": [
+      "Zenith Alpha Ltd"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2016-09-07",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "433f9c3a-fa39-577a-aa19-86a0d1d58c47",
+    "kind": "company",
+    "names": [
+      "Summit Pacific Inc"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2008-04-06",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.32,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "af7d0eea-f821-5286-8b15-39ce38a880fa",
+    "kind": "company",
+    "names": [
+      "Delta Alpha FZE"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2014-10-25",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.31,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "92a10bdd-1fe0-590f-bd9a-e42226a9e409",
+    "kind": "company",
+    "names": [
+      "Atlantic Apex Ltd"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2015-08-21",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "655fb2cb-585c-54f1-ad0f-0c8424135f19",
+    "kind": "company",
+    "names": [
+      "Zenith Pacific SA"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2014-08-02",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "828c9c02-9755-50e6-8b44-e25411fda96b",
+    "kind": "company",
+    "names": [
+      "Vertex Vertex Pty Ltd"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2014-10-18",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.48,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "d6c100d9-68ec-5b8f-9a48-2e80621d1a7a",
+    "kind": "company",
+    "names": [
+      "Delta Vertex Corp"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2010-10-16",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.28,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f237d638-90ac-5e7c-b430-fb496879ac97",
+    "kind": "person",
+    "names": [
+      "Anna Johnson"
+    ],
+    "aliases": [],
+    "dob": "1992-11-06",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.06,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "e0069238-a0ed-5994-ae6c-5642b2e36ee8",
+    "kind": "person",
+    "names": [
+      "Ahmed Kim"
+    ],
+    "aliases": [],
+    "dob": "1983-05-13",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "42f692ad-e9f9-501e-969c-1722472e3b06",
+    "kind": "company",
+    "names": [
+      "Global Delta GmbH"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2002-06-04",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.3,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ee3668a4-951b-588c-be21-f5dc2ec3318f",
+    "kind": "company",
+    "names": [
+      "Sigma Omega Inc"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2010-02-19",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "57015740-4fcc-577e-9e0a-f041d22d24e1",
+    "kind": "company",
+    "names": [
+      "Atlantic Vertex Ltd"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2009-09-13",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "362e7d93-4248-5cfa-a79c-8e2d98981384",
+    "kind": "company",
+    "names": [
+      "Pacific Alpha Pty Ltd"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2016-06-01",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.21,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "90724baf-83dd-527e-bb88-c310092ceb8a",
+    "kind": "company",
+    "names": [
+      "Delta Apex Corp"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2007-03-05",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0603b2f1-4cfd-51ce-aac7-46f35a0bf97a",
+    "kind": "company",
+    "names": [
+      "Delta Vertex Inc"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2019-07-05",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "c7f9ccff-a438-540a-9e2e-4254ccb234ca",
+    "kind": "company",
+    "names": [
+      "Global Nova GmbH"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2021-12-08",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.49,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "39990c96-f183-5e3d-8186-2c02a9af2e73",
+    "kind": "company",
+    "names": [
+      "Summit Zenith Corp"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2009-08-27",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.14,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "b09eea3c-ecdb-540c-9076-a3661a002ced",
+    "kind": "person",
+    "names": [
+      "Carlos Kumar"
+    ],
+    "aliases": [],
+    "dob": "1992-09-14",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.29,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "3e80d469-e5a7-5b5e-a25b-0f058f95cf5d",
+    "kind": "company",
+    "names": [
+      "Atlantic Omega SA"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2001-11-16",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "3e41646f-86eb-534a-a008-b899dcd3ccd9",
+    "kind": "company",
+    "names": [
+      "Omega Pacific SA"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2002-03-09",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "ca9a58f8-619c-5cda-a213-a64d3d2def31",
+    "kind": "company",
+    "names": [
+      "Pacific Summit FZE"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2011-01-14",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "c2a1cadd-a004-5b8d-9de5-efdc2e0c1255",
+    "kind": "company",
+    "names": [
+      "Nova Pacific GmbH"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2007-01-11",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.47,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "5d0305a8-bde6-5eec-951e-eee8c926dfa9",
+    "kind": "company",
+    "names": [
+      "Atlantic Global SA"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2015-12-27",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "0ab83bd1-5975-5321-b323-410a59aa64b8",
+    "kind": "person",
+    "names": [
+      "John Johnson"
+    ],
+    "aliases": [],
+    "dob": "1961-05-07",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.26,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "32a3161b-2caf-56ff-a2f2-7bc915154d4d",
+    "kind": "person",
+    "names": [
+      "Carlos Brown"
+    ],
+    "aliases": [],
+    "dob": "1979-02-02",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5aa0f0d1-ac03-5495-b63f-c2d27cd54d06",
+    "kind": "person",
+    "names": [
+      "Jane Garcia"
+    ],
+    "aliases": [],
+    "dob": "1994-01-21",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "8dc68459-6ef9-5ad3-849f-882924d03f62",
+    "kind": "company",
+    "names": [
+      "Prime Nova LLC"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2019-06-08",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.31,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1e11af6f-cdcc-5c8a-b33d-170e1b96a8da",
+    "kind": "company",
+    "names": [
+      "Core Pacific LLC"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2012-08-02",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "2dd2b6ec-409f-53f9-b962-bbe507e7316a",
+    "kind": "company",
+    "names": [
+      "Core Delta Ltd"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2011-04-24",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "02cd730b-e848-52a9-8075-2699283cf393",
+    "kind": "company",
+    "names": [
+      "Global Core GmbH"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2020-03-27",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.4,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "679e893a-f89e-5dce-ac5b-eae1a3260593",
+    "kind": "person",
+    "names": [
+      "Ahmed Johnson"
+    ],
+    "aliases": [],
+    "dob": "1989-01-10",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1180599e-f5d0-571e-bddd-e6d1b742f487",
+    "kind": "company",
+    "names": [
+      "Core Prime Pty Ltd"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2017-08-09",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "a0a9e8e2-f994-56a5-a45b-7c5351e510e2",
+    "kind": "company",
+    "names": [
+      "Core Omega LLC"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2020-06-09",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4c79f5c6-669f-5a80-a664-081a898090d6",
+    "kind": "person",
+    "names": [
+      "Maria Kumar"
+    ],
+    "aliases": [],
+    "dob": "1981-03-16",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b88694d0-1d5c-5704-a97e-b8679332a712",
+    "kind": "company",
+    "names": [
+      "Prime Delta Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2023-07-03",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "e67db7d9-d3dc-5f18-ac49-8847b54414d6",
+    "kind": "company",
+    "names": [
+      "Pacific Pacific GmbH"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2021-05-10",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "c3a5d54f-90d2-5b4c-a17f-699a77a46e24",
+    "kind": "person",
+    "names": [
+      "Maria Kim"
+    ],
+    "aliases": [],
+    "dob": "1988-01-24",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "847dd2ba-c3ed-5c6f-a865-cfce5b91f602",
+    "kind": "company",
+    "names": [
+      "Nova Prime LLC"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2002-11-21",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "6663a72b-3fd1-53ba-afad-5f45630b5dd9",
+    "kind": "company",
+    "names": [
+      "Atlantic Omega FZE"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2001-03-03",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "25183e86-52ae-5315-8675-6f4698588161",
+    "kind": "company",
+    "names": [
+      "Nova Vertex LLC"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2019-03-22",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "96feccfa-9521-5137-b5a2-62947deb7bd8",
+    "kind": "company",
+    "names": [
+      "Delta Pacific Inc"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2016-06-13",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "aad93e92-f5fe-5571-8563-492dcee2b08c",
+    "kind": "company",
+    "names": [
+      "Global Sigma Inc"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2015-09-13",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "02d73fd4-03a6-536d-b061-71d0e0003676",
+    "kind": "company",
+    "names": [
+      "Sigma Apex Corp"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2019-05-23",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "89db19a7-1d30-51b2-a0b2-0b42578c20c3",
+    "kind": "company",
+    "names": [
+      "Atlantic Omega Ltd"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2014-03-23",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "98704c4c-e8fc-5883-99c5-a6688ab6934f",
+    "kind": "company",
+    "names": [
+      "Sigma Pacific SA"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2009-03-23",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.37,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "61f7b647-d6e2-59fc-b700-faec846d401c",
+    "kind": "company",
+    "names": [
+      "Zenith Summit Ltd"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2006-03-08",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.41,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "de6c9dc9-6aef-5acd-9be5-0e16ae0ef648",
+    "kind": "company",
+    "names": [
+      "Vertex Core FZE"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2017-03-20",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.45,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "8257bec9-8d16-5e74-b1a3-fa26ab5ed45e",
+    "kind": "company",
+    "names": [
+      "Sigma Sigma FZE"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2016-07-25",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "86a7d27f-2a6f-5b76-91f8-831b2016779f",
+    "kind": "company",
+    "names": [
+      "Core Alpha Ltd"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2014-08-22",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.28,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "6d0e9a7d-ff37-5b50-9675-cb71a85d4c7a",
+    "kind": "company",
+    "names": [
+      "Nova Zenith LLC"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2003-09-05",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7f094709-6774-507f-b6ef-2e425309db36",
+    "kind": "company",
+    "names": [
+      "Core Zenith SA"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2002-05-07",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "42609838-21d1-5db6-acba-18c53d79df0c",
+    "kind": "company",
+    "names": [
+      "Alpha Prime Ltd"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2016-11-06",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.32,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "9459fd2c-b4f9-586d-b171-b1f5cd5d7400",
+    "kind": "company",
+    "names": [
+      "Alpha Vertex GmbH"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2018-01-27",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "87cebfec-46d3-5437-920b-043501d0deee",
+    "kind": "company",
+    "names": [
+      "Prime Alpha Corp"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2024-10-14",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.33,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "8a278de0-ebd1-58fd-9a78-6bbef704a130",
+    "kind": "person",
+    "names": [
+      "Carlos Lee"
+    ],
+    "aliases": [],
+    "dob": "1990-04-26",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "fbb1912d-b5fb-5dd7-804c-8f36b58a959e",
+    "kind": "person",
+    "names": [
+      "Maria Johnson"
+    ],
+    "aliases": [],
+    "dob": "1963-03-15",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "78798450-ca00-5e87-8757-42f460bc3f7b",
+    "kind": "person",
+    "names": [
+      "Anna Williams"
+    ],
+    "aliases": [],
+    "dob": "1980-12-11",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0a357cad-e8d7-5609-a301-b531710a48ba",
+    "kind": "company",
+    "names": [
+      "Atlantic Delta GmbH"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2016-09-04",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "05bdcc50-13b0-5a4a-8128-3d1e2223be27",
+    "kind": "company",
+    "names": [
+      "Apex Summit Inc"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2003-01-10",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.48,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "ef65280c-1620-5c9b-bcb8-0c519a05a0fe",
+    "kind": "person",
+    "names": [
+      "Ahmed Kim"
+    ],
+    "aliases": [],
+    "dob": "1980-04-25",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.09,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "086e0b05-f3e5-5fb9-b0fe-9b433f3cc868",
+    "kind": "person",
+    "names": [
+      "Carlos Garcia"
+    ],
+    "aliases": [],
+    "dob": "1961-02-13",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f138d652-ca9a-5a35-b8ff-5e0d1fc7eb26",
+    "kind": "company",
+    "names": [
+      "Vertex Core LLC"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2001-05-16",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.32,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "f319e42f-f874-5500-95e8-ae32245a6685",
+    "kind": "person",
+    "names": [
+      "John Johnson"
+    ],
+    "aliases": [],
+    "dob": "1987-03-09",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4ebb496c-b37f-59a6-95af-9ab155cfd69d",
+    "kind": "person",
+    "names": [
+      "John Kumar"
+    ],
+    "aliases": [],
+    "dob": "1963-10-18",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5aa61e9e-a5d5-5d3c-95cf-1278804fca56",
+    "kind": "company",
+    "names": [
+      "Nova Zenith FZE"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2024-09-09",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "d3852564-e5cf-5208-b516-a1e32404ea7c",
+    "kind": "company",
+    "names": [
+      "Pacific Nova GmbH"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2010-09-12",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.39,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "d6d40eba-a0cf-5660-8547-821802492d70",
+    "kind": "person",
+    "names": [
+      "John Smith"
+    ],
+    "aliases": [],
+    "dob": "1962-03-23",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "207628c6-27d5-5a8a-a157-fea5cce95597",
+    "kind": "person",
+    "names": [
+      "Maria Williams"
+    ],
+    "aliases": [],
+    "dob": "1992-03-11",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.28,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1f1a4031-c9a0-53ba-9ee4-8d476b8c5905",
+    "kind": "company",
+    "names": [
+      "Nova Vertex SA"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2018-06-17",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "efe41dc6-2952-5e1a-ab07-2e0613766bf2",
+    "kind": "person",
+    "names": [
+      "Carlos Garcia"
+    ],
+    "aliases": [],
+    "dob": "1961-06-11",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "73633436-0449-5f88-9a43-0586e375abbb",
+    "kind": "person",
+    "names": [
+      "Carlos Smith"
+    ],
+    "aliases": [],
+    "dob": "1990-05-21",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f0e98462-c49b-5cab-b670-51259ac013e0",
+    "kind": "company",
+    "names": [
+      "Vertex Apex Inc"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2016-11-24",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.33,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b254ed87-254f-5c92-a40f-c1ffc2d8f414",
+    "kind": "company",
+    "names": [
+      "Global Vertex Ltd"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2006-01-15",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "a1b2f9b7-8e4b-512d-be0b-b260b7ee74d3",
+    "kind": "person",
+    "names": [
+      "Raj Garcia"
+    ],
+    "aliases": [],
+    "dob": "1963-12-05",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "35aa7133-6d6b-5360-a789-5d19469a8088",
+    "kind": "company",
+    "names": [
+      "Zenith Nova GmbH"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2005-08-18",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.2,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c20fbcb3-e0a3-5a41-a62c-c400bcb9dd0e",
+    "kind": "company",
+    "names": [
+      "Apex Summit Corp"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2008-09-10",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "99ed615e-44c2-5f6f-a7d0-f35b58fcbd7d",
+    "kind": "company",
+    "names": [
+      "Sigma Sigma FZE"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2010-08-12",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.3,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "18624205-858a-5e81-9823-334ab2f2e2da",
+    "kind": "company",
+    "names": [
+      "Pacific Vertex Pty Ltd"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2012-06-25",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.41,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "6b080a38-bf4c-52b8-8c9c-907f4bfc3cd4",
+    "kind": "company",
+    "names": [
+      "Sigma Pacific GmbH"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2014-11-09",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.39,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "6e33f67e-1cbd-5c91-8dd4-fa7f642c8824",
+    "kind": "company",
+    "names": [
+      "Prime Zenith SA"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2004-02-20",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.38,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0c770d9a-4746-50f5-afc2-2438ade63da4",
+    "kind": "company",
+    "names": [
+      "Alpha Zenith Corp"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2020-04-02",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "235abfe5-cb79-5830-902f-2d9a810b1dfc",
+    "kind": "person",
+    "names": [
+      "Ahmed Smith"
+    ],
+    "aliases": [],
+    "dob": "1995-03-14",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.21,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "30d52c13-79b0-5eb7-9212-3322a2b0214a",
+    "kind": "person",
+    "names": [
+      "Li Lee"
+    ],
+    "aliases": [],
+    "dob": "1980-05-21",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.06,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "49cb38b7-df87-53d5-bc0d-c7d1908a2e0f",
+    "kind": "company",
+    "names": [
+      "Summit Zenith LLC"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2005-07-27",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "599e3b50-497d-5941-8822-cbc48d3dbceb",
+    "kind": "person",
+    "names": [
+      "Ahmed Lee"
+    ],
+    "aliases": [],
+    "dob": "1962-01-10",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0c4ff787-64df-568a-9de5-b91bcf39c14b",
+    "kind": "company",
+    "names": [
+      "Prime Apex FZE"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2004-09-15",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.17,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5f698fc5-d3ea-5207-99d6-f395448b178f",
+    "kind": "company",
+    "names": [
+      "Sigma Apex SA"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2022-03-01",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.38,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "acba5437-47ed-5549-bf6c-478a624e5532",
+    "kind": "company",
+    "names": [
+      "Vertex Omega Pty Ltd"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2013-09-11",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.09,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "deb8d8be-3026-5cc0-9e8d-db34b0d1c3ab",
+    "kind": "company",
+    "names": [
+      "Atlantic Apex GmbH"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2007-01-09",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "377e5e05-d187-5b13-817a-392235f5ce46",
+    "kind": "company",
+    "names": [
+      "Prime Vertex LLC"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2008-11-12",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.36,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "361e0acb-4e88-5fdc-9be0-f0bd2d30014d",
+    "kind": "company",
+    "names": [
+      "Prime Atlantic Pty Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2021-09-23",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.4,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "7dacd9e8-44a9-54bf-b7a4-57314a4a639e",
+    "kind": "company",
+    "names": [
+      "Core Vertex Corp"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2007-03-16",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "4d39d22b-0a76-5bf2-b1a7-07c197fb4203",
+    "kind": "company",
+    "names": [
+      "Sigma Zenith FZE"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2024-09-26",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "d2687845-336d-5de6-a0c4-2fbf14a62b91",
+    "kind": "company",
+    "names": [
+      "Omega Delta Ltd"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2016-08-17",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.37,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b4a04723-c471-5211-ae32-403f177f9599",
+    "kind": "company",
+    "names": [
+      "Omega Zenith Corp"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2018-09-05",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "799ec026-4a46-54c5-8f1f-046f5cf564cb",
+    "kind": "person",
+    "names": [
+      "Li Garcia"
+    ],
+    "aliases": [],
+    "dob": "1965-09-15",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "de92cdd6-5e46-5d4e-b75c-bbd5219ae811",
+    "kind": "person",
+    "names": [
+      "Raj Garcia"
+    ],
+    "aliases": [],
+    "dob": "1963-09-15",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "171ef354-ab25-5c94-9dfa-094bac78415c",
+    "kind": "company",
+    "names": [
+      "Nova Prime LLC"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2023-04-19",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "3ea887b9-2249-55f7-8335-8e011910a9a2",
+    "kind": "company",
+    "names": [
+      "Zenith Global Ltd"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2015-01-10",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "cdc27374-1f4c-53e1-b524-3f1109ee36e4",
+    "kind": "person",
+    "names": [
+      "Raj Garcia"
+    ],
+    "aliases": [],
+    "dob": "1984-07-03",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f8ed93c3-0a7e-5c46-8249-a3174d3a0375",
+    "kind": "company",
+    "names": [
+      "Pacific Atlantic Pty Ltd"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2016-03-24",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.49,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4c571c70-22fd-50d5-bebc-a13c0f1c9785",
+    "kind": "company",
+    "names": [
+      "Apex Alpha Pty Ltd"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2017-07-27",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7ad79ad3-a534-565d-8110-83bbe3d567ad",
+    "kind": "company",
+    "names": [
+      "Prime Summit Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2001-11-14",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.33,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "9d05dab0-0398-5a0d-825a-62ed011b2920",
+    "kind": "company",
+    "names": [
+      "Pacific Pacific LLC"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2014-10-22",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.37,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "3ab55c01-c0c1-51ae-be64-c3a5d3a87914",
+    "kind": "company",
+    "names": [
+      "Nova Apex Corp"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2017-04-25",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "05cb519d-b70a-52a9-b545-5020193e79d3",
+    "kind": "company",
+    "names": [
+      "Prime Summit GmbH"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2018-10-25",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0d26d22e-35f7-51e7-943e-e763f29cb4f7",
+    "kind": "company",
+    "names": [
+      "Atlantic Alpha Corp"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2013-05-09",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "56ee746c-e087-56dd-b3ad-ff1632192b03",
+    "kind": "company",
+    "names": [
+      "Zenith Apex LLC"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2011-11-22",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "53cb5aa3-0bd9-5df1-97c2-ae31a43a3b08",
+    "kind": "company",
+    "names": [
+      "Nova Atlantic SA"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2012-03-25",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.29,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "8d7df393-729f-5291-9021-e56eaf68ea4c",
+    "kind": "company",
+    "names": [
+      "Omega Sigma Inc"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2014-01-18",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "de676f93-8d88-5ec7-9261-b3e2c91e9cb1",
+    "kind": "company",
+    "names": [
+      "Summit Prime Corp"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2010-11-03",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.47,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "aa0e16be-0833-5bdc-9c5d-4967ef6af9ae",
+    "kind": "company",
+    "names": [
+      "Sigma Omega Corp"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2001-05-13",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "4370d313-0a57-501f-b1e8-a98791d60b34",
+    "kind": "company",
+    "names": [
+      "Summit Delta Corp"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2015-04-28",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4b3dad59-f6cd-5ca3-ab2b-059add762a03",
+    "kind": "company",
+    "names": [
+      "Summit Sigma Ltd"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2023-08-08",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.36,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "24536c8f-82dc-53fd-9470-ea560dd5fc41",
+    "kind": "company",
+    "names": [
+      "Summit Zenith GmbH"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2024-05-13",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.26,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "09e6ffda-99b6-5b88-be89-bcbf4f81d264",
+    "kind": "company",
+    "names": [
+      "Prime Core FZE"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2014-02-26",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.49,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "803c1a27-29fa-54df-9ac8-6bb10c6cac5c",
+    "kind": "company",
+    "names": [
+      "Core Core Pty Ltd"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2001-10-28",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "08785a7c-b8a9-5a16-b0a8-d684687ae4bb",
+    "kind": "company",
+    "names": [
+      "Zenith Vertex Pty Ltd"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2009-03-07",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.2,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c5cea686-134e-5ff0-b8c4-78c5ac4bdf1e",
+    "kind": "company",
+    "names": [
+      "Zenith Alpha GmbH"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2008-08-24",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ac6307b2-794c-530b-9379-fe71d86b3369",
+    "kind": "person",
+    "names": [
+      "Anna Williams"
+    ],
+    "aliases": [],
+    "dob": "1968-12-18",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.17,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c37c605c-8d7f-5bb8-a280-84a95a5fc392",
+    "kind": "company",
+    "names": [
+      "Global Omega Ltd"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2021-01-25",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.05,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f77028f4-fbb1-56d1-aadd-53eeabfc0c26",
+    "kind": "company",
+    "names": [
+      "Sigma Atlantic LLC"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2006-09-15",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "a2e48e14-8be2-5f3f-a3d1-78ee8ef00edd",
+    "kind": "person",
+    "names": [
+      "John Smith"
+    ],
+    "aliases": [],
+    "dob": "1994-09-14",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.05,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "92db8f5c-ec76-5f1c-844c-d1ef61b40845",
+    "kind": "company",
+    "names": [
+      "Prime Global Pty Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2005-02-04",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.29,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ff4fe72f-0bb0-5d79-82f5-03d81c7bcbb0",
+    "kind": "company",
+    "names": [
+      "Zenith Prime GmbH"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2008-07-03",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "2220d647-c950-5b6e-b7ef-64308f8ff07b",
+    "kind": "person",
+    "names": [
+      "Li Brown"
+    ],
+    "aliases": [],
+    "dob": "1979-11-27",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.26,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f1336a2e-d087-51b8-8a4f-4168780b9106",
+    "kind": "company",
+    "names": [
+      "Nova Nova Pty Ltd"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2017-08-02",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "f9f34c34-d706-50c3-8161-9396260005a9",
+    "kind": "company",
+    "names": [
+      "Apex Omega Pty Ltd"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2020-06-19",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.49,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "21ae828e-ee1d-5bda-8d2e-214216367b0a",
+    "kind": "company",
+    "names": [
+      "Summit Omega FZE"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2008-01-03",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.36,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "114f66ba-d232-5b92-8f18-2f8413706976",
+    "kind": "company",
+    "names": [
+      "Omega Core LLC"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2006-10-05",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.39,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "114639fa-2370-56cd-b902-9351b2e228cf",
+    "kind": "person",
+    "names": [
+      "Carlos Williams"
+    ],
+    "aliases": [],
+    "dob": "1975-10-27",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.26,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "26f375b9-352a-56de-9eed-03d491e0fb7c",
+    "kind": "company",
+    "names": [
+      "Delta Sigma Inc"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2022-12-03",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.28,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7d274ffe-1328-5e69-93e9-4e42461ce018",
+    "kind": "company",
+    "names": [
+      "Nova Summit Ltd"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2010-10-25",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.33,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "31daf2eb-61be-520a-802e-9450c885e651",
+    "kind": "person",
+    "names": [
+      "John Lee"
+    ],
+    "aliases": [],
+    "dob": "1988-08-08",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.14,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "85d679df-ca8c-5916-9878-8d095424d294",
+    "kind": "person",
+    "names": [
+      "Ahmed Kumar"
+    ],
+    "aliases": [],
+    "dob": "1965-10-10",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "9d23f33b-27aa-5a85-8ea5-9024981b9dff",
+    "kind": "company",
+    "names": [
+      "Prime Atlantic Pty Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2022-11-05",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.38,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "2a300654-9236-5f5e-a202-26434582065c",
+    "kind": "company",
+    "names": [
+      "Pacific Global SA"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2014-06-25",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.17,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "2f82d94b-e5b8-5be6-8809-d41116fc8567",
+    "kind": "company",
+    "names": [
+      "Nova Apex Pty Ltd"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2003-01-03",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.21,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4bed3453-8f3d-5f2b-9625-61d72d88d41c",
+    "kind": "company",
+    "names": [
+      "Global Prime Pty Ltd"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2012-02-24",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "064aba3b-c1c0-5c8c-8215-3dc009f60b21",
+    "kind": "company",
+    "names": [
+      "Atlantic Atlantic SA"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2009-05-16",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "9e3bbb8a-3856-5484-91f1-0080e7f2750c",
+    "kind": "person",
+    "names": [
+      "Raj Lee"
+    ],
+    "aliases": [],
+    "dob": "1990-02-12",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "6abfdeff-df3e-5ae5-a4cb-95be7565425f",
+    "kind": "company",
+    "names": [
+      "Vertex Vertex Corp"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2014-02-05",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "aad992ed-3aef-529e-9652-e9b112491bee",
+    "kind": "company",
+    "names": [
+      "Nova Delta GmbH"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2014-06-14",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "7c16a6cc-56e9-56dd-a38b-35b6de3180de",
+    "kind": "company",
+    "names": [
+      "Core Vertex Corp"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2015-06-06",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.48,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c6fee1f1-8955-5d7e-b336-7ae0d82e6ae3",
+    "kind": "company",
+    "names": [
+      "Vertex Delta Corp"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2010-07-09",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "3a1189dd-cb66-513c-983f-d191d242f02c",
+    "kind": "company",
+    "names": [
+      "Vertex Summit Inc"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2021-09-01",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.48,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "effa43b5-c9af-5cef-89b2-ed14cc40fd2b",
+    "kind": "company",
+    "names": [
+      "Delta Prime Ltd"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2013-11-16",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "64cfd519-99d9-5908-8a69-82cd583d2b6a",
+    "kind": "company",
+    "names": [
+      "Alpha Atlantic Pty Ltd"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2012-02-15",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.5,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "23d93504-8855-5fa4-8f1c-6d863f72cbaa",
+    "kind": "person",
+    "names": [
+      "Raj Smith"
+    ],
+    "aliases": [],
+    "dob": "1983-12-26",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "62d81276-003e-5b9d-9c77-52a60e67548b",
+    "kind": "company",
+    "names": [
+      "Delta Summit GmbH"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2005-11-20",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "32a36692-0a6b-511a-a876-943c415e3619",
+    "kind": "person",
+    "names": [
+      "Raj Johnson"
+    ],
+    "aliases": [],
+    "dob": "1960-02-09",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "90b32016-9558-5934-b3b9-e6961aaff242",
+    "kind": "company",
+    "names": [
+      "Core Nova FZE"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2024-11-19",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.36,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b953c350-3388-5c79-a831-7e8447acc390",
+    "kind": "company",
+    "names": [
+      "Apex Pacific SA"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2013-02-04",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "8ba6d9d0-534f-528f-8af8-ce6588e23f44",
+    "kind": "company",
+    "names": [
+      "Prime Core FZE"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2006-09-16",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.21,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "697a0a39-0b37-5122-9290-b812534fbbdc",
+    "kind": "person",
+    "names": [
+      "Anna Johnson"
+    ],
+    "aliases": [],
+    "dob": "1979-01-26",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "73daff97-98da-5d89-b793-b64975d899eb",
+    "kind": "company",
+    "names": [
+      "Alpha Pacific Inc"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2023-04-17",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7f5d0e19-0441-5730-902e-930e73d1ee7b",
+    "kind": "company",
+    "names": [
+      "Nova Apex Corp"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2012-11-06",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "65a1b924-54a6-5acc-a82c-ceef1cee79ce",
+    "kind": "person",
+    "names": [
+      "John Brown"
+    ],
+    "aliases": [],
+    "dob": "1988-10-14",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "56b4f62f-ac01-5434-81f6-0f1c4f9da9e4",
+    "kind": "company",
+    "names": [
+      "Prime Delta Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2018-02-26",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "adf38992-af1a-55c8-a692-28da8bda98ee",
+    "kind": "company",
+    "names": [
+      "Summit Apex Ltd"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2008-11-28",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "b82de528-998f-5334-9ccf-91907e7b87c2",
+    "kind": "company",
+    "names": [
+      "Nova Vertex Pty Ltd"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2018-02-12",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.21,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "779221bd-c772-5830-801d-6bdb9550b848",
+    "kind": "company",
+    "names": [
+      "Vertex Vertex Ltd"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2021-03-11",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "56b5a961-11f8-590b-b093-f35400a724dc",
+    "kind": "company",
+    "names": [
+      "Core Sigma Inc"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2016-07-14",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.32,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "af8b00cd-1a32-5091-a63a-64dc1f575ed7",
+    "kind": "person",
+    "names": [
+      "Ahmed Garcia"
+    ],
+    "aliases": [],
+    "dob": "1994-12-21",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.28,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ea312559-cf4b-5f6b-bf7a-92477911c85a",
+    "kind": "company",
+    "names": [
+      "Atlantic Apex SA"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2004-03-11",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.43,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "eac5ed45-1831-52d7-9c54-b428d88c212c",
+    "kind": "company",
+    "names": [
+      "Global Apex Inc"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2006-07-18",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.28,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "d99cf8db-8acc-5f83-8308-b7c7175895b4",
+    "kind": "person",
+    "names": [
+      "Raj Garcia"
+    ],
+    "aliases": [],
+    "dob": "1991-03-03",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "555d2394-6bef-57ed-a753-0c5878d176b6",
+    "kind": "company",
+    "names": [
+      "Global Prime Corp"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2017-05-06",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.4,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "662ba9ea-5d26-521d-8f69-947f333bee09",
+    "kind": "person",
+    "names": [
+      "Jane Johnson"
+    ],
+    "aliases": [],
+    "dob": "1977-09-27",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.3,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f2cc0fb4-7caa-58b2-9fcb-435b9a578bfb",
+    "kind": "company",
+    "names": [
+      "Zenith Summit Pty Ltd"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2003-12-27",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ecaf0ad9-9c9f-5ece-bd3b-d0df592f65d4",
+    "kind": "company",
+    "names": [
+      "Apex Prime GmbH"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2002-08-28",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.5,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "9722dafb-34cd-5e0e-b229-b776335a5225",
+    "kind": "company",
+    "names": [
+      "Sigma Core Pty Ltd"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2005-10-05",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.4,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "70092274-ec3f-5bf3-a72a-302ed4fb3e29",
+    "kind": "company",
+    "names": [
+      "Core Zenith SA"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2019-09-06",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.2,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "d151fd59-5596-54c8-b127-d1743b7ddea1",
+    "kind": "company",
+    "names": [
+      "Vertex Prime Ltd"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2004-07-02",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.5,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "b62399f0-ed60-5cc8-97a5-c05a7c4e9e0e",
+    "kind": "company",
+    "names": [
+      "Summit Atlantic GmbH"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2007-11-13",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "8b224548-37b8-53f1-abfe-fcdb7f885019",
+    "kind": "company",
+    "names": [
+      "Nova Apex Ltd"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2020-02-13",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.28,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "afc7676b-d514-5b67-a92f-fd22b310164d",
+    "kind": "company",
+    "names": [
+      "Apex Core LLC"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2024-12-03",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.38,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b9d6f934-0a3a-5f9a-9b98-493b8d7ad0f4",
+    "kind": "company",
+    "names": [
+      "Delta Zenith Pty Ltd"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2006-07-27",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "772af960-2c71-5bd2-a722-97e7c42a9a19",
+    "kind": "company",
+    "names": [
+      "Core Zenith Inc"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2018-08-26",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.2,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "a462e399-e98a-5b81-b9c9-a0de048d0446",
+    "kind": "company",
+    "names": [
+      "Pacific Alpha FZE"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2000-02-28",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "6be8252d-e3a5-55de-9f17-7d6dab183c50",
+    "kind": "company",
+    "names": [
+      "Summit Sigma Inc"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2020-05-06",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "bf60f06c-2010-5b64-9989-d6e85854e48e",
+    "kind": "company",
+    "names": [
+      "Prime Pacific GmbH"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2021-11-06",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "6f30ebf7-b9a5-5dd6-8682-b3cbbda28c75",
+    "kind": "company",
+    "names": [
+      "Nova Alpha Ltd"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2022-02-01",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "d3d4ee40-bc5d-5c8e-b52e-b34a99dad9b7",
+    "kind": "company",
+    "names": [
+      "Summit Zenith FZE"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2000-01-23",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.2,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "64344436-736b-5eb4-8271-f1192f1d7e44",
+    "kind": "person",
+    "names": [
+      "Maria Johnson"
+    ],
+    "aliases": [],
+    "dob": "1974-07-03",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b3656970-2d36-56ea-b8be-f71fe318db97",
+    "kind": "company",
+    "names": [
+      "Core Core SA"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2004-07-25",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "9ed2a41a-6e38-5a8a-8c0b-1ed422797f3c",
+    "kind": "company",
+    "names": [
+      "Zenith Vertex LLC"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2019-11-06",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "e85429ad-f70b-59c8-bfe6-8b6f0b071781",
+    "kind": "company",
+    "names": [
+      "Nova Vertex FZE"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2006-02-04",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5e53d64c-6975-5eb8-9348-3a25a68c53f4",
+    "kind": "person",
+    "names": [
+      "Raj Kim"
+    ],
+    "aliases": [],
+    "dob": "1968-04-09",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.21,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5c79a4d9-ec55-5e1e-a312-a7c79eace39e",
+    "kind": "company",
+    "names": [
+      "Vertex Vertex SA"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2024-12-01",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.43,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "e8ca5292-cda9-50a0-86be-63f85d769355",
+    "kind": "company",
+    "names": [
+      "Zenith Vertex Corp"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2023-07-10",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "fd8fc31a-d65c-5878-94fd-55a32b1ac7a0",
+    "kind": "person",
+    "names": [
+      "Jane Brown"
+    ],
+    "aliases": [],
+    "dob": "1991-11-20",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c4c2210b-d5dd-51bd-a6d2-eb8c675400f3",
+    "kind": "company",
+    "names": [
+      "Core Atlantic Pty Ltd"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2018-07-12",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.3,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "001cd5cf-0c8f-568d-9c20-abd85d7aa178",
+    "kind": "person",
+    "names": [
+      "John Johnson"
+    ],
+    "aliases": [],
+    "dob": "1960-05-07",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.06,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "20305c3d-d1c4-55cd-8070-ee6413350af1",
+    "kind": "company",
+    "names": [
+      "Zenith Prime Pty Ltd"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2013-12-13",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.09,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "978f2e11-19a2-5e21-a5ab-9fa4b8eb1897",
+    "kind": "company",
+    "names": [
+      "Pacific Prime Ltd"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2016-04-26",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "a281820c-2ec7-52f4-a5e9-368f78cbacb0",
+    "kind": "person",
+    "names": [
+      "Jane Lee"
+    ],
+    "aliases": [],
+    "dob": "1987-12-28",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "fdec4767-d6b4-515b-981f-d27ed4c19dbe",
+    "kind": "company",
+    "names": [
+      "Nova Pacific FZE"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2019-10-02",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "4e946ce5-b367-5919-977a-ef373d0b3478",
+    "kind": "company",
+    "names": [
+      "Global Sigma Inc"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2022-01-06",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "aa211424-3037-5970-b3e9-0ed244e75316",
+    "kind": "company",
+    "names": [
+      "Core Atlantic SA"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2023-02-25",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.45,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "79545cb4-3326-532f-b2ad-4686e6818acb",
+    "kind": "person",
+    "names": [
+      "Jane Lee"
+    ],
+    "aliases": [],
+    "dob": "1964-08-15",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "81cc82be-650f-5688-bc4f-1eb1f6dbaffb",
+    "kind": "company",
+    "names": [
+      "Omega Vertex Inc"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2011-03-09",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.4,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "1a7f4c42-f275-5746-a858-380ba5badbf1",
+    "kind": "company",
+    "names": [
+      "Sigma Zenith LLC"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2001-01-08",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "6afa0800-00de-578a-a6ca-78f9ab170fae",
+    "kind": "person",
+    "names": [
+      "Ahmed Smith"
+    ],
+    "aliases": [],
+    "dob": "1995-12-24",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.21,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b5f91710-1a0f-576a-899c-9455d1fc1f1f",
+    "kind": "company",
+    "names": [
+      "Summit Nova GmbH"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2008-02-19",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "fe28d352-7f9f-5cd5-bee4-b5e392af9916",
+    "kind": "company",
+    "names": [
+      "Summit Delta LLC"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2012-02-15",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.44,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "8e56ab21-9fb9-53f1-a050-31e1b4fa452c",
+    "kind": "company",
+    "names": [
+      "Zenith Apex LLC"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2011-04-10",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.3,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7b7b3553-fb92-53fe-8bcb-5e0d8788466e",
+    "kind": "company",
+    "names": [
+      "Core Vertex FZE"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2024-04-24",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7db57a50-ac07-58b2-8a01-c108f77bae07",
+    "kind": "company",
+    "names": [
+      "Nova Global Corp"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2017-06-21",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.43,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "aac92252-353a-57f7-91a2-8847ff8d477a",
+    "kind": "company",
+    "names": [
+      "Delta Alpha Pty Ltd"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2023-12-10",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "846f4c8b-c91e-5de7-8fe4-b8d9cb616ea6",
+    "kind": "company",
+    "names": [
+      "Apex Global Inc"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2022-05-03",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4c639228-f2de-52db-b1cb-2c3f62fcb3de",
+    "kind": "person",
+    "names": [
+      "Maria Johnson"
+    ],
+    "aliases": [],
+    "dob": "1966-09-05",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.21,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0fd214d1-273c-507f-a6ba-4a986a852a23",
+    "kind": "person",
+    "names": [
+      "John Kumar"
+    ],
+    "aliases": [],
+    "dob": "1968-04-10",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "67e90c49-f736-560e-b105-4f398b7cc690",
+    "kind": "company",
+    "names": [
+      "Sigma Omega GmbH"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2010-08-09",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "a7657cca-daf3-5633-a11c-3ba2138ded05",
+    "kind": "company",
+    "names": [
+      "Pacific Atlantic Ltd"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2005-08-15",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ccdfe50d-7676-522f-8d85-fec241cf30f7",
+    "kind": "company",
+    "names": [
+      "Apex Prime FZE"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2008-02-03",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "adfeb910-8144-5bdc-a59c-b75f37f4763e",
+    "kind": "company",
+    "names": [
+      "Global Summit GmbH"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2004-02-23",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "09f70cc5-60f6-5178-bd43-b51ac3aa6d13",
+    "kind": "person",
+    "names": [
+      "John Lee"
+    ],
+    "aliases": [],
+    "dob": "1976-03-01",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.29,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "42403f41-1c1b-58d4-8289-20bf8ce7b4c3",
+    "kind": "person",
+    "names": [
+      "Li Johnson"
+    ],
+    "aliases": [],
+    "dob": "1989-02-26",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "33296859-6578-5b12-8e41-a601244f75d2",
+    "kind": "company",
+    "names": [
+      "Global Omega Corp"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2004-04-27",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "8c698529-92d8-5b51-a104-6042b4b1634d",
+    "kind": "company",
+    "names": [
+      "Vertex Prime Ltd"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2000-02-07",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "73575565-977a-54d8-b6ed-9f166b4cd809",
+    "kind": "company",
+    "names": [
+      "Omega Omega GmbH"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2003-01-15",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "053fcfbd-d862-59ed-bdba-eb7e074e70bc",
+    "kind": "person",
+    "names": [
+      "Maria Smith"
+    ],
+    "aliases": [],
+    "dob": "1984-11-14",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.09,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "bc0a40ab-0f75-545b-800f-189a90f678f5",
+    "kind": "company",
+    "names": [
+      "Prime Prime FZE"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2004-01-20",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.33,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "adef4151-2ad5-5436-853c-22a3788a72a4",
+    "kind": "company",
+    "names": [
+      "Nova Zenith FZE"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2001-02-09",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "905c4d06-569f-5cad-9222-4c9448bc0c18",
+    "kind": "company",
+    "names": [
+      "Summit Alpha LLC"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2012-12-12",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "a31db4c6-0792-5fb0-83bd-39c3db7d88f2",
+    "kind": "company",
+    "names": [
+      "Zenith Core Pty Ltd"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2008-03-01",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "a71812aa-439e-5de4-bc78-f7a4f449ded5",
+    "kind": "company",
+    "names": [
+      "Global Delta FZE"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2016-06-25",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.31,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b0e78216-d765-5887-8a0b-56d0f3638319",
+    "kind": "company",
+    "names": [
+      "Summit Alpha Corp"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2008-09-27",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.41,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "74c1f03b-1217-5b42-a79c-cab53bbeafb5",
+    "kind": "company",
+    "names": [
+      "Vertex Omega Pty Ltd"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2011-03-06",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b1daefc2-41e2-5c9a-b42e-e6cc56ae6c30",
+    "kind": "company",
+    "names": [
+      "Global Sigma GmbH"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2018-10-05",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.3,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "82aa7164-2626-54a0-a2ae-b8a898a042ec",
+    "kind": "person",
+    "names": [
+      "Carlos Williams"
+    ],
+    "aliases": [],
+    "dob": "1991-01-03",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.06,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "bab39562-1cb3-5236-90cf-b3a04d0dd4d4",
+    "kind": "company",
+    "names": [
+      "Zenith Apex LLC"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2010-10-07",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.41,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "772f5d3c-a21f-5544-a8a8-2afa8014dd53",
+    "kind": "company",
+    "names": [
+      "Global Global Inc"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2018-12-05",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.4,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "75fe6d91-3dbe-5c4d-bfed-1091e5189a4d",
+    "kind": "company",
+    "names": [
+      "Core Sigma Pty Ltd"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2018-02-11",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "8c7c6936-c5e5-5ea5-b46d-80c6069cf339",
+    "kind": "company",
+    "names": [
+      "Delta Alpha FZE"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2020-06-06",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.37,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "e39be59f-41f6-556a-a82b-3b5ccf1a1a75",
+    "kind": "company",
+    "names": [
+      "Alpha Vertex Inc"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2012-05-24",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.36,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "378ec7c2-5970-59bc-8f87-29d273980027",
+    "kind": "company",
+    "names": [
+      "Sigma Vertex Pty Ltd"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2024-10-02",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "3e440ba7-06a6-598c-b8dd-5bd78c9fc3fb",
+    "kind": "company",
+    "names": [
+      "Pacific Apex Inc"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2010-12-03",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4699df26-8930-5ffa-b010-81bdef13c531",
+    "kind": "company",
+    "names": [
+      "Omega Sigma GmbH"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2014-01-09",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.14,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "3540213a-2021-5d9b-bb17-3e01036c9ca3",
+    "kind": "company",
+    "names": [
+      "Prime Delta Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2023-01-02",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "7c864fcb-90fc-52d9-96e8-9e15bc4ec880",
+    "kind": "person",
+    "names": [
+      "Raj Garcia"
+    ],
+    "aliases": [],
+    "dob": "1984-06-18",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.14,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "487a46e4-91b9-540f-a57a-066a1903cab7",
+    "kind": "person",
+    "names": [
+      "Li Williams"
+    ],
+    "aliases": [],
+    "dob": "1988-02-26",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.26,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1dbfe6a0-bcef-5d5a-8f52-a1f1b959433e",
+    "kind": "company",
+    "names": [
+      "Core Prime Ltd"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2002-06-06",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.45,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "e8f79cd7-c76e-5567-b731-636e23b8764b",
+    "kind": "company",
+    "names": [
+      "Pacific Core FZE"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2022-01-14",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.47,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "6a7b8abd-362f-5686-8508-959cb28caf47",
+    "kind": "person",
+    "names": [
+      "John Johnson"
+    ],
+    "aliases": [],
+    "dob": "1981-04-07",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "50b8036e-3d5a-5540-b112-34a17e9e3ead",
+    "kind": "company",
+    "names": [
+      "Prime Summit Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2001-07-19",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.3,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f340ceb0-04c1-5b31-95aa-f723ee22647f",
+    "kind": "company",
+    "names": [
+      "Core Global Pty Ltd"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2002-05-27",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "e94b25eb-4447-5eb2-b253-7d4c8459abaa",
+    "kind": "person",
+    "names": [
+      "Jane Smith"
+    ],
+    "aliases": [],
+    "dob": "1973-03-21",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5d6e6d3c-f1b4-59d7-9a7c-eb98f01362c2",
+    "kind": "company",
+    "names": [
+      "Omega Pacific SA"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2012-08-16",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.45,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b2a6fd3e-4163-5db7-8c6c-9cf22965568c",
+    "kind": "company",
+    "names": [
+      "Nova Atlantic GmbH"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2012-06-06",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.25,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "529f5fe1-0365-5380-821f-a45986375475",
+    "kind": "person",
+    "names": [
+      "Carlos Brown"
+    ],
+    "aliases": [],
+    "dob": "1977-10-02",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.09,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "31390c8f-26aa-5679-99cd-6d24eb46fcfd",
+    "kind": "company",
+    "names": [
+      "Alpha Core Pty Ltd"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2024-10-08",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.3,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "28d1c5ba-63a2-57e6-8507-e64014e836a3",
+    "kind": "person",
+    "names": [
+      "Maria Brown"
+    ],
+    "aliases": [],
+    "dob": "1990-05-03",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "50d372d8-d4a8-51d7-93a2-a55ef6673b13",
+    "kind": "company",
+    "names": [
+      "Vertex Zenith Inc"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2003-08-06",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.48,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "92652e8a-c7f6-5c04-b4a3-30028cb73dbf",
+    "kind": "company",
+    "names": [
+      "Atlantic Global Pty Ltd"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2002-11-14",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.14,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "1ea46a37-b28c-5626-82af-5438beeb588e",
+    "kind": "company",
+    "names": [
+      "Prime Core Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2002-07-18",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4b0234bd-4a13-5c7d-b65c-a2e329e53914",
+    "kind": "company",
+    "names": [
+      "Apex Omega LLC"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2022-10-19",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.29,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "acaff0f3-25e1-5b2a-80d3-9a0f31403bbb",
+    "kind": "company",
+    "names": [
+      "Atlantic Atlantic Ltd"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2003-10-25",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "bd454eee-5b7d-51a9-ab80-64e2012658b9",
+    "kind": "company",
+    "names": [
+      "Prime Nova FZE"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2018-10-16",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "27903554-04dd-5f74-95d2-9dfa393c09cc",
+    "kind": "person",
+    "names": [
+      "Raj Smith"
+    ],
+    "aliases": [],
+    "dob": "1985-06-23",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.11,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "374772f2-1cf3-5471-82d9-ff3bc2adf4d2",
+    "kind": "person",
+    "names": [
+      "Anna Smith"
+    ],
+    "aliases": [],
+    "dob": "1981-05-10",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.12,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "cf2c0d65-59d4-58ee-8f10-ebf3155c4050",
+    "kind": "person",
+    "names": [
+      "Li Williams"
+    ],
+    "aliases": [],
+    "dob": "1979-12-15",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5e5bba99-0c69-5471-8bcf-ac3e738c2356",
+    "kind": "company",
+    "names": [
+      "Sigma Nova Ltd"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2006-08-07",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.46,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "422fdaa1-be8f-5cff-86c0-2c84c1b625b3",
+    "kind": "person",
+    "names": [
+      "Anna Smith"
+    ],
+    "aliases": [],
+    "dob": "1992-03-03",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "2a9cff44-0013-53fc-a1b3-7c25020f7249",
+    "kind": "person",
+    "names": [
+      "John Williams"
+    ],
+    "aliases": [],
+    "dob": "1972-04-27",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.06,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "318b872c-33fa-507a-9202-10f398864bcb",
+    "kind": "company",
+    "names": [
+      "Global Core Corp"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2008-06-27",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.26,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4ec56807-a5c3-5314-ab25-06ddf2246b77",
+    "kind": "company",
+    "names": [
+      "Summit Core FZE"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2019-08-06",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.48,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7d630f26-5283-5988-b23c-8367c344cdad",
+    "kind": "company",
+    "names": [
+      "Atlantic Omega SA"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2023-12-03",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "a5785f04-ba7f-59cb-a167-8cbe47430711",
+    "kind": "company",
+    "names": [
+      "Omega Vertex Corp"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2007-11-08",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b51156b8-c09e-5545-8ba7-7faad5a9e8d5",
+    "kind": "person",
+    "names": [
+      "John Smith"
+    ],
+    "aliases": [],
+    "dob": "1990-03-21",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.09,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "e2371aeb-544b-595d-ae70-4293b95e81a3",
+    "kind": "company",
+    "names": [
+      "Prime Vertex SA"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2022-12-21",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.17,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ce91f95a-e284-5edb-84c2-b9a3b5b17055",
+    "kind": "company",
+    "names": [
+      "Prime Summit FZE"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2009-11-17",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "6c49b98f-3ee4-5513-8a20-f0862075595f",
+    "kind": "company",
+    "names": [
+      "Zenith Alpha GmbH"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2017-11-20",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.32,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "10f771de-0fc0-54b9-ab86-201b767881a0",
+    "kind": "company",
+    "names": [
+      "Pacific Core SA"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2020-06-28",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.17,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "a78ce408-1142-52f3-b865-f56c3be80cc6",
+    "kind": "company",
+    "names": [
+      "Atlantic Zenith Corp"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2001-10-13",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.35,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "f6f5c398-5f58-59e2-9991-f7e6c63914cf",
+    "kind": "company",
+    "names": [
+      "Alpha Apex SA"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2008-07-13",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b8c7e52c-db4e-589d-a67e-5628b5a686b4",
+    "kind": "company",
+    "names": [
+      "Sigma Sigma Corp"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2021-09-21",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.4,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "a63cce32-df51-51a9-b658-3905af5f81ea",
+    "kind": "company",
+    "names": [
+      "Prime Omega Inc"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2021-09-06",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "5f83faa6-012c-5fe4-b8a3-9ad701f94183",
+    "kind": "company",
+    "names": [
+      "Sigma Delta Inc"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2021-06-21",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.09,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "9dc53795-0ace-59de-9c4e-203cb1bbbf9c",
+    "kind": "company",
+    "names": [
+      "Nova Delta GmbH"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2011-05-19",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b991871a-cad2-5199-a923-6d309a84e913",
+    "kind": "person",
+    "names": [
+      "Jane Garcia"
+    ],
+    "aliases": [],
+    "dob": "1972-09-04",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.27,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "d245e5ac-2aa5-5c7c-9608-010d5edd8485",
+    "kind": "person",
+    "names": [
+      "Carlos Kumar"
+    ],
+    "aliases": [],
+    "dob": "1963-03-05",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.3,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f02e9b93-dcfb-5153-bfa8-0d3610cf5e0f",
+    "kind": "company",
+    "names": [
+      "Vertex Apex Inc"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2010-12-06",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.4,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "24909f92-1dc9-59ad-a058-c5adcded8f42",
+    "kind": "company",
+    "names": [
+      "Core Alpha LLC"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2000-08-09",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.14,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "c6b91f4e-07f0-5f1f-88db-655711e11649",
+    "kind": "company",
+    "names": [
+      "Delta Delta Ltd"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2004-10-14",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4970c352-1491-5429-b325-b3da3d6e60c2",
+    "kind": "person",
+    "names": [
+      "Raj Smith"
+    ],
+    "aliases": [],
+    "dob": "1962-09-07",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "2dd9fe70-d320-5443-939f-d196f1cdedb5",
+    "kind": "company",
+    "names": [
+      "Delta Omega Corp"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2000-11-01",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.33,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "938e7179-5957-59e6-8370-317232006563",
+    "kind": "company",
+    "names": [
+      "Prime Atlantic Ltd"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2012-09-19",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.19,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "975349a4-8805-552c-9a9c-ed766b7ba0d9",
+    "kind": "company",
+    "names": [
+      "Prime Apex GmbH"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2013-11-05",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.2,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "4d723914-0854-59d1-91a1-9811cd7f2fe7",
+    "kind": "company",
+    "names": [
+      "Atlantic Delta Pty Ltd"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2000-04-08",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.38,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ce864af7-df6f-53e1-b166-d00abc73d8e0",
+    "kind": "company",
+    "names": [
+      "Vertex Zenith Inc"
+    ],
+    "aliases": [
+      "Vertex"
+    ],
+    "incorp_date": "2003-06-23",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "98a279c9-53f9-53be-8999-8bd473dcd63e",
+    "kind": "person",
+    "names": [
+      "John Smith"
+    ],
+    "aliases": [],
+    "dob": "1966-11-27",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.05,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "12e4a4f9-774c-538a-a0ef-11cad6ad1ce7",
+    "kind": "company",
+    "names": [
+      "Apex Nova Ltd"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2017-05-16",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.37,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "3de179f7-d30c-504a-8538-c72121ab170d",
+    "kind": "company",
+    "names": [
+      "Nova Alpha Ltd"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2021-09-09",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.33,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "d0087312-0df3-5399-a957-390a49e71ad5",
+    "kind": "company",
+    "names": [
+      "Omega Pacific Ltd"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2009-02-26",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.1,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "0afd8ecf-1594-56f8-8ca1-9539abfb9cc1",
+    "kind": "company",
+    "names": [
+      "Omega Zenith Corp"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2011-12-14",
+    "country": "SG",
+    "beneficial_owners": [],
+    "risk_score": 0.18,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "6d3d7ee7-b5c3-58fd-bcae-f46ac513455e",
+    "kind": "person",
+    "names": [
+      "Maria Kim"
+    ],
+    "aliases": [],
+    "dob": "1975-01-01",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.22,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "657e4e90-d955-544d-aaec-690daf145f20",
+    "kind": "company",
+    "names": [
+      "Alpha Apex Inc"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2002-09-03",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.38,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "b6e7a425-e008-5f37-8be2-b787d385aa0b",
+    "kind": "company",
+    "names": [
+      "Apex Prime SA"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2014-01-04",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ade25d6f-6526-572d-8479-3b297acfceef",
+    "kind": "company",
+    "names": [
+      "Delta Alpha GmbH"
+    ],
+    "aliases": [
+      "Delta"
+    ],
+    "incorp_date": "2013-12-04",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.09,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "2069082a-a378-5a3f-8f96-9f019dff2f96",
+    "kind": "company",
+    "names": [
+      "Alpha Alpha Inc"
+    ],
+    "aliases": [
+      "Alpha"
+    ],
+    "incorp_date": "2010-06-15",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.48,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f1d3675b-cbbb-5a73-bb26-09b6caa74572",
+    "kind": "company",
+    "names": [
+      "Omega Core Inc"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2003-07-13",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.48,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "da107fb2-d9c4-5e9a-a0b5-4a5248d5da71",
+    "kind": "person",
+    "names": [
+      "Raj Williams"
+    ],
+    "aliases": [],
+    "dob": "1967-03-23",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.23,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "10daba3d-a347-524b-a485-60930dbdd847",
+    "kind": "company",
+    "names": [
+      "Nova Vertex FZE"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2018-11-15",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.13,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "742cbeb8-7df1-59c8-afbe-70ac4100a387",
+    "kind": "company",
+    "names": [
+      "Global Omega Inc"
+    ],
+    "aliases": [
+      "Global"
+    ],
+    "incorp_date": "2015-08-04",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.45,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "a7c5ba87-7ac2-507b-b960-5909a120d319",
+    "kind": "company",
+    "names": [
+      "Prime Alpha GmbH"
+    ],
+    "aliases": [
+      "Prime"
+    ],
+    "incorp_date": "2000-12-28",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.36,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "16b656c6-97bb-53fd-a5b5-23fd12b7ffe4",
+    "kind": "company",
+    "names": [
+      "Zenith Zenith Ltd"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2013-11-24",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.16,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "fea713e1-d713-5caa-a4e3-d12a7de1dd65",
+    "kind": "person",
+    "names": [
+      "John Smith"
+    ],
+    "aliases": [],
+    "dob": "1970-09-28",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.17,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "90836275-0a89-5c57-9041-ca0d300dace2",
+    "kind": "person",
+    "names": [
+      "Jane Garcia"
+    ],
+    "aliases": [],
+    "dob": "1980-04-11",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.29,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "e7c63f96-45b4-5eba-85bc-9915b44d1424",
+    "kind": "company",
+    "names": [
+      "Summit Zenith Pty Ltd"
+    ],
+    "aliases": [
+      "Summit"
+    ],
+    "incorp_date": "2012-04-03",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.26,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "d7638d96-6688-52a9-a460-c83dd25d75ba",
+    "kind": "person",
+    "names": [
+      "Maria Garcia"
+    ],
+    "aliases": [],
+    "dob": "1980-02-16",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "1d72af20-9d17-5bd0-9f94-f21fcb3f54bf",
+    "kind": "company",
+    "names": [
+      "Nova Nova LLC"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "incorp_date": "2017-09-01",
+    "country": "GB",
+    "beneficial_owners": [],
+    "risk_score": 0.42,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "696ce611-e199-5b9d-96ae-864e2745be0d",
+    "kind": "company",
+    "names": [
+      "Zenith Summit FZE"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2010-06-27",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.07,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "f29ac128-de2c-5ad1-991c-15cb46454f7b",
+    "kind": "person",
+    "names": [
+      "Maria Kim"
+    ],
+    "aliases": [],
+    "dob": "1988-02-04",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "ca5ec66e-ac0f-5249-b561-59caba6e9796",
+    "kind": "company",
+    "names": [
+      "Core Core SA"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2017-09-12",
+    "country": "US",
+    "beneficial_owners": [],
+    "risk_score": 0.37,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "7c45269a-c430-5c52-82a6-af2e2dfd43de",
+    "kind": "company",
+    "names": [
+      "Atlantic Omega Pty Ltd"
+    ],
+    "aliases": [
+      "Atlantic"
+    ],
+    "incorp_date": "2003-05-20",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.14,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "e52d35fb-90ce-556e-b6d4-e5b1ed2a1fcd",
+    "kind": "person",
+    "names": [
+      "Maria Brown"
+    ],
+    "aliases": [],
+    "dob": "1981-02-25",
+    "country": "FR",
+    "beneficial_owners": [],
+    "risk_score": 0.15,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "8f3b5fad-b6b7-5b35-ba64-bf4477cb1f02",
+    "kind": "company",
+    "names": [
+      "Apex Alpha Inc"
+    ],
+    "aliases": [
+      "Apex"
+    ],
+    "incorp_date": "2015-01-17",
+    "country": "CH",
+    "beneficial_owners": [],
+    "risk_score": 0.38,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "ef40a55c-6ad4-53b7-a025-4edcfc9c24f0",
+    "kind": "person",
+    "names": [
+      "Maria Williams"
+    ],
+    "aliases": [],
+    "dob": "1971-12-27",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "391e1eb2-3d5d-5540-a427-9a4588cc671d",
+    "kind": "person",
+    "names": [
+      "Anna Kumar"
+    ],
+    "aliases": [],
+    "dob": "1986-10-23",
+    "country": "AU",
+    "beneficial_owners": [],
+    "risk_score": 0.24,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "dec95993-94f6-5be6-95e8-06d03f40448c",
+    "kind": "company",
+    "names": [
+      "Core Prime FZE"
+    ],
+    "aliases": [
+      "Core"
+    ],
+    "incorp_date": "2004-03-14",
+    "country": "AE",
+    "beneficial_owners": [],
+    "risk_score": 0.32,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "e95b09fb-5cf5-5efa-9bc8-3e89755c4def",
+    "kind": "company",
+    "names": [
+      "Omega Core Corp"
+    ],
+    "aliases": [
+      "Omega"
+    ],
+    "incorp_date": "2006-04-20",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.37,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "4be7393b-1286-5f55-8675-61f2f56593a9",
+    "kind": "company",
+    "names": [
+      "Sigma Alpha Inc"
+    ],
+    "aliases": [
+      "Sigma"
+    ],
+    "incorp_date": "2016-09-23",
+    "country": "DE",
+    "beneficial_owners": [],
+    "risk_score": 0.34,
+    "kyc_status": "pending_review"
+  },
+  {
+    "entity_id": "fbef6234-e930-5849-8ff3-8fc856b3add3",
+    "kind": "company",
+    "names": [
+      "Zenith Apex Pty Ltd"
+    ],
+    "aliases": [
+      "Zenith"
+    ],
+    "incorp_date": "2021-12-27",
+    "country": "HK",
+    "beneficial_owners": [],
+    "risk_score": 0.29,
+    "kyc_status": "verified"
+  },
+  {
+    "entity_id": "9c997d84-b31f-5e75-bc49-e21b37895c8e",
+    "kind": "company",
+    "names": [
+      "Pacific Global Pty Ltd"
+    ],
+    "aliases": [
+      "Pacific"
+    ],
+    "incorp_date": "2004-01-22",
+    "country": "CA",
+    "beneficial_owners": [],
+    "risk_score": 0.08,
+    "kyc_status": "verified"
+  }
+]

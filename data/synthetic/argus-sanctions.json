@@ -1,0 +1,2402 @@
+[
+  {
+    "entry_id": "1246e4a7-2ff3-5999-b118-df52a2004ad2",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 0",
+    "aliases": [
+      "SE-0",
+      "Entity0"
+    ],
+    "dob": "1962-07-12",
+    "country": "KP",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "4bffc4d3-e9bb-5acc-a920-7400a82f0e15",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 1",
+    "aliases": [
+      "SE-1",
+      "Entity1"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "43863455-3647-5ca0-b349-58ee52e52ea6",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 2",
+    "aliases": [
+      "SE-2",
+      "Entity2"
+    ],
+    "dob": "1958-01-27",
+    "country": "RU",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "2bfe2ffe-a82e-5bc3-a405-4a263369b3f9",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 3",
+    "aliases": [
+      "SE-3",
+      "Entity3"
+    ],
+    "dob": "1971-08-04",
+    "country": "SY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "e16ed970-f92c-596c-8ea0-37bf32a1dcd0",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 4",
+    "aliases": [
+      "SE-4",
+      "Entity4"
+    ],
+    "dob": "1961-02-05",
+    "country": "RU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "f0a38a51-9265-5576-9f00-045c6608480b",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 5",
+    "aliases": [
+      "SE-5",
+      "Entity5"
+    ],
+    "dob": "1971-08-22",
+    "country": "MM",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "ab424635-2da5-5f2c-8955-3a8e7d429a24",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 6",
+    "aliases": [
+      "SE-6",
+      "Entity6"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "4b6812a3-1073-5cd3-a9f9-d617f677dd8c",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 7",
+    "aliases": [
+      "SE-7",
+      "Entity7"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "1f32776c-042e-506b-bdcd-5e93095bb9d8",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 8",
+    "aliases": [
+      "SE-8",
+      "Entity8"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "174dded8-2a18-5953-a756-51e31482b211",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 9",
+    "aliases": [
+      "SE-9",
+      "Entity9"
+    ],
+    "dob": "1963-07-21",
+    "country": "IR",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "750bd211-33bb-5584-85f7-7f15f12f388c",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 10",
+    "aliases": [
+      "SE-10",
+      "Entity10"
+    ],
+    "dob": null,
+    "country": "BY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "c6d0037b-5af8-5bad-8b7c-287051a3c75f",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 11",
+    "aliases": [
+      "SE-11",
+      "Entity11"
+    ],
+    "dob": "1975-06-21",
+    "country": "RU",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "6dc6bc0d-fe91-5df9-a765-fa6f81881114",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 12",
+    "aliases": [
+      "SE-12",
+      "Entity12"
+    ],
+    "dob": "1977-12-18",
+    "country": "BY",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "eac6d0f7-a04b-5419-a4ef-5f9416947341",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 13",
+    "aliases": [
+      "SE-13",
+      "Entity13"
+    ],
+    "dob": "1978-12-26",
+    "country": "CU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "982a2429-736c-5772-ad93-202391d2b518",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 14",
+    "aliases": [
+      "SE-14",
+      "Entity14"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "7b3640bd-2dd2-5436-9315-138321fd5dac",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 15",
+    "aliases": [
+      "SE-15",
+      "Entity15"
+    ],
+    "dob": null,
+    "country": "BY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "a45183d7-726d-5a45-bbf5-84c53afe2af5",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 16",
+    "aliases": [
+      "SE-16",
+      "Entity16"
+    ],
+    "dob": "1965-04-28",
+    "country": "CU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "636cfa38-2cfc-5212-91b0-a628c931ec83",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 17",
+    "aliases": [
+      "SE-17",
+      "Entity17"
+    ],
+    "dob": "1987-02-24",
+    "country": "CU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "e27f3564-51f4-55ad-a5b1-476fdd0f99f6",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 18",
+    "aliases": [
+      "SE-18",
+      "Entity18"
+    ],
+    "dob": null,
+    "country": "CU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "8ebacdc7-c2f3-5eed-aefb-4d90eeb60aa5",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 19",
+    "aliases": [
+      "SE-19",
+      "Entity19"
+    ],
+    "dob": "1974-04-17",
+    "country": "CU",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "0786f95d-b8ae-57bd-afc9-9900be5fd386",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 20",
+    "aliases": [
+      "SE-20",
+      "Entity20"
+    ],
+    "dob": "1972-08-23",
+    "country": "CU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "1ded0f60-c243-52cc-ae7e-4aa3b21df64e",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 21",
+    "aliases": [
+      "SE-21",
+      "Entity21"
+    ],
+    "dob": "1966-06-27",
+    "country": "VE",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "e21da189-6dba-5331-9503-e170edb7c34c",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 22",
+    "aliases": [
+      "SE-22",
+      "Entity22"
+    ],
+    "dob": "1968-09-24",
+    "country": "CU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "2334ea15-3184-5f2e-a113-128c6a30a51c",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 23",
+    "aliases": [
+      "SE-23",
+      "Entity23"
+    ],
+    "dob": null,
+    "country": "CU",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "8eb004f8-eef7-5089-97ce-527a6d00eedd",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 24",
+    "aliases": [
+      "SE-24",
+      "Entity24"
+    ],
+    "dob": "1990-02-09",
+    "country": "KP",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "4260f1e3-545a-566f-a504-f1c032342a92",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 25",
+    "aliases": [
+      "SE-25",
+      "Entity25"
+    ],
+    "dob": "1961-07-07",
+    "country": "BY",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "8141917d-9555-5749-8128-5f737345dc9e",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 26",
+    "aliases": [
+      "SE-26",
+      "Entity26"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "653d72f0-dde5-55f6-8bcd-1b3069cfbf17",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 27",
+    "aliases": [
+      "SE-27",
+      "Entity27"
+    ],
+    "dob": "1986-10-27",
+    "country": "SY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "1738b690-f6d3-5f5f-bba9-5db42cdc634c",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 28",
+    "aliases": [
+      "SE-28",
+      "Entity28"
+    ],
+    "dob": "1951-01-15",
+    "country": "KP",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "7bc56f2e-5b64-59bc-b6bd-d8a7407728c7",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 29",
+    "aliases": [
+      "SE-29",
+      "Entity29"
+    ],
+    "dob": "1950-05-23",
+    "country": "BY",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "f3ed1105-6c1f-539f-95ec-316495518b3d",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 30",
+    "aliases": [
+      "SE-30",
+      "Entity30"
+    ],
+    "dob": "1972-07-15",
+    "country": "CU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "2d6fad31-eb19-5c9d-84a2-6097bec6f4b8",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 31",
+    "aliases": [
+      "SE-31",
+      "Entity31"
+    ],
+    "dob": "1967-02-24",
+    "country": "CU",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "9a507c21-26f4-516e-bd14-f7321b23278a",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 32",
+    "aliases": [
+      "SE-32",
+      "Entity32"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "7ca4c92f-9433-5e4d-98e1-05c5b0067a96",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 33",
+    "aliases": [
+      "SE-33",
+      "Entity33"
+    ],
+    "dob": "1964-10-03",
+    "country": "KP",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "8ac4fd76-ab52-5313-a5cd-5009b14d8813",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 34",
+    "aliases": [
+      "SE-34",
+      "Entity34"
+    ],
+    "dob": "1969-06-15",
+    "country": "VE",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "7aefc8c4-769b-5458-a81a-acf847224d9f",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 35",
+    "aliases": [
+      "SE-35",
+      "Entity35"
+    ],
+    "dob": "1975-06-27",
+    "country": "CU",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "e01e084b-1d3b-50f3-810f-fa42524883fe",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 36",
+    "aliases": [
+      "SE-36",
+      "Entity36"
+    ],
+    "dob": null,
+    "country": "BY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "c7d5303f-755d-5254-909e-c78916262100",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 37",
+    "aliases": [
+      "SE-37",
+      "Entity37"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "ba054b46-c490-5377-a32e-2ba1af0bc3a7",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 38",
+    "aliases": [
+      "SE-38",
+      "Entity38"
+    ],
+    "dob": "1971-11-05",
+    "country": "VE",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "f65da0c5-d82c-5da7-bc5f-7ad41c62156d",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 39",
+    "aliases": [
+      "SE-39",
+      "Entity39"
+    ],
+    "dob": "1961-02-16",
+    "country": "MM",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "47c23fcb-ca3e-5771-8cc3-713192f88356",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 40",
+    "aliases": [
+      "SE-40",
+      "Entity40"
+    ],
+    "dob": "1984-09-16",
+    "country": "SY",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "44733029-1044-5d33-af5a-c3ff7c5d206e",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 41",
+    "aliases": [
+      "SE-41",
+      "Entity41"
+    ],
+    "dob": "1959-08-12",
+    "country": "BY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "e9525ad5-9c06-5aec-b38e-f44c4e7a8a75",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 42",
+    "aliases": [
+      "SE-42",
+      "Entity42"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "bb3fd4b1-b401-534a-925b-4e264cca0517",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 43",
+    "aliases": [
+      "SE-43",
+      "Entity43"
+    ],
+    "dob": "1973-12-02",
+    "country": "VE",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "69415939-8786-5a3e-8fd6-ca033f7ae14f",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 44",
+    "aliases": [
+      "SE-44",
+      "Entity44"
+    ],
+    "dob": "1984-08-26",
+    "country": "RU",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "361f246b-d703-5e1a-8e91-a80633ba168f",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 45",
+    "aliases": [
+      "SE-45",
+      "Entity45"
+    ],
+    "dob": "1967-01-02",
+    "country": "VE",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "4fec7fef-3e71-5036-8781-4a33665eb6cd",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 46",
+    "aliases": [
+      "SE-46",
+      "Entity46"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "3be9da55-0479-5c01-a930-ba38f9f010ad",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 47",
+    "aliases": [
+      "SE-47",
+      "Entity47"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "8b13152d-b810-5555-82ea-1a71ccde62e4",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 48",
+    "aliases": [
+      "SE-48",
+      "Entity48"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "0fa65aac-a4c0-5cc0-a16d-9b84772eb527",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 49",
+    "aliases": [
+      "SE-49",
+      "Entity49"
+    ],
+    "dob": "1986-04-08",
+    "country": "IR",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "e9a9cbff-0eb5-5d84-a6ab-6599febab28d",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 50",
+    "aliases": [
+      "SE-50",
+      "Entity50"
+    ],
+    "dob": "1982-05-22",
+    "country": "IR",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "3c3c94d9-d616-5fd5-ac82-dd7bb320263a",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 51",
+    "aliases": [
+      "SE-51",
+      "Entity51"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "b6117bb6-87ca-51a1-9681-17e1efe67314",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 52",
+    "aliases": [
+      "SE-52",
+      "Entity52"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "bf2d0186-3112-5845-9677-1e608c9dedad",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 53",
+    "aliases": [
+      "SE-53",
+      "Entity53"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "e150073a-6dc2-56ab-aa71-514d6f38b1d8",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 54",
+    "aliases": [
+      "SE-54",
+      "Entity54"
+    ],
+    "dob": null,
+    "country": "KP",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "41ffbe3a-0529-5ad1-9889-51a069c14f98",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 55",
+    "aliases": [
+      "SE-55",
+      "Entity55"
+    ],
+    "dob": null,
+    "country": "CU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "f6aa86b4-e5d5-5901-a528-0f5cd486444a",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 56",
+    "aliases": [
+      "SE-56",
+      "Entity56"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "132379ae-eca0-5422-b147-dad4fa4f0787",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 57",
+    "aliases": [
+      "SE-57",
+      "Entity57"
+    ],
+    "dob": "1986-09-07",
+    "country": "CU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "96eed481-d4cc-5aa3-8cee-bf8fc76dd41d",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 58",
+    "aliases": [
+      "SE-58",
+      "Entity58"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "b1a46f16-373c-596e-83d5-65dd61aa65f3",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 59",
+    "aliases": [
+      "SE-59",
+      "Entity59"
+    ],
+    "dob": "1977-04-22",
+    "country": "RU",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "a66fd92e-8c50-5979-9a94-42d5a5e3517f",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 60",
+    "aliases": [
+      "SE-60",
+      "Entity60"
+    ],
+    "dob": "1972-12-24",
+    "country": "VE",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "ccd3e654-1944-5c50-9fbf-594da01a105f",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 61",
+    "aliases": [
+      "SE-61",
+      "Entity61"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "1733471c-9422-538c-8984-25562a5426a2",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 62",
+    "aliases": [
+      "SE-62",
+      "Entity62"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "ff6c0dfb-c504-5616-860c-b0cb40c0af4e",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 63",
+    "aliases": [
+      "SE-63",
+      "Entity63"
+    ],
+    "dob": "1987-02-25",
+    "country": "VE",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "f751baf1-32f8-5ddb-bfb3-5466865d5d71",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 64",
+    "aliases": [
+      "SE-64",
+      "Entity64"
+    ],
+    "dob": "1988-05-21",
+    "country": "CU",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "8d99fffc-8392-56ed-a4f3-49c873aa2b1e",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 65",
+    "aliases": [
+      "SE-65",
+      "Entity65"
+    ],
+    "dob": "1987-04-13",
+    "country": "BY",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "19c30f85-4b5a-5c7d-bca5-aad67048f400",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 66",
+    "aliases": [
+      "SE-66",
+      "Entity66"
+    ],
+    "dob": "1973-02-16",
+    "country": "CU",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "037762b8-0bab-5a73-b008-c4babbe9121a",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 67",
+    "aliases": [
+      "SE-67",
+      "Entity67"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "e53d6dd6-9de5-532b-aa8f-f20185459ca1",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 68",
+    "aliases": [
+      "SE-68",
+      "Entity68"
+    ],
+    "dob": null,
+    "country": "CU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "4e8d12c2-dfe7-5d73-978c-f04bd20e4f83",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 69",
+    "aliases": [
+      "SE-69",
+      "Entity69"
+    ],
+    "dob": "1989-06-28",
+    "country": "SY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "c4a87ca6-d9b7-5c43-a746-7ace9bf62ef6",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 70",
+    "aliases": [
+      "SE-70",
+      "Entity70"
+    ],
+    "dob": "1979-03-04",
+    "country": "SY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "910a53dd-f9ad-5701-9dea-c21b0ca09177",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 71",
+    "aliases": [
+      "SE-71",
+      "Entity71"
+    ],
+    "dob": "1986-01-21",
+    "country": "BY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "ae7d74c9-30b2-5336-a47a-e67178674655",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 72",
+    "aliases": [
+      "SE-72",
+      "Entity72"
+    ],
+    "dob": "1960-05-27",
+    "country": "BY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "27e5e3bd-562a-5784-b642-452ddd92ea25",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 73",
+    "aliases": [
+      "SE-73",
+      "Entity73"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "a0ba222a-a1c5-52e2-ad33-5342a404a451",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 74",
+    "aliases": [
+      "SE-74",
+      "Entity74"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "37c2d7ec-20ac-5bb2-98f8-32b9f84208b8",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 75",
+    "aliases": [
+      "SE-75",
+      "Entity75"
+    ],
+    "dob": "1988-04-22",
+    "country": "MM",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "a525885a-76d8-5133-bee1-c6cc7cefb824",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 76",
+    "aliases": [
+      "SE-76",
+      "Entity76"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "b060d85e-2b73-5059-8d70-db13d92805ed",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 77",
+    "aliases": [
+      "SE-77",
+      "Entity77"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "15a09154-b03f-5e49-a291-759e28269520",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 78",
+    "aliases": [
+      "SE-78",
+      "Entity78"
+    ],
+    "dob": "1950-04-02",
+    "country": "CU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "ece0aa51-b9cb-5af1-8349-178ca868c93b",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 79",
+    "aliases": [
+      "SE-79",
+      "Entity79"
+    ],
+    "dob": "1988-09-27",
+    "country": "BY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "f9145ede-990a-5b3c-9277-eb60a80d3005",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 80",
+    "aliases": [
+      "SE-80",
+      "Entity80"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "9b69bc8d-8160-55d1-9d76-c348a1e7a1ca",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 81",
+    "aliases": [
+      "SE-81",
+      "Entity81"
+    ],
+    "dob": "1983-05-07",
+    "country": "MM",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "60315550-b866-534d-bf33-653245b690f9",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 82",
+    "aliases": [
+      "SE-82",
+      "Entity82"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "56350fa9-bc21-50f1-8bd5-1669d82fccb5",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 83",
+    "aliases": [
+      "SE-83",
+      "Entity83"
+    ],
+    "dob": "1965-03-17",
+    "country": "IR",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "ea81fb45-e49b-5ac3-8136-a341240720d7",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 84",
+    "aliases": [
+      "SE-84",
+      "Entity84"
+    ],
+    "dob": "1986-10-26",
+    "country": "CU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "38414fdf-97d3-5d94-b932-3e846c95999c",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 85",
+    "aliases": [
+      "SE-85",
+      "Entity85"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "4de63e1e-31e9-5bcf-98a0-5217996a879e",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 86",
+    "aliases": [
+      "SE-86",
+      "Entity86"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "7580eb8b-ec82-56db-b52a-91218e7eb24c",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 87",
+    "aliases": [
+      "SE-87",
+      "Entity87"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "2e66465a-a73e-5c5e-be32-41ea473bf0a2",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 88",
+    "aliases": [
+      "SE-88",
+      "Entity88"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "7a725f35-d1f6-5a26-9fd3-b36fea3f95cf",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 89",
+    "aliases": [
+      "SE-89",
+      "Entity89"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "c16d18d2-a93d-5d72-b0bb-5ce8bbfea704",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 90",
+    "aliases": [
+      "SE-90",
+      "Entity90"
+    ],
+    "dob": null,
+    "country": "BY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "e7d13442-b65d-58e1-b989-503172a29238",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 91",
+    "aliases": [
+      "SE-91",
+      "Entity91"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "e42007ec-ae68-5d68-85c2-790a59d4b517",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 92",
+    "aliases": [
+      "SE-92",
+      "Entity92"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "2f6fb988-35d3-572f-b327-1a3d88875e0b",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 93",
+    "aliases": [
+      "SE-93",
+      "Entity93"
+    ],
+    "dob": null,
+    "country": "KP",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "399ba0c0-aefe-58e9-828c-6a2f82086695",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 94",
+    "aliases": [
+      "SE-94",
+      "Entity94"
+    ],
+    "dob": "1961-07-14",
+    "country": "VE",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "ccbcb4ba-61b2-5f96-a299-cd1d99027f36",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 95",
+    "aliases": [
+      "SE-95",
+      "Entity95"
+    ],
+    "dob": "1965-10-07",
+    "country": "SY",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "27e1dc1f-5f46-59a3-aba3-aa64f0a1ad4f",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 96",
+    "aliases": [
+      "SE-96",
+      "Entity96"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "21bbe7fe-8984-59e6-86fd-f9680abbeae9",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 97",
+    "aliases": [
+      "SE-97",
+      "Entity97"
+    ],
+    "dob": null,
+    "country": "KP",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "2cc1c4fc-3839-5f1a-9a27-5d7a052beb22",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 98",
+    "aliases": [
+      "SE-98",
+      "Entity98"
+    ],
+    "dob": "1964-11-08",
+    "country": "IR",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "82dc409a-a77e-5b16-9f31-9228c863bee3",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 99",
+    "aliases": [
+      "SE-99",
+      "Entity99"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "051282e5-82fe-5043-a3d7-f1880f1fade1",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 100",
+    "aliases": [
+      "SE-100",
+      "Entity100"
+    ],
+    "dob": "1978-08-07",
+    "country": "RU",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "b487ee49-b19d-5405-b27f-7a0baf1d1b96",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 101",
+    "aliases": [
+      "SE-101",
+      "Entity101"
+    ],
+    "dob": "1988-10-28",
+    "country": "IR",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "26c71a75-8bbb-5edc-b455-0198da22234b",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 102",
+    "aliases": [
+      "SE-102",
+      "Entity102"
+    ],
+    "dob": "1988-02-05",
+    "country": "CU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "f6736c0c-fee9-5f6e-8c92-819b84b0b1a5",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 103",
+    "aliases": [
+      "SE-103",
+      "Entity103"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "fd557fb9-7e2b-5fdc-add3-fbc31e24c262",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 104",
+    "aliases": [
+      "SE-104",
+      "Entity104"
+    ],
+    "dob": "1955-05-26",
+    "country": "SY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "96ec7b5f-c4f1-5405-b520-d1b610cc8bbe",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 105",
+    "aliases": [
+      "SE-105",
+      "Entity105"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "5b81f4ff-ca90-591b-b791-ee71b4a5d604",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 106",
+    "aliases": [
+      "SE-106",
+      "Entity106"
+    ],
+    "dob": "1975-11-24",
+    "country": "MM",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "4931d0de-f234-5e7a-ba2d-ad010e08a0c0",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 107",
+    "aliases": [
+      "SE-107",
+      "Entity107"
+    ],
+    "dob": null,
+    "country": "BY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "f6014221-e808-5428-bb92-38ac336ed0d4",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 108",
+    "aliases": [
+      "SE-108",
+      "Entity108"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "0a4f8c9b-9f74-576b-b891-26ced216de80",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 109",
+    "aliases": [
+      "SE-109",
+      "Entity109"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "2c48f607-9f09-5c39-96cf-993f7c0ada10",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 110",
+    "aliases": [
+      "SE-110",
+      "Entity110"
+    ],
+    "dob": "1976-10-03",
+    "country": "BY",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "4fcc5336-7823-57a4-a1b6-3b283dd1350a",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 111",
+    "aliases": [
+      "SE-111",
+      "Entity111"
+    ],
+    "dob": "1950-11-02",
+    "country": "CU",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "e0f42cd6-48a5-58f0-ab3d-0d9c561d1c3d",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 112",
+    "aliases": [
+      "SE-112",
+      "Entity112"
+    ],
+    "dob": "1978-07-23",
+    "country": "RU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "5e3ee63b-fbf6-523d-b9a0-987401ac5630",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 113",
+    "aliases": [
+      "SE-113",
+      "Entity113"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "8b309357-3f8b-566d-9e65-01921c6df339",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 114",
+    "aliases": [
+      "SE-114",
+      "Entity114"
+    ],
+    "dob": "1970-11-16",
+    "country": "KP",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "31f8c0c1-9e18-5fcd-b72c-12ef371c7b54",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 115",
+    "aliases": [
+      "SE-115",
+      "Entity115"
+    ],
+    "dob": "1962-09-25",
+    "country": "MM",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "9f000407-2cef-5cd3-ba7e-466573e62e00",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 116",
+    "aliases": [
+      "SE-116",
+      "Entity116"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "18adb744-c111-5b7e-b583-179039d1d2c9",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 117",
+    "aliases": [
+      "SE-117",
+      "Entity117"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "89238b74-1313-5513-92ca-c1c43c1ab98d",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 118",
+    "aliases": [
+      "SE-118",
+      "Entity118"
+    ],
+    "dob": "1977-11-16",
+    "country": "CU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "9f496f39-f578-5766-a78a-01b868b3053b",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 119",
+    "aliases": [
+      "SE-119",
+      "Entity119"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "193a98f3-e3c8-5980-a46b-595b8e21ffa0",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 120",
+    "aliases": [
+      "SE-120",
+      "Entity120"
+    ],
+    "dob": null,
+    "country": "BY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "c7d24104-dd3e-5660-8a84-dc6aea512bba",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 121",
+    "aliases": [
+      "SE-121",
+      "Entity121"
+    ],
+    "dob": null,
+    "country": "BY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "71d9cb83-a3ef-59a4-8e7b-873568367f48",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 122",
+    "aliases": [
+      "SE-122",
+      "Entity122"
+    ],
+    "dob": "1964-03-23",
+    "country": "BY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "aa422180-efa9-5744-9971-f368b1656bab",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 123",
+    "aliases": [
+      "SE-123",
+      "Entity123"
+    ],
+    "dob": "1976-09-10",
+    "country": "KP",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "502be87d-2a44-50bd-85f6-1a4bd6290b9f",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 124",
+    "aliases": [
+      "SE-124",
+      "Entity124"
+    ],
+    "dob": "1962-06-04",
+    "country": "CU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "bcc08110-6339-5da6-a0e2-a988a4b60e8b",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 125",
+    "aliases": [
+      "SE-125",
+      "Entity125"
+    ],
+    "dob": null,
+    "country": "KP",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "84ad3066-fdc3-5c1a-87c7-02d8ee5e3065",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 126",
+    "aliases": [
+      "SE-126",
+      "Entity126"
+    ],
+    "dob": null,
+    "country": "CU",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "327c3188-2e0a-5348-b03b-b21fb788ec7e",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 127",
+    "aliases": [
+      "SE-127",
+      "Entity127"
+    ],
+    "dob": "1972-12-27",
+    "country": "MM",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "81cb1651-54c3-5c9b-b90f-f8948247e14c",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 128",
+    "aliases": [
+      "SE-128",
+      "Entity128"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "e0a3fb36-e8c9-5a61-9d7f-ed50aa970a4e",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 129",
+    "aliases": [
+      "SE-129",
+      "Entity129"
+    ],
+    "dob": "1990-04-23",
+    "country": "RU",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "7d6d2c70-bbeb-5cfa-8ac7-09a66d28889d",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 130",
+    "aliases": [
+      "SE-130",
+      "Entity130"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "fdfca25c-5d64-5910-8466-bfcb01066f6f",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 131",
+    "aliases": [
+      "SE-131",
+      "Entity131"
+    ],
+    "dob": "1983-05-21",
+    "country": "SY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "e901c309-ab6e-5735-8610-6dd1a4799345",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 132",
+    "aliases": [
+      "SE-132",
+      "Entity132"
+    ],
+    "dob": "1961-03-11",
+    "country": "KP",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "09973b8d-5226-5a76-b364-4b5fdba82f74",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 133",
+    "aliases": [
+      "SE-133",
+      "Entity133"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "db58dffa-9824-5804-9ee8-b0687b02b814",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 134",
+    "aliases": [
+      "SE-134",
+      "Entity134"
+    ],
+    "dob": "1964-08-13",
+    "country": "VE",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "09556c69-9a1a-56a6-846f-f183bb9a81ee",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 135",
+    "aliases": [
+      "SE-135",
+      "Entity135"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "54afb165-3288-547b-b8e0-1e595699310c",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 136",
+    "aliases": [
+      "SE-136",
+      "Entity136"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "161988ea-7eba-5d6b-8de0-70f77367a723",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 137",
+    "aliases": [
+      "SE-137",
+      "Entity137"
+    ],
+    "dob": null,
+    "country": "KP",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "139d96f5-4594-5a8b-a51a-f5fc5d1b7d2c",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 138",
+    "aliases": [
+      "SE-138",
+      "Entity138"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "dc022b0f-295b-544a-b197-c0739b36c5d8",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 139",
+    "aliases": [
+      "SE-139",
+      "Entity139"
+    ],
+    "dob": "1962-06-21",
+    "country": "SY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "7e527571-4961-570b-9b50-359ee47b1856",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 140",
+    "aliases": [
+      "SE-140",
+      "Entity140"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "2d2e40f8-625c-5339-a0aa-2d8028c22f0c",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 141",
+    "aliases": [
+      "SE-141",
+      "Entity141"
+    ],
+    "dob": "1952-02-23",
+    "country": "BY",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "67bfe880-9c42-55a1-bc8f-0dc144483fd6",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 142",
+    "aliases": [
+      "SE-142",
+      "Entity142"
+    ],
+    "dob": "1985-05-01",
+    "country": "CU",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "df3530f8-75d2-52bb-a0cc-b614d669fd7e",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 143",
+    "aliases": [
+      "SE-143",
+      "Entity143"
+    ],
+    "dob": "1987-06-07",
+    "country": "IR",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "47b0517d-7205-59a1-8b44-3b4619a3a667",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 144",
+    "aliases": [
+      "SE-144",
+      "Entity144"
+    ],
+    "dob": "1963-11-22",
+    "country": "BY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "81f04f3c-e04f-5ac2-8df9-bca684c28764",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 145",
+    "aliases": [
+      "SE-145",
+      "Entity145"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "1ce4c497-2ef4-5ee2-ba2e-a0a0409a407c",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 146",
+    "aliases": [
+      "SE-146",
+      "Entity146"
+    ],
+    "dob": "1969-05-13",
+    "country": "VE",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "56200e25-81c9-5cbc-875c-38a89317180b",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 147",
+    "aliases": [
+      "SE-147",
+      "Entity147"
+    ],
+    "dob": "1985-04-14",
+    "country": "IR",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "0f931c6c-96bd-5d9e-82d5-040d41b07ff9",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 148",
+    "aliases": [
+      "SE-148",
+      "Entity148"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "6dc76f3c-7171-5014-bf20-765680f9c838",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 149",
+    "aliases": [
+      "SE-149",
+      "Entity149"
+    ],
+    "dob": "1972-12-01",
+    "country": "MM",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "c53372b0-72a3-5ecc-8135-4f46cde0db33",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 150",
+    "aliases": [
+      "SE-150",
+      "Entity150"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "d6c69836-5ee1-56a4-a6c3-30ff079cb48d",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 151",
+    "aliases": [
+      "SE-151",
+      "Entity151"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "d36f89c4-ccab-573d-8bb6-8c0b8c644a2b",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 152",
+    "aliases": [
+      "SE-152",
+      "Entity152"
+    ],
+    "dob": "1959-04-26",
+    "country": "SY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "578e8831-ad92-58cc-be66-a832f865b53e",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 153",
+    "aliases": [
+      "SE-153",
+      "Entity153"
+    ],
+    "dob": "1960-08-08",
+    "country": "BY",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "a864c0db-7893-5b95-965f-62900f5b753a",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 154",
+    "aliases": [
+      "SE-154",
+      "Entity154"
+    ],
+    "dob": "1988-12-06",
+    "country": "CU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "919958e5-a9d2-533c-8064-ae18692caf93",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 155",
+    "aliases": [
+      "SE-155",
+      "Entity155"
+    ],
+    "dob": "1979-03-07",
+    "country": "RU",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "038bd8f5-5239-50c0-8c50-cdd61881ca4e",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 156",
+    "aliases": [
+      "SE-156",
+      "Entity156"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "64007aaf-f05d-5603-8b9c-3baa7e149c3f",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 157",
+    "aliases": [
+      "SE-157",
+      "Entity157"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "5736d22c-c364-5051-9a0a-d0c53c4265aa",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 158",
+    "aliases": [
+      "SE-158",
+      "Entity158"
+    ],
+    "dob": "1974-02-18",
+    "country": "IR",
+    "program": "HUMAN-RIGHTS"
+  },
+  {
+    "entry_id": "66188b2b-bf49-5772-a9b9-b509b2c7118c",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 159",
+    "aliases": [
+      "SE-159",
+      "Entity159"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "4dce16a0-345e-5042-81e5-074d9ae422f6",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 160",
+    "aliases": [
+      "SE-160",
+      "Entity160"
+    ],
+    "dob": "1980-10-06",
+    "country": "BY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "4069c2f8-e829-5f62-a9cd-41863e31c017",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 161",
+    "aliases": [
+      "SE-161",
+      "Entity161"
+    ],
+    "dob": "1966-01-25",
+    "country": "RU",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "693ef3c7-ad3f-5c61-b71f-47721a216725",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 162",
+    "aliases": [
+      "SE-162",
+      "Entity162"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "ae950a8f-d0cb-5931-b3ea-450a6051a0eb",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 163",
+    "aliases": [
+      "SE-163",
+      "Entity163"
+    ],
+    "dob": null,
+    "country": "KP",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "61ed7a28-2d54-590d-b635-eb9f59c8c88f",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 164",
+    "aliases": [
+      "SE-164",
+      "Entity164"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "a793be78-14b0-53dc-8cbb-22a1d3af95b1",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 165",
+    "aliases": [
+      "SE-165",
+      "Entity165"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "07703911-e903-5f07-a945-890fe164c500",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 166",
+    "aliases": [
+      "SE-166",
+      "Entity166"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "ecc5c414-ffe4-501b-9dc9-73bf17fc693c",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 167",
+    "aliases": [
+      "SE-167",
+      "Entity167"
+    ],
+    "dob": "1962-05-16",
+    "country": "VE",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "807c0fc8-29e6-5107-b16e-d0cf7ff9cf98",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 168",
+    "aliases": [
+      "SE-168",
+      "Entity168"
+    ],
+    "dob": "1963-08-16",
+    "country": "RU",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "682ea74e-ff39-5a43-94a9-e2ca6820420c",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 169",
+    "aliases": [
+      "SE-169",
+      "Entity169"
+    ],
+    "dob": "1955-11-06",
+    "country": "SY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "72187805-d53d-5eef-86e5-b2f064aa5e9b",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 170",
+    "aliases": [
+      "SE-170",
+      "Entity170"
+    ],
+    "dob": null,
+    "country": "KP",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "aa8ffbca-7ffb-5a2d-b786-0d7fc5f66fe2",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 171",
+    "aliases": [
+      "SE-171",
+      "Entity171"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "5bcc2805-53c6-53e4-8f1e-217451741c37",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 172",
+    "aliases": [
+      "SE-172",
+      "Entity172"
+    ],
+    "dob": "1973-03-07",
+    "country": "KP",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "d8c834d0-58f6-54be-8f7e-beeac7339abb",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 173",
+    "aliases": [
+      "SE-173",
+      "Entity173"
+    ],
+    "dob": "1975-11-25",
+    "country": "RU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "9321958f-7b80-509e-a3bb-062a4898ea76",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 174",
+    "aliases": [
+      "SE-174",
+      "Entity174"
+    ],
+    "dob": "1987-09-06",
+    "country": "KP",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "bee75f90-4b1b-5237-84e2-d6fce5bd79dc",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 175",
+    "aliases": [
+      "SE-175",
+      "Entity175"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "b248078d-e444-56a5-bd6c-adf479c1ed70",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 176",
+    "aliases": [
+      "SE-176",
+      "Entity176"
+    ],
+    "dob": "1977-08-06",
+    "country": "IR",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "43c888dc-cd69-5a63-b0ab-60234283128f",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 177",
+    "aliases": [
+      "SE-177",
+      "Entity177"
+    ],
+    "dob": "1988-01-28",
+    "country": "RU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "8429e040-3213-58a6-9db7-fcc251066060",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 178",
+    "aliases": [
+      "SE-178",
+      "Entity178"
+    ],
+    "dob": "1981-11-11",
+    "country": "VE",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "53c4f2a0-bf9f-5588-86fb-971e666d0258",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 179",
+    "aliases": [
+      "SE-179",
+      "Entity179"
+    ],
+    "dob": "1950-12-01",
+    "country": "KP",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "f7554dd0-4319-5b1a-b5e8-cc05d11a25e9",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 180",
+    "aliases": [
+      "SE-180",
+      "Entity180"
+    ],
+    "dob": "1955-08-13",
+    "country": "MM",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "af6928a3-6c2e-5d9e-809f-87d8a0d91c7f",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 181",
+    "aliases": [
+      "SE-181",
+      "Entity181"
+    ],
+    "dob": "1969-09-08",
+    "country": "BY",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "330818d6-e122-58d0-a66b-ee8315a45681",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 182",
+    "aliases": [
+      "SE-182",
+      "Entity182"
+    ],
+    "dob": "1980-02-12",
+    "country": "KP",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "fdacd512-7365-5e9c-a6e5-c62c461ad6cc",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 183",
+    "aliases": [
+      "SE-183",
+      "Entity183"
+    ],
+    "dob": "1969-07-20",
+    "country": "KP",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "a1cc267a-f032-5b6b-b4d8-30658274589f",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 184",
+    "aliases": [
+      "SE-184",
+      "Entity184"
+    ],
+    "dob": "1953-12-23",
+    "country": "CU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "c831341b-7723-583d-819d-434a4a96b22c",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 185",
+    "aliases": [
+      "SE-185",
+      "Entity185"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "a5cfd7eb-3bb8-5189-b6f8-b7f55fb0044e",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 186",
+    "aliases": [
+      "SE-186",
+      "Entity186"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "de775d00-54ba-5361-841b-93d9343dd088",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 187",
+    "aliases": [
+      "SE-187",
+      "Entity187"
+    ],
+    "dob": "1984-12-07",
+    "country": "BY",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "cb378be2-9853-55ee-af6c-012b295d8368",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 188",
+    "aliases": [
+      "SE-188",
+      "Entity188"
+    ],
+    "dob": null,
+    "country": "RU",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "1be6e261-4aa0-50fa-9cad-420917a8bf98",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 189",
+    "aliases": [
+      "SE-189",
+      "Entity189"
+    ],
+    "dob": null,
+    "country": "IR",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "17465097-9145-56f5-b0ad-df6c108864cd",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 190",
+    "aliases": [
+      "SE-190",
+      "Entity190"
+    ],
+    "dob": "1963-03-09",
+    "country": "KP",
+    "program": "CYBER"
+  },
+  {
+    "entry_id": "6d90b3b4-78e8-54a7-b854-f7818d64e888",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 191",
+    "aliases": [
+      "SE-191",
+      "Entity191"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "9aa77eb4-bb1a-5a84-bb42-49a936218d7a",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 192",
+    "aliases": [
+      "SE-192",
+      "Entity192"
+    ],
+    "dob": null,
+    "country": "SY",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "10130e1c-aaec-5661-ae6e-e54bd45ac100",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 193",
+    "aliases": [
+      "SE-193",
+      "Entity193"
+    ],
+    "dob": "1952-03-03",
+    "country": "RU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "f7acd458-4733-582a-b0c9-f465a6e2be22",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 194",
+    "aliases": [
+      "SE-194",
+      "Entity194"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "NARCOTICS"
+  },
+  {
+    "entry_id": "202c78b8-4218-5e2c-8c00-c70aca54bb36",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 195",
+    "aliases": [
+      "SE-195",
+      "Entity195"
+    ],
+    "dob": "1963-03-13",
+    "country": "CU",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "55c91579-d9b5-5ce4-bf25-3243b158c2fd",
+    "list": "OFAC-SDN",
+    "entity_name": "Sanctioned Entity 196",
+    "aliases": [
+      "SE-196",
+      "Entity196"
+    ],
+    "dob": "1955-07-15",
+    "country": "KP",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "009764a0-712f-5e9a-98be-be1cf12b16a6",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 197",
+    "aliases": [
+      "SE-197",
+      "Entity197"
+    ],
+    "dob": "1979-12-18",
+    "country": "VE",
+    "program": "TERRORISM"
+  },
+  {
+    "entry_id": "73e65ce4-ee27-5681-91e5-a6f6efd2f117",
+    "list": "UN-SECURITY-COUNCIL",
+    "entity_name": "Sanctioned Entity 198",
+    "aliases": [
+      "SE-198",
+      "Entity198"
+    ],
+    "dob": null,
+    "country": "MM",
+    "program": "WMD"
+  },
+  {
+    "entry_id": "977b7e03-bdde-5b9c-b9bd-2d1e6e25b6db",
+    "list": "EU-CONSOLIDATED",
+    "entity_name": "Sanctioned Entity 199",
+    "aliases": [
+      "SE-199",
+      "Entity199"
+    ],
+    "dob": null,
+    "country": "VE",
+    "program": "NARCOTICS"
+  }
+]

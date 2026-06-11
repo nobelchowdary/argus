@@ -1,0 +1,100 @@
+[
+  {
+    "playbook_id": "b6638d64-54de-5229-a6df-c8cd1b751c36",
+    "typology": "shell-company-roundtrip",
+    "summary": "Funds are moved through a series of shell companies with overlapping beneficial ownership, ultimately returning to an entity controlled by the originator. The layering creates an apparent arm's-length series of transactions that obscure the circular nature of the flow.",
+    "expected_evidence": [
+      "Beneficial ownership overlap between originator and final beneficiary",
+      "Transaction chain completing a loop within 30-60 days",
+      "Shell companies in secrecy jurisdictions (BVI, Panama, etc.)",
+      "Decreasing amounts through the chain (fees/commissions skimmed)",
+      "Generic or vague transaction memos ('consulting', 'advisory', 'investment')"
+    ],
+    "red_flags": [
+      "Same registered agent for multiple entities in the chain",
+      "Entities incorporated within 1-2 years of each other",
+      "No apparent business purpose connecting the parties",
+      "Beneficial owner has no legitimate business justification for the structure"
+    ],
+    "fincen_refs": [
+      "FIN-2014-A005",
+      "FIN-2006-A003"
+    ]
+  },
+  {
+    "playbook_id": "3ccf1670-7ef1-5ab0-8a3b-5abc2b63c8c4",
+    "typology": "structuring",
+    "summary": "Transactions are deliberately kept below Currency Transaction Report (CTR) thresholds ($10,000) to avoid mandatory reporting. May involve multiple deposits/transfers in rapid succession.",
+    "expected_evidence": [
+      "Multiple transactions just below $10,000 threshold",
+      "Same originator/beneficiary across multiple sub-threshold transfers",
+      "Transfers within short time windows (same day or consecutive days)",
+      "Inconsistent with stated business volume"
+    ],
+    "red_flags": [
+      "Amounts clustered in $9,000-$9,999 range",
+      "Multiple cash deposits at different branches",
+      "Sudden change in transaction patterns"
+    ],
+    "fincen_refs": [
+      "31 CFR 1010.314"
+    ]
+  },
+  {
+    "playbook_id": "75186ff3-c4fa-5d20-871e-0d3cbca57bfa",
+    "typology": "trade-based-money-laundering",
+    "summary": "Trade transactions are manipulated through over/under-invoicing, multiple invoicing, or phantom shipments to transfer value across borders while appearing as legitimate commerce.",
+    "expected_evidence": [
+      "Pricing significantly above or below market rates",
+      "Goods described inconsistently across documents",
+      "Multiple invoices for same shipment",
+      "Counterparty in high-risk jurisdiction with no apparent trade nexus"
+    ],
+    "red_flags": [
+      "Unusual product descriptions",
+      "Mismatches between shipping and payment patterns",
+      "New trade relationship with immediate high-volume transactions"
+    ],
+    "fincen_refs": [
+      "FIN-2010-A001"
+    ]
+  },
+  {
+    "playbook_id": "5cbf6dd5-f26f-513c-b0cc-3703cb6249cb",
+    "typology": "funnel-accounts",
+    "summary": "Multiple parties deposit funds into one or more bank accounts, which are then rapidly withdrawn or transferred. The account acts as a funnel consolidating illicit proceeds.",
+    "expected_evidence": [
+      "Multiple unrelated depositors into single account",
+      "Rapid movement of funds after receipt",
+      "Account holder has no apparent business justifying the activity",
+      "Geographic dispersion of depositors"
+    ],
+    "red_flags": [
+      "Account opened recently with immediate high-volume activity",
+      "Cash-intensive deposits followed by wire transfers abroad",
+      "Account holder unable to explain the source of funds"
+    ],
+    "fincen_refs": [
+      "FIN-2020-A002"
+    ]
+  },
+  {
+    "playbook_id": "04b292c7-3734-5e61-b37a-8e18b839d02b",
+    "typology": "sanctions-evasion-via-alias",
+    "summary": "Sanctioned individuals or entities use aliases, front companies, or intermediaries to access the financial system despite being on sanctions lists.",
+    "expected_evidence": [
+      "Entity name matches or closely resembles sanctioned party alias",
+      "Beneficial owner matches sanctioned person",
+      "Transaction patterns consistent with known sanctioned entity behavior",
+      "Counterparty in sanctioned jurisdiction"
+    ],
+    "red_flags": [
+      "Name variations differing only in transliteration",
+      "Address matches known sanctioned entity location",
+      "Use of intermediaries in non-sanctioned jurisdictions"
+    ],
+    "fincen_refs": [
+      "FIN-2019-A006"
+    ]
+  }
+]
