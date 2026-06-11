@@ -14,7 +14,7 @@ Argus is a dual-agent AML investigation system built on three principles:
 ┌──────────────────────────────────────────────────────────────────────┐
 │                    WEB UI (Next.js on Cloud Run)                      │
 │  Alert queue · Investigation workspace · SAR draft · Reasoning trace  │
-│  https://argus-frontend-794755514339.us-central1.run.app              │
+│  https://argus-frontend-712958901404.us-central1.run.app              │
 └──────┬───────────────────────────────────────────────────────────────┘
        │ HTTPS /api/invoke → proxy
        ▼
@@ -22,14 +22,14 @@ Argus is a dual-agent AML investigation system built on three principles:
 │              ORCHESTRATOR (FastAPI on Cloud Run)                       │
 │  Deterministic loop: case lifecycle, iteration cap (MAX=4),           │
 │  report assembly, local file persistence                              │
-│  https://argus-backend-794755514339.us-central1.run.app               │
+│  https://argus-backend-712958901404.us-central1.run.app               │
 └──────┬─────────────────────────────────┬─────────────────────────────┘
        │                                 │
        ▼                                 ▼
   ┌─────────────┐                  ┌─────────────┐
   │ INVESTIGATOR│ ◄── feedback ──  │   SKEPTIC   │
   │ (Gemini 2.5 │ ──  finding  ──► │ (Gemini 2.5 │
-  │  Flash)     │                  │  Flash)     │
+  │  Flash-Lite)│                  │  Flash-Lite)│
   │ Vertex AI   │                  │ Vertex AI   │
   └─────┬───────┘                  └─────┬───────┘
         │ full MCP tool surface          │ verification-only (get_doc)
@@ -90,7 +90,7 @@ Argus is a dual-agent AML investigation system built on three principles:
 Alert ─→ Orchestrator ─→ Investigator (gather evidence via tools)
                               │
                               ▼
-                         Gemini 2.5 Flash (analyze evidence, produce findings)
+                         Gemini 2.5 Flash-Lite (analyze evidence, produce findings)
                               │
                               ▼
                          Skeptic (re-fetch citations, verify)

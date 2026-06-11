@@ -12,8 +12,8 @@ Banks dispose of 90–95% of AML alerts as false positives. The bottleneck for L
 
 A dual-agent system powered by Gemini and Elastic MCP:
 
-1. **Investigator** (Gemini 2.5 Pro) explores the evidence graph using Elastic MCP tools
-2. **Skeptic** (Gemini 2.5 Flash) re-executes every citation in a separate context
+1. **Investigator** (Gemini 2.5 Flash-Lite) explores the evidence graph using Elastic MCP tools
+2. **Skeptic** (Gemini 2.5 Flash-Lite) re-executes every citation in a separate context
 3. **Orchestrator** runs a deterministic loop with hard iteration cap
 
 ### Key Innovation: Structural Citation Gate
@@ -27,7 +27,7 @@ The Skeptic doesn't just review narratives — it re-fetches every cited documen
 
 ## Tech Stack
 
-- **Gemini 2.5 Pro/Flash** via Google Cloud Vertex AI
+- **Gemini 2.5 Flash-Lite** via Google Cloud Vertex AI
 - **Google Cloud Agent Builder** for orchestration
 - **Elastic Cloud Serverless** with ELSER for hybrid search
 - **Elastic MCP Server** (official `elastic/mcp-server-elasticsearch`)

@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Inter, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="investigatorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4361ee"/>
+      <stop offset="100%" style="stop-color:#3a0ca3"/>
+    </linearGradient>
+    <linearGradient id="skepticGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f72585"/>
+      <stop offset="100%" style="stop-color:#b5179e"/>
+    </linearGradient>
+    <linearGradient id="orchestratorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d6a4f"/>
+      <stop offset="100%" style="stop-color:#1b4332"/>
+    </linearGradient>
+    <linearGradient id="elasticGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f77f00"/>
+      <stop offset="100%" style="stop-color:#e36414"/>
+    </linearGradient>
+    <linearGradient id="uiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0077b6"/>
+      <stop offset="100%" style="stop-color:#023e8a"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="720" fill="#f8f9fa" rx="8"/>
+
+  <!-- Title -->
+  <text x="500" y="35" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a2e">Argus — AML Investigation Agent Architecture</text>
+  <text x="500" y="55" text-anchor="middle" font-size="11" fill="#6c757d">Investigator–Skeptic Dual-Agent Loop with Structural Citation Gate</text>
+
+  <!-- Web UI Box -->
+  <rect x="200" y="70" width="600" height="65" rx="8" fill="url(#uiGrad)" filter="url(#shadow)"/>
+  <text x="500" y="95" text-anchor="middle" font-size="13" font-weight="600" fill="white">WEB UI — Next.js 15 on Cloud Run</text>
+  <text x="500" y="115" text-anchor="middle" font-size="10" fill="#cce5ff">Alert Queue · Investigation Workspace · SAR Draft · Reasoning Trace</text>
+  <text x="500" y="128" text-anchor="middle" font-size="9" fill="#99ccff">https://argus-frontend-712958901404.us-central1.run.app</text>
+
+  <!-- Arrow: UI → Orchestrator -->
+  <line x1="500" y1="135" x2="500" y2="162" stroke="#495057" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="515" y="152" font-size="8" fill="#6c757d">HTTPS</text>
+
+  <!-- Orchestrator Box -->
+  <rect x="200" y="165" width="600" height="70" rx="8" fill="url(#orchestratorGrad)" filter="url(#shadow)"/>
+  <text x="500" y="190" text-anchor="middle" font-size="13" font-weight="600" fill="white">ORCHESTRATOR — FastAPI on Cloud Run</text>
+  <text x="500" y="207" text-anchor="middle" font-size="10" fill="#b7e4c7">Deterministic loop: case lifecycle · iteration cap (MAX=4) · report assembly</text>
+  <text x="500" y="222" text-anchor="middle" font-size="9" fill="#95d5b2">https://argus-backend-712958901404.us-central1.run.app</text>
+
+  <!-- Arrow: Orchestrator → Investigator -->
+  <line x1="360" y1="235" x2="360" y2="275" stroke="#495057" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrow: Orchestrator → Skeptic -->
+  <line x1="640" y1="235" x2="640" y2="275" stroke="#495057" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Investigator Box -->
+  <rect x="210" y="278" width="280" height="90" rx="8" fill="url(#investigatorGrad)" filter="url(#shadow)"/>
+  <text x="350" y="302" text-anchor="middle" font-size="12" font-weight="600" fill="white">INVESTIGATOR</text>
+  <text x="350" y="320" text-anchor="middle" font-size="10" fill="#c7d2fe">Gemini 2.5 Flash-Lite via Vertex AI</text>
+  <text x="350" y="338" text-anchor="middle" font-size="9" fill="#a5b4fc">Full MCP tool surface (8 tools)</text>
+  <text x="350" y="354" text-anchor="middle" font-size="9" fill="#a5b4fc">entity_neighbors · adverse_media · sanctions</text>
+
+  <!-- Skeptic Box -->
+  <rect x="510" y="278" width="280" height="90" rx="8" fill="url(#skepticGrad)" filter="url(#shadow)"/>
+  <text x="650" y="302" text-anchor="middle" font-size="12" font-weight="600" fill="white">SKEPTIC</text>
+  <text x="650" y="320" text-anchor="middle" font-size="10" fill="#ffc8dd">Gemini 2.5 Flash-Lite via Vertex AI</text>
+  <text x="650" y="338" text-anchor="middle" font-size="9" fill="#ffafcc">Verification-only subset (3 tools)</text>
+  <text x="650" y="354" text-anchor="middle" font-size="9" fill="#ffafcc">get_document · search (size≤5) · count</text>
+
+  <!-- Bidirectional arrows between Investigator and Skeptic -->
+  <line x1="490" y1="310" x2="510" y2="310" stroke="#ffd166" stroke-width="2" marker-end="url(#arrowYellow)"/>
+  <text x="500" y="305" text-anchor="middle" font-size="8" fill="#ffd166">finding</text>
+  <line x1="510" y1="335" x2="490" y2="335" stroke="#06d6a0" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="500" y="350" text-anchor="middle" font-size="8" fill="#06d6a0">feedback</text>
+
+  <!-- Arrow: Investigator → Elastic -->
+  <line x1="350" y1="368" x2="350" y2="410" stroke="#495057" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="365" y="393" font-size="8" fill="#6c757d">full tools</text>
+
+  <!-- Arrow: Skeptic → Elastic -->
+  <line x1="650" y1="368" x2="650" y2="410" stroke="#495057" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="665" y="393" font-size="8" fill="#6c757d">restricted</text>
+
+  <!-- Elastic Simulator Box -->
+  <rect x="200" y="413" width="600" height="70" rx="8" fill="url(#elasticGrad)" filter="url(#shadow)"/>
+  <text x="500" y="438" text-anchor="middle" font-size="13" font-weight="600" fill="white">LOCAL ELASTIC SIMULATOR</text>
+  <text x="500" y="455" text-anchor="middle" font-size="10" fill="#ffd8a8">Elastic-compatible interface · JSON-based synthetic dataset</text>
+  <text x="500" y="470" text-anchor="middle" font-size="9" fill="#ffcc80">Same API as elastic/mcp-server-elasticsearch · Read-only · Index allowlist enforced</text>
+
+  <!-- Arrow: Elastic → Dataset -->
+  <line x1="500" y1="483" x2="500" y2="510" stroke="#495057" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Dataset Box -->
+  <rect x="200" y="513" width="600" height="65" rx="8" fill="#2b2d42" filter="url(#shadow)"/>
+  <text x="500" y="537" text-anchor="middle" font-size="12" font-weight="600" fill="white">SYNTHETIC AML DATASET — 6 Indices, ~3,900 Documents</text>
+  <text x="500" y="555" text-anchor="middle" font-size="9" fill="#adb5bd">argus-transactions (2500) · argus-entities (500) · argus-adverse-media (500)</text>
+  <text x="500" y="568" text-anchor="middle" font-size="9" fill="#adb5bd">argus-sanctions (200) · argus-prior-alerts (200) · argus-typology-playbooks (5)</text>
+
+  <!-- Trust Boundaries Section -->
+  <rect x="40" y="600" width="920" height="105" rx="8" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="500" y="620" text-anchor="middle" font-size="11" font-weight="700" fill="#1a1a2e">TRUST BOUNDARIES — All Enforced Architecturally (Not via Prompts)</text>
+
+  <!-- Trust boundary items -->
+  <rect x="55" y="630" width="170" height="60" rx="5" fill="#e8f5e9"/>
+  <text x="140" y="650" text-anchor="middle" font-size="9" font-weight="600" fill="#2d6a4f">Read-Only Data</text>
+  <text x="140" y="665" text-anchor="middle" font-size="8" fill="#495057">No write methods</text>
+  <text x="140" y="678" text-anchor="middle" font-size="8" fill="#495057">Index allowlist</text>
+
+  <rect x="240" y="630" width="170" height="60" rx="5" fill="#fce4ec"/>
+  <text x="325" y="650" text-anchor="middle" font-size="9" font-weight="600" fill="#b5179e">Asymmetric Tools</text>
+  <text x="325" y="665" text-anchor="middle" font-size="8" fill="#495057">Skeptic: verify only</text>
+  <text x="325" y="678" text-anchor="middle" font-size="8" fill="#495057">No exploration tools</text>
+
+  <rect x="425" y="630" width="170" height="60" rx="5" fill="#e3f2fd"/>
+  <text x="510" y="650" text-anchor="middle" font-size="9" font-weight="600" fill="#0077b6">Citation Gate</text>
+  <text x="510" y="665" text-anchor="middle" font-size="8" fill="#495057">Schema: evidence[]≥1</text>
+  <text x="510" y="678" text-anchor="middle" font-size="8" fill="#495057">Re-execution verify</text>
+
+  <rect x="610" y="630" width="170" height="60" rx="5" fill="#fff3e0"/>
+  <text x="695" y="650" text-anchor="middle" font-size="9" font-weight="600" fill="#e36414">Separate Contexts</text>
+  <text x="695" y="665" text-anchor="middle" font-size="8" fill="#495057">Independent sessions</text>
+  <text x="695" y="678" text-anchor="middle" font-size="8" fill="#495057">No shared history</text>
+
+  <rect x="795" y="630" width="150" height="60" rx="5" fill="#f3e5f5"/>
+  <text x="870" y="650" text-anchor="middle" font-size="9" font-weight="600" fill="#7b1fa2">Iteration Cap</text>
+  <text x="870" y="665" text-anchor="middle" font-size="8" fill="#495057">MAX_ITERATIONS=4</text>
+  <text x="870" y="678" text-anchor="middle" font-size="8" fill="#495057">Prevents spirals</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#495057"/>
+    </marker>
+    <marker id="arrowYellow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#ffd166"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#06d6a0"/>
+    </marker>
+  </defs>
+
+  <!-- Side panel: GCP services -->
+  <rect x="40" y="165" width="145" height="145" rx="6" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="112" y="183" text-anchor="middle" font-size="9" font-weight="600" fill="#1a1a2e">Google Cloud</text>
+  <text x="112" y="200" text-anchor="middle" font-size="8" fill="#495057">☁ Cloud Run (2 svc)</text>
+  <text x="112" y="215" text-anchor="middle" font-size="8" fill="#495057">🔑 Vertex AI ADC</text>
+  <text x="112" y="230" text-anchor="middle" font-size="8" fill="#495057">🧠 Gemini 2.5 Flash</text>
+  <text x="112" y="245" text-anchor="middle" font-size="8" fill="#495057">📦 Artifact Registry</text>
+  <text x="112" y="260" text-anchor="middle" font-size="8" fill="#495057">🔨 Cloud Build</text>
+  <text x="112" y="278" text-anchor="middle" font-size="8" fill="#6c757d">us-central1</text>
+  <text x="112" y="293" text-anchor="middle" font-size="7" fill="#adb5bd">project-9898c288...</text>
+
+  <!-- Side panel: Portability -->
+  <rect x="815" y="165" width="145" height="145" rx="6" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="887" y="183" text-anchor="middle" font-size="9" font-weight="600" fill="#1a1a2e">Pattern Ports</text>
+  <text x="887" y="202" text-anchor="middle" font-size="8" fill="#4361ee">✓ AML (built)</text>
+  <text x="887" y="220" text-anchor="middle" font-size="8" fill="#adb5bd">○ SOC (documented)</text>
+  <text x="887" y="238" text-anchor="middle" font-size="8" fill="#adb5bd">○ SRE (documented)</text>
+  <line x1="835" y1="250" x2="940" y2="250" stroke="#dee2e6" stroke-width="1"/>
+  <text x="887" y="268" text-anchor="middle" font-size="8" fill="#495057">Same loop</text>
+  <text x="887" y="283" text-anchor="middle" font-size="8" fill="#495057">Same schemas</text>
+  <text x="887" y="298" text-anchor="middle" font-size="8" fill="#495057">Different indices</text>
+</svg>

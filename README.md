@@ -16,8 +16,8 @@ Banks dispose of 90–95% of AML alerts as false positives. The bottleneck isn't
 
 Argus is a dual-agent system that autonomously triages a flagged transaction into a **citation-bearing SAR draft**:
 
-1. **Investigator** (Gemini 2.5 Pro) — explores the evidence graph using Elastic MCP tools
-2. **Skeptic** (Gemini 2.5 Flash) — re-executes every citation in a separate context; rejects hallucinations structurally
+1. **Investigator** (Gemini 2.5 Flash-Lite) — explores the evidence graph using Elastic MCP tools
+2. **Skeptic** (Gemini 2.5 Flash-Lite) — re-executes every citation in a separate context; rejects hallucinations structurally
 3. **Orchestrator** — deterministic Python loop with hard iteration cap
 
 ### Key Architectural Guardrails
@@ -79,14 +79,14 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for full details including trust boundari
 
 | Component | Technology |
 |-----------|-----------|
-| LLM (Investigator) | Gemini 2.5 Pro via Vertex AI |
-| LLM (Skeptic) | Gemini 2.5 Flash via Vertex AI |
-| Search/Retrieval | Elastic Cloud Serverless + ELSER |
-| MCP Integration | elastic/mcp-server-elasticsearch |
+| LLM (Investigator) | Gemini 2.5 Flash-Lite via Vertex AI |
+| LLM (Skeptic) | Gemini 2.5 Flash-Lite via Vertex AI |
+| Search/Retrieval | Local Elastic Simulator (Elastic-compatible) |
+| MCP Interface | Same API as elastic/mcp-server-elasticsearch |
 | Orchestrator | Python 3.12, FastAPI, Cloud Run |
 | Web UI | Next.js 15, Tailwind CSS |
-| State | Firestore + Cloud Storage |
-| Auth | Firebase Auth (magic-link) |
+| State | Local file persistence |
+| Deployment | Google Cloud Run (us-central1) |
 
 ## Documentation
 
@@ -107,9 +107,9 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for full details including trust boundari
 
 ## Demo
 
-🎥 [Watch the 3-minute walkthrough](https://youtube.com/watch?v=PLACEHOLDER)
+� [Try the hosted demo](https://argus-frontend-712958901404.us-central1.run.app)
 
-🌐 [Try the hosted demo](https://argus-demo.run.app)
+🔗 [Backend API](https://argus-backend-712958901404.us-central1.run.app/health)
 
 ## License
 
@@ -117,4 +117,4 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for full details including trust boundari
 
 ---
 
-*Built for the Google Cloud Rapid Agent Hackathon with Gemini + Elastic MCP.*
+*Built with Gemini 2.5 + Google Cloud + Elastic MCP architecture.*
