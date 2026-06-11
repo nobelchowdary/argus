@@ -12,6 +12,7 @@ from google.genai import types
 from argus.logging import log_agent_action
 from argus.mcp.tools import AMLTools
 from argus.models import Alert, Citation, Finding
+from argus.retry import retry_on_resource_exhausted
 
 SYSTEM_PROMPT = (Path(__file__).parent / "prompts" / "investigator.md").read_text()
 
@@ -30,7 +31,7 @@ class Investigator:
         self.aml_tools = AMLTools(mcp_client) if mcp_client else None
         # Use Vertex AI with ADC
         import os
-        project = os.getenv("GOOGLE_CLOUD_PROJECT", "valiant-surfer-497305-j8")
+        project = os.getenv("GOOGLE_CLOUD_PROJECT", "project-9898c288-2930-4d44-98a")
         self.client = genai.Client(vertexai=True, project=project, location="us-central1")
 
     async def investigate(
@@ -51,15 +52,7 @@ class Investigator:
         # Step 2: Send evidence to Gemini for analysis and finding generation
         user_message = self._build_analysis_prompt(alert, evidence_bundle, feedback)
 
-        response = self.client.models.generate_content(
-            model=self.model_name,
-            contents=[user_message],
-            config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-                temperature=0.2,
-                max_output_tokens=4096,
-            ),
-        )
+        response = await self._call_gemini(user_message)
 
         # Step 3: Parse findings from response
         findings = self._parse_findings(response.text or "", case_id, evidence_bundle)
@@ -69,6 +62,19 @@ class Investigator:
         })
 
         return findings
+
+    @retry_on_resource_exhausted(max_retries=3, base_delay=5.0)
+    async def _call_gemini(self, user_message: str):
+        """Call Gemini with retry on rate limit."""
+        return self.client.models.generate_content(
+            model=self.model_name,
+            contents=[user_message],
+            config=types.GenerateContentConfig(
+                system_instruction=SYSTEM_PROMPT,
+                temperature=0.2,
+                max_output_tokens=4096,
+            ),
+        )
 
     async def _gather_evidence(self, alert: Alert, case_id: str) -> dict[str, Any]:
         """Execute all relevant tools to gather evidence for the alert."""

@@ -12,6 +12,7 @@ from google.genai import types
 from argus.logging import log_agent_action
 from argus.mcp.guards import validate_skeptic_access
 from argus.models import Citation, Finding, SkepticVerdict
+from argus.retry import retry_on_resource_exhausted
 
 SYSTEM_PROMPT = (Path(__file__).parent / "prompts" / "skeptic.md").read_text()
 
@@ -29,7 +30,7 @@ class Skeptic:
         self.mcp_client = mcp_client
         # Use Vertex AI with ADC
         import os
-        project = os.getenv("GOOGLE_CLOUD_PROJECT", "valiant-surfer-497305-j8")
+        project = os.getenv("GOOGLE_CLOUD_PROJECT", "project-9898c288-2930-4d44-98a")
         self.client = genai.Client(vertexai=True, project=project, location="us-central1")
 
     async def verify(
@@ -49,15 +50,7 @@ class Skeptic:
         # Step 2: Ask Gemini to judge whether the citations support the claim
         user_message = self._build_verification_request(finding, verification_results)
 
-        response = self.client.models.generate_content(
-            model=self.model_name,
-            contents=[user_message],
-            config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-                temperature=0.1,
-                max_output_tokens=2048,
-            ),
-        )
+        response = await self._call_gemini(user_message)
 
         verdict = self._parse_verdict(response.text or "", finding)
 
@@ -68,6 +61,19 @@ class Skeptic:
         })
 
         return verdict
+
+    @retry_on_resource_exhausted(max_retries=3, base_delay=5.0)
+    async def _call_gemini(self, user_message: str):
+        """Call Gemini with retry on rate limit."""
+        return self.client.models.generate_content(
+            model=self.model_name,
+            contents=[user_message],
+            config=types.GenerateContentConfig(
+                system_instruction=SYSTEM_PROMPT,
+                temperature=0.1,
+                max_output_tokens=2048,
+            ),
+        )
 
     async def _verify_citations(
         self, finding: Finding, case_id: str
