@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import asyncio
 import os
 from datetime import datetime, timezone
 
@@ -13,8 +14,8 @@ from argus.reporter import SARReporter
 from argus.skeptic import Skeptic
 
 MAX_ITERATIONS = int(os.getenv("MAX_ITERATIONS", "4"))
-INVESTIGATOR_MODEL = os.getenv("INVESTIGATOR_MODEL", "gemini-2.5-flash-lite")
-SKEPTIC_MODEL = os.getenv("SKEPTIC_MODEL", "gemini-2.5-flash-lite")
+INVESTIGATOR_MODEL = os.getenv("INVESTIGATOR_MODEL", "gemini-2.5-flash")
+SKEPTIC_MODEL = os.getenv("SKEPTIC_MODEL", "gemini-2.5-flash")
 
 
 class Orchestrator:
@@ -72,6 +73,9 @@ class Orchestrator:
             for iteration in range(MAX_ITERATIONS):
                 case.iteration_count = iteration + 1
                 verdicts: list[tuple[Finding, SkepticVerdict]] = []
+
+                # Small delay between agent calls to avoid rate limit bursts
+                await asyncio.sleep(2)
 
                 for finding in findings:
                     verdict = await self.skeptic.verify(finding, case.case_id)
