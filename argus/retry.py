@@ -5,7 +5,7 @@ import time
 from functools import wraps
 
 
-def retry_on_resource_exhausted(max_retries: int = 3, base_delay: float = 5.0):
+def retry_on_resource_exhausted(max_retries: int = 5, base_delay: float = 10.0):
     """Decorator that retries on 429 RESOURCE_EXHAUSTED errors with exponential backoff."""
     def decorator(func):
         @wraps(func)

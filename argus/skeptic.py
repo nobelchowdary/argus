@@ -22,21 +22,17 @@ class Skeptic:
 
     def __init__(
         self,
-        model_name: str = "gemini-2.0-flash",
+        model_name: str = "gemini-2.5-flash-lite",
         mcp_client: Any = None,
         api_key: str | None = None,
     ):
         self.model_name = model_name
         self.mcp_client = mcp_client
-        # Use Google AI Studio with API key (higher rate limits than Vertex AI)
+        # Use Vertex AI with ADC (project has billing enabled)
         import os
-        api_key = api_key or os.getenv("GOOGLE_API_KEY", "")
-        if api_key:
-            self.client = genai.Client(api_key=api_key)
-        else:
-            # Fallback to Vertex AI with ADC
-            project = os.getenv("GOOGLE_CLOUD_PROJECT", "project-9898c288-2930-4d44-98a")
-            self.client = genai.Client(vertexai=True, project=project, location="us-central1")
+        project = os.getenv("GOOGLE_CLOUD_PROJECT", "project-9898c288-2930-4d44-98a")
+        location = os.getenv("GOOGLE_CLOUD_LOCATION", "us-central1")
+        self.client = genai.Client(vertexai=True, project=project, location=location)
 
     async def verify(
         self,

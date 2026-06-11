@@ -104,7 +104,14 @@ async def investigate(request: InvestigateRequest) -> dict:
         memo=request.memo,
     )
 
-    case = await orch.investigate(alert)
+    try:
+        case = await orch.investigate(alert)
+    except Exception as e:
+        error_msg = str(e)
+        if "429" in error_msg or "RESOURCE_EXHAUSTED" in error_msg:
+            raise HTTPException(status_code=429, detail="Gemini rate limit hit. Please wait a moment and try again.")
+        raise HTTPException(status_code=500, detail=f"Investigation failed: {error_msg}")
+
     await persistence.save_case(case)
     await persistence.save_traces(orch.traces)
 
