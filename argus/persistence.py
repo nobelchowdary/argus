@@ -60,6 +60,15 @@ class LocalPersistence:
             for trace in traces:
                 f.write(json.dumps(trace.model_dump(), default=str) + "\n")
 
+    async def save_traces_data(self, case_id: str, traces: list[dict]) -> None:
+        """Save pre-serialized trace data."""
+        if not traces:
+            return
+        filepath = self.traces_dir / f"{case_id}.jsonl"
+        with open(filepath, "a") as f:
+            for trace in traces:
+                f.write(json.dumps(trace, default=str) + "\n")
+
     async def load_traces(self, case_id: str) -> list[dict]:
         """Load iteration traces for a case."""
         filepath = self.traces_dir / f"{case_id}.jsonl"

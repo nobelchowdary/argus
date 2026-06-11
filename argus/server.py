@@ -112,10 +112,18 @@ async def investigate(request: InvestigateRequest) -> dict:
             raise HTTPException(status_code=429, detail="Gemini rate limit hit. Please wait a moment and try again.")
         raise HTTPException(status_code=500, detail=f"Investigation failed: {error_msg}")
 
-    await persistence.save_case(case)
-    await persistence.save_traces(orch.traces)
+    # Capture traces before clearing
+    traces = [t.model_dump() for t in orch.traces]
+    orch.traces = []  # Reset for next investigation
 
-    return case.model_dump()
+    await persistence.save_case(case)
+    await persistence.save_traces_data(case.case_id, traces)
+
+    # Include traces in the response so frontend doesn't need a separate request
+    response = case.model_dump()
+    response["traces"] = traces
+
+    return response
 
 
 @app.get("/api/cases")

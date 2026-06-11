@@ -112,13 +112,18 @@ export default function Home() {
       }
       const caseData: Case = await res.json();
       setActiveCase(caseData);
-      setRightTab("sar");
+      setRightTab("trace");
 
-      // Fetch traces
-      const traceRes = await fetch(`/api/invoke?case_id=${caseData.case_id}&traces=true`);
-      if (traceRes.ok) {
-        const traceData = await traceRes.json();
-        setTraces(traceData.traces || []);
+      // Use traces from the investigation response (included inline)
+      if ((caseData as any).traces) {
+        setTraces((caseData as any).traces);
+      } else {
+        // Fallback: fetch traces separately
+        const traceRes = await fetch(`/api/invoke?case_id=${caseData.case_id}&traces=true`);
+        if (traceRes.ok) {
+          const traceData = await traceRes.json();
+          setTraces(traceData.traces || []);
+        }
       }
     } catch (err) {
       console.error("Investigation error:", err);
