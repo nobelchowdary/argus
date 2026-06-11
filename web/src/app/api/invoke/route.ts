@@ -2,15 +2,22 @@ import { NextRequest, NextResponse } from "next/server";
 
 const BACKEND_URL = process.env.BACKEND_URL || "http://localhost:8000";
 
+// Allow up to 300s for investigation (Gemini calls + retries)
+export const maxDuration = 300;
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     console.log(`[invoke] POST to ${BACKEND_URL}/api/investigate`);
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 280000); // 280s timeout
     const res = await fetch(`${BACKEND_URL}/api/investigate`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
+      signal: controller.signal,
     });
+    clearTimeout(timeout);
 
     if (!res.ok) {
       const errText = await res.text();
