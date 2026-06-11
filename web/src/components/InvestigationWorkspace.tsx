@@ -6,6 +6,7 @@ interface InvestigationWorkspaceProps {
   alert: Alert | null;
   activeCase: Case | null;
   isInvestigating: boolean;
+  error?: string | null;
 }
 
 function SeverityBadge({ severity }: { severity: string }) {
@@ -88,6 +89,7 @@ export function InvestigationWorkspace({
   alert,
   activeCase,
   isInvestigating,
+  error,
 }: InvestigationWorkspaceProps) {
   if (!alert) {
     return (
@@ -144,14 +146,27 @@ export function InvestigationWorkspace({
         {isInvestigating && (
           <div className="flex items-center justify-center py-12">
             <div className="text-center">
-              <div className="animate-pulse text-3xl mb-4">⚡</div>
-              <p className="text-sm font-medium">
+              <div className="relative w-16 h-16 mx-auto mb-6">
+                <div className="absolute inset-0 border-4 border-[var(--accent)]/20 rounded-full"></div>
+                <div className="absolute inset-0 border-4 border-transparent border-t-[var(--accent)] rounded-full animate-spin"></div>
+              </div>
+              <p className="text-sm font-medium mb-2">
                 Investigator–Skeptic loop running...
               </p>
-              <p className="text-xs text-[var(--muted)] mt-1">
-                Analyzing evidence, verifying citations
-              </p>
+              <div className="text-xs text-[var(--muted)] space-y-1.5 max-w-xs mx-auto">
+                <p>⚡ Gathering evidence from 6 Elastic indices</p>
+                <p>🔍 Gemini analyzing transaction patterns</p>
+                <p>⚖️ Skeptic verifying citations</p>
+                <p className="text-[var(--accent)] mt-3">This takes 30–90 seconds</p>
+              </div>
             </div>
+          </div>
+        )}
+
+        {error && !isInvestigating && (
+          <div className="p-4 bg-red-500/10 border border-red-500/30 rounded-lg">
+            <p className="text-sm font-medium text-red-300">Investigation Error</p>
+            <p className="text-xs text-red-400 mt-1">{error}</p>
           </div>
         )}
 

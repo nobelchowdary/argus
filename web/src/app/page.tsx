@@ -70,12 +70,14 @@ export default function Home() {
   const [traces, setTraces] = useState<TraceEntry[]>([]);
   const [isInvestigating, setIsInvestigating] = useState(false);
   const [rightTab, setRightTab] = useState<"sar" | "trace">("trace");
+  const [error, setError] = useState<string | null>(null);
 
   const handleInvestigate = useCallback(async (alert: Alert) => {
     setSelectedAlert(alert);
     setIsInvestigating(true);
     setActiveCase(null);
     setTraces([]);
+    setError(null);
 
     try {
       const res = await fetch("/api/invoke", {
@@ -93,9 +95,13 @@ export default function Home() {
         }),
       });
 
-      if (!res.ok) throw new Error("Investigation failed");
+      if (!res.ok) {
+        const errData = await res.json().catch(() => ({}));
+        throw new Error(errData.detail || errData.error || "Investigation failed");
+      }
       const caseData: Case = await res.json();
       setActiveCase(caseData);
+      setRightTab("sar");
 
       // Fetch traces
       const traceRes = await fetch(`/api/invoke?case_id=${caseData.case_id}&traces=true`);
@@ -105,6 +111,7 @@ export default function Home() {
       }
     } catch (err) {
       console.error("Investigation error:", err);
+      setError(err instanceof Error ? err.message : "Investigation failed");
     } finally {
       setIsInvestigating(false);
     }
@@ -126,6 +133,7 @@ export default function Home() {
           alert={selectedAlert}
           activeCase={activeCase}
           isInvestigating={isInvestigating}
+          error={error}
         />
       </div>
 
