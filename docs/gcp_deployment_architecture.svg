@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800" font-family="Inter, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="gcpBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4"/>
+      <stop offset="100%" style="stop-color:#1a73e8"/>
+    </linearGradient>
+    <linearGradient id="gcpGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#34a853"/>
+      <stop offset="100%" style="stop-color:#1e8e3e"/>
+    </linearGradient>
+    <linearGradient id="gcpYellow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbc04"/>
+      <stop offset="100%" style="stop-color:#f9ab00"/>
+    </linearGradient>
+    <linearGradient id="gcpRed" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ea4335"/>
+      <stop offset="100%" style="stop-color:#d93025"/>
+    </linearGradient>
+    <linearGradient id="vertexPurple" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9c27b0"/>
+      <stop offset="100%" style="stop-color:#7b1fa2"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#5f6368"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4285f4"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1100" height="800" fill="#f8f9fa" rx="8"/>
+
+  <!-- Title -->
+  <text x="550" y="35" text-anchor="middle" font-size="22" font-weight="700" fill="#202124">Argus — GCP Deployment Architecture</text>
+  <text x="550" y="58" text-anchor="middle" font-size="12" fill="#5f6368">Project: project-9898c288-2930-4d44-98a | Region: us-central1 | Gemini 2.5 Flash-Lite via Vertex AI</text>
+
+  <!-- GCP Project Boundary -->
+  <rect x="40" y="75" width="1020" height="700" rx="12" fill="none" stroke="#4285f4" stroke-width="2" stroke-dasharray="8,4"/>
+  <rect x="50" y="68" width="200" height="22" fill="#f8f9fa"/>
+  <text x="55" y="83" font-size="11" font-weight="600" fill="#4285f4">Google Cloud Platform</text>
+
+  <!-- USER -->
+  <rect x="430" y="95" width="240" height="50" rx="8" fill="#202124" filter="url(#shadow)"/>
+  <text x="550" y="118" text-anchor="middle" font-size="12" font-weight="600" fill="white">👤 User (Browser)</text>
+  <text x="550" y="134" text-anchor="middle" font-size="9" fill="#9aa0a6">HTTPS request</text>
+
+  <!-- Arrow: User → Frontend -->
+  <line x1="550" y1="145" x2="550" y2="180" stroke="#5f6368" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- =================== CLOUD RUN SECTION =================== -->
+  <rect x="70" y="185" width="960" height="250" rx="10" fill="white" stroke="#4285f4" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="90" y="207" font-size="11" font-weight="700" fill="#4285f4">☁ Cloud Run Services</text>
+
+  <!-- Frontend Service -->
+  <rect x="350" y="220" width="400" height="80" rx="8" fill="url(#gcpBlue)" filter="url(#shadow)"/>
+  <text x="550" y="245" text-anchor="middle" font-size="13" font-weight="600" fill="white">argus-frontend</text>
+  <text x="550" y="263" text-anchor="middle" font-size="10" fill="#c6dafc">Next.js 15 | Standalone | Port 3000</text>
+  <text x="550" y="280" text-anchor="middle" font-size="9" fill="#a4c2f4">512 MiB | 300s timeout | --allow-unauthenticated</text>
+  <text x="550" y="293" text-anchor="middle" font-size="8" fill="#8ab4f8">argus-frontend-712958901404.us-central1.run.app</text>
+
+  <!-- Arrow: Frontend → Backend -->
+  <line x1="550" y1="300" x2="550" y2="330" stroke="#5f6368" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="565" y="320" font-size="8" fill="#5f6368">POST /api/investigate</text>
+
+  <!-- Backend Service -->
+  <rect x="300" y="333" width="500" height="90" rx="8" fill="url(#gcpGreen)" filter="url(#shadow)"/>
+  <text x="550" y="358" text-anchor="middle" font-size="13" font-weight="600" fill="white">argus-backend</text>
+  <text x="550" y="376" text-anchor="middle" font-size="10" fill="#ceead6">FastAPI + Uvicorn | Python 3.12 | Port 8080</text>
+  <text x="550" y="393" text-anchor="middle" font-size="9" fill="#a8dab5">1 GiB | 300s timeout | --allow-unauthenticated</text>
+  <text x="550" y="410" text-anchor="middle" font-size="8" fill="#81c995">argus-backend-712958901404.us-central1.run.app</text>
+
+  <!-- =================== VERTEX AI SECTION =================== -->
+  <rect x="70" y="460" width="470" height="140" rx="10" fill="white" stroke="#9c27b0" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="90" y="482" font-size="11" font-weight="700" fill="#9c27b0">🧠 Vertex AI (Gemini)</text>
+
+  <!-- Investigator -->
+  <rect x="90" y="495" width="200" height="85" rx="6" fill="url(#vertexPurple)" filter="url(#shadow)"/>
+  <text x="190" y="518" text-anchor="middle" font-size="11" font-weight="600" fill="white">INVESTIGATOR</text>
+  <text x="190" y="536" text-anchor="middle" font-size="9" fill="#e1bee7">gemini-2.5-flash-lite</text>
+  <text x="190" y="552" text-anchor="middle" font-size="9" fill="#ce93d8">Full tool surface (8 tools)</text>
+  <text x="190" y="568" text-anchor="middle" font-size="8" fill="#ba68c8">Evidence gathering + analysis</text>
+
+  <!-- Skeptic -->
+  <rect x="320" y="495" width="200" height="85" rx="6" fill="url(#gcpRed)" filter="url(#shadow)"/>
+  <text x="420" y="518" text-anchor="middle" font-size="11" font-weight="600" fill="white">SKEPTIC</text>
+  <text x="420" y="536" text-anchor="middle" font-size="9" fill="#f8bbd0">gemini-2.5-flash-lite</text>
+  <text x="420" y="552" text-anchor="middle" font-size="9" fill="#ef9a9a">Restricted (3 tools only)</text>
+  <text x="420" y="568" text-anchor="middle" font-size="8" fill="#e57373">Citation re-verification</text>
+
+  <!-- Arrow: Backend → Investigator -->
+  <path d="M 450 423 L 450 440 L 190 440 L 190 495" fill="none" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="320" y="435" text-anchor="middle" font-size="8" fill="#5f6368">generate_content()</text>
+
+  <!-- Arrow: Backend → Skeptic -->
+  <path d="M 550 423 L 550 440 L 420 440 L 420 495" fill="none" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Bidirectional arrow between agents -->
+  <line x1="290" y1="537" x2="320" y2="537" stroke="#fbbc04" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="320" y1="555" x2="290" y2="555" stroke="#34a853" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="305" y="530" text-anchor="middle" font-size="7" fill="#fbbc04">finding</text>
+  <text x="305" y="572" text-anchor="middle" font-size="7" fill="#34a853">feedback</text>
+
+  <!-- =================== DATA SECTION =================== -->
+  <rect x="560" y="460" width="470" height="140" rx="10" fill="white" stroke="#f9ab00" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="580" y="482" font-size="11" font-weight="700" fill="#f9ab00">📊 Local Elastic Simulator (In-Process)</text>
+
+  <!-- Dataset indices -->
+  <rect x="580" y="498" width="210" height="85" rx="6" fill="#fff8e1" stroke="#f9ab00" stroke-width="1"/>
+  <text x="685" y="516" text-anchor="middle" font-size="10" font-weight="600" fill="#e65100">Synthetic AML Dataset</text>
+  <text x="685" y="533" text-anchor="middle" font-size="8" fill="#5f6368">argus-transactions (2500)</text>
+  <text x="685" y="546" text-anchor="middle" font-size="8" fill="#5f6368">argus-entities (500)</text>
+  <text x="685" y="559" text-anchor="middle" font-size="8" fill="#5f6368">argus-adverse-media (500)</text>
+  <text x="685" y="572" text-anchor="middle" font-size="8" fill="#5f6368">argus-sanctions (200)</text>
+
+  <rect x="810" y="498" width="200" height="85" rx="6" fill="#fff8e1" stroke="#f9ab00" stroke-width="1"/>
+  <text x="910" y="516" text-anchor="middle" font-size="10" font-weight="600" fill="#e65100">Golden Cases</text>
+  <text x="910" y="536" text-anchor="middle" font-size="8" fill="#5f6368">GC-001: Shell-company</text>
+  <text x="910" y="549" text-anchor="middle" font-size="8" fill="#5f6368">round-tripping (escalate)</text>
+  <text x="910" y="566" text-anchor="middle" font-size="8" fill="#5f6368">GC-004: False positive</text>
+  <text x="910" y="579" text-anchor="middle" font-size="8" fill="#5f6368">(clear — negative control)</text>
+
+  <!-- Arrow: Backend → Data -->
+  <path d="M 650 423 L 650 440 L 685 440 L 685 498" fill="none" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="700" y="435" font-size="8" fill="#5f6368">read-only queries</text>
+
+  <!-- =================== BUILD PIPELINE =================== -->
+  <rect x="70" y="625" width="960" height="130" rx="10" fill="white" stroke="#5f6368" stroke-width="1" filter="url(#shadow)"/>
+  <text x="90" y="647" font-size="11" font-weight="700" fill="#5f6368">🔨 Build &amp; Deploy Pipeline</text>
+
+  <!-- Cloud Build -->
+  <rect x="100" y="660" width="190" height="75" rx="6" fill="#e8f0fe" stroke="#4285f4" stroke-width="1"/>
+  <text x="195" y="682" text-anchor="middle" font-size="10" font-weight="600" fill="#1a73e8">Cloud Build</text>
+  <text x="195" y="698" text-anchor="middle" font-size="8" fill="#5f6368">Dockerfile → container</text>
+  <text x="195" y="712" text-anchor="middle" font-size="8" fill="#5f6368">Auto-triggered by</text>
+  <text x="195" y="725" text-anchor="middle" font-size="8" fill="#5f6368">gcloud run deploy --source</text>
+
+  <!-- Artifact Registry -->
+  <rect x="320" y="660" width="190" height="75" rx="6" fill="#fce8e6" stroke="#ea4335" stroke-width="1"/>
+  <text x="415" y="682" text-anchor="middle" font-size="10" font-weight="600" fill="#d93025">Artifact Registry</text>
+  <text x="415" y="698" text-anchor="middle" font-size="8" fill="#5f6368">Container images stored</text>
+  <text x="415" y="712" text-anchor="middle" font-size="8" fill="#5f6368">us-central1-docker.pkg.dev</text>
+  <text x="415" y="725" text-anchor="middle" font-size="8" fill="#5f6368">cloud-run-source-deploy</text>
+
+  <!-- IAM / Service Account -->
+  <rect x="540" y="660" width="190" height="75" rx="6" fill="#e6f4ea" stroke="#34a853" stroke-width="1"/>
+  <text x="635" y="682" text-anchor="middle" font-size="10" font-weight="600" fill="#1e8e3e">IAM / Auth</text>
+  <text x="635" y="698" text-anchor="middle" font-size="8" fill="#5f6368">Compute SA → Vertex AI</text>
+  <text x="635" y="712" text-anchor="middle" font-size="8" fill="#5f6368">ADC (no API key needed)</text>
+  <text x="635" y="725" text-anchor="middle" font-size="8" fill="#5f6368">allUsers → Cloud Run invoke</text>
+
+  <!-- GitHub -->
+  <rect x="760" y="660" width="190" height="75" rx="6" fill="#f3e8fd" stroke="#9c27b0" stroke-width="1"/>
+  <text x="855" y="682" text-anchor="middle" font-size="10" font-weight="600" fill="#7b1fa2">GitHub</text>
+  <text x="855" y="698" text-anchor="middle" font-size="8" fill="#5f6368">nobelchowdary/argus</text>
+  <text x="855" y="712" text-anchor="middle" font-size="8" fill="#5f6368">Apache 2.0 | main branch</text>
+  <text x="855" y="725" text-anchor="middle" font-size="8" fill="#5f6368">CI: lint.yml + test.yml</text>
+
+  <!-- Arrows between build components -->
+  <line x1="290" y1="697" x2="320" y2="697" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="510" y1="697" x2="540" y2="697" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="730" y1="697" x2="760" y2="697" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Key metrics box -->
+  <rect x="815" y="95" width="215" height="80" rx="8" fill="white" stroke="#34a853" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="922" y="115" text-anchor="middle" font-size="10" font-weight="700" fill="#1e8e3e">Key Metrics</text>
+  <text x="922" y="133" text-anchor="middle" font-size="9" fill="#5f6368">Hallucination: ~30% → &lt;5%</text>
+  <text x="922" y="148" text-anchor="middle" font-size="9" fill="#5f6368">Citation validity: 100%</text>
+  <text x="922" y="163" text-anchor="middle" font-size="9" fill="#5f6368">Verdict accuracy: 4/4 cases</text>
+
+  <!-- Auth method box -->
+  <rect x="70" y="95" width="215" height="80" rx="8" fill="white" stroke="#ea4335" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="177" y="115" text-anchor="middle" font-size="10" font-weight="700" fill="#d93025">Security Model</text>
+  <text x="177" y="133" text-anchor="middle" font-size="9" fill="#5f6368">Read-only data access</text>
+  <text x="177" y="148" text-anchor="middle" font-size="9" fill="#5f6368">No prompt-based safety</text>
+  <text x="177" y="163" text-anchor="middle" font-size="9" fill="#5f6368">Architectural guardrails only</text>
+</svg>
