@@ -96,8 +96,19 @@ export default function Home() {
       });
 
       if (!res.ok) {
-        const errData = await res.json().catch(() => ({}));
-        throw new Error(errData.detail || errData.error || "Investigation failed");
+        const text = await res.text();
+        let msg = "Investigation failed";
+        try {
+          const errData = JSON.parse(text);
+          msg = errData.detail || errData.error || msg;
+          // Truncate long HTML error messages
+          if (msg.startsWith("<!") || msg.startsWith("<html")) {
+            msg = `Backend returned ${res.status} error`;
+          }
+        } catch {
+          msg = text.startsWith("<") ? `Backend returned ${res.status} error` : text || msg;
+        }
+        throw new Error(msg);
       }
       const caseData: Case = await res.json();
       setActiveCase(caseData);
