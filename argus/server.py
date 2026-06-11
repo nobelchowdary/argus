@@ -33,9 +33,6 @@ def _get_orchestrator() -> Orchestrator:
     """Lazy-init the orchestrator."""
     global orchestrator
     if orchestrator is None:
-        api_key = os.getenv("GOOGLE_API_KEY", "")
-        if not api_key:
-            raise RuntimeError("GOOGLE_API_KEY not set")
         try:
             orchestrator = Orchestrator()
             print("[argus] Orchestrator initialized successfully")
