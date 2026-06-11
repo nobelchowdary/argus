@@ -22,7 +22,7 @@ class Investigator:
 
     def __init__(
         self,
-        model_name: str = "gemini-2.5-flash",
+        model_name: str = "gemini-2.5-flash-lite",
         mcp_client: Any = None,
         api_key: str | None = None,
     ):
